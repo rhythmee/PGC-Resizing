@@ -1,0 +1,7 @@
+2023-09-19 21:54:46: # CWD: /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90
+2023-09-19 21:54:46: # CMD: /tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1/bin//aplmerge -verbose -c -logFileName adsPower/.dmp_para_calc_power.log -apacheDir .apache -apacheRptDir adsRpt -o .apache/cell.cdev /home/ischo/generative-IR/experiments/000_SETUP/apl_CAP >& .apache/.stdout.redirect.log 
+2023-09-19 21:54:46: # Timeout: 5
+# Date Time VIRT(MB) RSS PEAK CPU-Time(s)
+2023-09-19 21:54:46: 119 4 183 0.00
+2023-09-19 21:54:46: 120 4 501 0.00
+2023-09-19 21:54:46: # Exit with reason (normal, status code 0).

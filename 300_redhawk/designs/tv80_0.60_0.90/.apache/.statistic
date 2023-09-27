@@ -1,0 +1,46 @@
+Leaf Cell : 	123	448	0M
+Comp Cell : 	1	182528	0M
+Leaf Inst : 	3972	104	0M (1/0,1)
+Comp Inst : 	0	600	0M (1/0,1)
+Decap Inst : 	4	104	0M (1/0,1)
+Net       : 	4293	88	0M (1/0,1)
+Port      : 	1644	72	0M (1/0,1)
+Port geo  : 	1734	24	0M (45-degree: 0, 0.00%)
+Pin       : 	1646	144	0M (1/0,1)
+PGPin       : 	254	48	0M (1/0,1)
+Pin  Inst : 	22750	40	0M (1/0,1)
+PGPin  Inst : 	7980	24	0M (1/0,1)
+Route     : 	8	48	0M (1/0,1)
+Wire      : 	627	56	0M (45-degree:  0, 0.00%) (1/0,1)
+Via       : 	5066	48	0M (1/0,1)
+KDTreeNode: 	7756	48	0M (1/0,1)
+RBIDTreeNode: 	1	24	0M (1/0,1)
+RBIDTree: 	0	12	0M
+Node      : 	12113	40	0M (1/0,1)
+Resistor  : 	14724	16	0M (1/0,1)
+Connection : 	0	32	0M (1/0,1)
+Data  : 	48	9376	0M (1/0,1)
+Layout Bin : 	28	40	0M (1/0,1)
+Driver : 	4291	28	0M (1/0,1)
+TimingObj : 	0	32	0M (1/0,1)
+TimingEvt : 	0	28	0M (1/0,1)
+BlockIVState : 	0	40	0M (1/0,1)
+adsInstToggleRate : 	3972	12	0M (1/0,1)
+adsInstRC : 	3972	24	0M (1/0,1)
+adsInstDelay : 	3972	40	0M (1/0,1)
+MemManager: 			0M
+Large Vector    : 			3M
+Small Vector    : 			1M
+Big Array    : 			3M
+Big Array Peak Size    : 			4M
+Cached out memory: 			0M
+Allocated cachable memory: 			32M
+Store times: 			0
+Re-Store times: 			0
+Total Memory (cached+used): 			3083M
+
+Sum of DeCap:		0
+Sum of DevCap:		0
+Sum of Load Cap:	13.874
+Sum of PG Cap:		N/A
+Sum of Intentional Cap:	0

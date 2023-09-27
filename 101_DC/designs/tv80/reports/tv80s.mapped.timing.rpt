@@ -1,0 +1,71 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : tv80s
+Version: R-2020.09-SP3
+Date   : Tue Sep 19 15:41:13 2023
+****************************************
+
+Operating Conditions: ss0p72v125c_i0p72v   Library: saed14rvt_dlvl_ss0p72v125c_i0p72v
+Wire Load Model Mode: top
+
+  Startpoint: i_tv80_core/BusReq_s_reg
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: clk_gate_i_tv80_core/BusAck_reg/latch
+            (negative level-sensitive latch clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                          0.00       0.00
+  clock network delay (ideal)                                       0.00       0.00
+  i_tv80_core/BusReq_s_reg/CK (SAEDRVT14_FDPMQ_1)         0.00      0.00       0.00 r    i 
+  i_tv80_core/BusReq_s_reg/Q (SAEDRVT14_FDPMQ_1)          0.00      0.02       0.02 r
+  i_tv80_core/BusReq_s (net)                    2                   0.00       0.02 r
+  U4665/X (SAEDRVT14_AN2_MM_1)                            0.00      0.01       0.03 r
+  n3483 (net)                                   2                   0.00       0.03 r
+  U6336/X (SAEDRVT14_ND2_CDC_1)                           0.00      0.00       0.03 f
+  i_tv80_core/N1440 (net)                       1                   0.00       0.03 f
+  clk_gate_i_tv80_core/BusAck_reg/EN (SNPS_CLOCK_GATE_HIGH_tv80s_1)     0.00     0.03 f
+  clk_gate_i_tv80_core/BusAck_reg/net1594 (net)                     0.00       0.03 f
+  clk_gate_i_tv80_core/BusAck_reg/test_or/X (SAEDRVT14_OR2_0P5)     0.00     0.01     0.04 f so 
+  clk_gate_i_tv80_core/BusAck_reg/net1599 (net)     1               0.00       0.04 f
+  clk_gate_i_tv80_core/BusAck_reg/latch/D (SAEDRVT14_LDNQ_U_0P5)     0.00     0.00     0.04 f
+  data arrival time                                                            0.04
+
+  clock MY_CLK (fall edge)                                          0.60       0.60
+  clock network delay (ideal)                                       0.00       0.60
+  clk_gate_i_tv80_core/BusAck_reg/latch/G (SAEDRVT14_LDNQ_U_0P5)     0.00      0.60 f
+  time borrowed from endpoint                                       0.00       0.60
+  data required time                                                           0.60
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.60
+  data arrival time                                                           -0.04
+  ---------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                  0.56
+
+  Time Borrowing Information
+  ------------------------------------------------------------------------
+  MY_CLK nominal pulse width                                        0.60   
+  library setup time                                               -0.01   
+  ------------------------------------------------------------------------
+  max time borrow                                                   0.59   
+  actual time borrow                                                0.00   
+  ------------------------------------------------------------------------
+
+
+1

@@ -1,0 +1,1 @@
+#Report reactivated non-switching instances that were not covered in STA but active in VCD or BLOCK_POWER_FOR_SCALING. 

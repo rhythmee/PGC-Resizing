@@ -1,0 +1,3331 @@
+signature -13043786 mvdd
+cell SAEDRVT14_ADDH_0P5 2 0 2 0 0
+pin CO output 0 0 0.3 0.8 VDD
+pin S output 0 0 0.3 0.8 VDD
+pin A input 0.0007753 0.3 0.8 VDD
+pin B input 0.0007631 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin CO output 0 0 "(A&B)" ""
+vector SAEDRVT14_ADDH_0P5 CO A NA :	B 1	
+pin CO output 0 0 "(A&B)" ""
+vector SAEDRVT14_ADDH_0P5 CO B NA :	A 1 
+pin S output 0 0 "(A^B)" ""
+vector SAEDRVT14_ADDH_0P5 S A NA :	B 0	
+pin S output 0 0 "(A^B)" ""
+vector SAEDRVT14_ADDH_0P5 S B NA :	A 0 
+END_TRUTH_TABLE
+function CO "(A&B)"
+function S "(A^B)"
+leakage_power 28840.000000 "!A&!B" VDD
+leakage_power 33090.000000 "!A&B" VDD
+leakage_power 42350.000000 "A&!B" VDD
+leakage_power 44270.000000 "A&B" VDD
+leakage_power 44270.000000 "NA" VDD
+cell SAEDRVT14_AN2_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002471 0.3 0.8 VDD
+pin A2 input 0.0003301 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_0P5 X A1 NA :	A2 1	
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_0P5 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(A1&A2)"
+leakage_power 12760.000000 "!A1&!A2" VDD
+leakage_power 16160.000000 "!A1&A2" VDD
+leakage_power 15940.000000 "A1&!A2" VDD
+leakage_power 17650.000000 "A1&A2" VDD
+leakage_power 17650.000000 "NA" VDD
+cell SAEDRVT14_AN2_8 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.001706 0.3 0.8 VDD
+pin A2 input 0.001769 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_8 X A1 NA :	A2 1	
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_8 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(A1&A2)"
+leakage_power 74120.000000 "!A1&!A2" VDD
+leakage_power 101300.000000 "!A1&A2" VDD
+leakage_power 99560.000000 "A1&!A2" VDD
+leakage_power 121000.000000 "A1&A2" VDD
+leakage_power 121000.000000 "NA" VDD
+cell SAEDRVT14_AN2B_MM_1 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0003304 0.3 0.8 VDD
+pin B input 0.0004415 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((!A)&B)" ""
+vector SAEDRVT14_AN2B_MM_1 X A NA :	B 1	
+pin X output 0 0 "((!A)&B)" ""
+vector SAEDRVT14_AN2B_MM_1 X B NA :	A 0 
+END_TRUTH_TABLE
+function X "((!A)&B)"
+leakage_power 25560.000000 "!A&!B" VDD
+leakage_power 33120.000000 "!A&B" VDD
+leakage_power 16590.000000 "A&!B" VDD
+leakage_power 23390.000000 "A&B" VDD
+leakage_power 33120.000000 "NA" VDD
+cell SAEDRVT14_AN2_MM_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002928 0.3 0.8 VDD
+pin A2 input 0.0003906 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_MM_0P5 X A1 NA :	A2 1	
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_MM_0P5 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(A1&A2)"
+leakage_power 6518.000000 "!A1&!A2" VDD
+leakage_power 11610.000000 "!A1&A2" VDD
+leakage_power 11290.000000 "A1&!A2" VDD
+leakage_power 12350.000000 "A1&A2" VDD
+leakage_power 12350.000000 "NA" VDD
+cell SAEDRVT14_AN2_MM_1 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002891 0.3 0.8 VDD
+pin A2 input 0.0003901 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_MM_1 X A1 NA :	A2 1	
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_MM_1 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(A1&A2)"
+leakage_power 10280.000000 "!A1&!A2" VDD
+leakage_power 15380.000000 "!A1&A2" VDD
+leakage_power 15050.000000 "A1&!A2" VDD
+leakage_power 17650.000000 "A1&A2" VDD
+leakage_power 17650.000000 "NA" VDD
+cell SAEDRVT14_AN2_MM_2 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002922 0.3 0.8 VDD
+pin A2 input 0.000387 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_MM_2 X A1 NA :	A2 1	
+pin X output 0 0 "(A1&A2)" ""
+vector SAEDRVT14_AN2_MM_2 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(A1&A2)"
+leakage_power 17660.000000 "!A1&!A2" VDD
+leakage_power 22760.000000 "!A1&A2" VDD
+leakage_power 22440.000000 "A1&!A2" VDD
+leakage_power 28250.000000 "A1&A2" VDD
+leakage_power 28250.000000 "NA" VDD
+cell SAEDRVT14_AN3_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003639 0.3 0.8 VDD
+pin A2 input 0.0003047 0.3 0.8 VDD
+pin A3 input 0.0003058 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1&A2&A3)" ""
+vector SAEDRVT14_AN3_0P5 X A1 NA :	A2 1	A3 1	
+pin X output 0 0 "(A1&A2&A3)" ""
+vector SAEDRVT14_AN3_0P5 X A2 NA :	A1 1 A3 1 
+pin X output 0 0 "(A1&A2&A3)" ""
+vector SAEDRVT14_AN3_0P5 X A3 NA :	A1 1 A2 1 
+END_TRUTH_TABLE
+function X "(A1&A2&A3)"
+leakage_power 6857.000000 "!A1&!A2&!A3" VDD
+leakage_power 7698.000000 "!A1&!A2&A3" VDD
+leakage_power 7633.000000 "!A1&A2&!A3" VDD
+leakage_power 13440.000000 "!A1&A2&A3" VDD
+leakage_power 7366.000000 "A1&!A2&!A3" VDD
+leakage_power 10620.000000 "A1&!A2&A3" VDD
+leakage_power 10520.000000 "A1&A2&!A3" VDD
+leakage_power 15900.000000 "A1&A2&A3" VDD
+leakage_power 15900.000000 "NA" VDD
+cell SAEDRVT14_AN3_0P75 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0004562 0.3 0.8 VDD
+pin A2 input 0.0004295 0.3 0.8 VDD
+pin A3 input 0.0004275 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1&A2&A3)" ""
+vector SAEDRVT14_AN3_0P75 X A1 NA :	A2 1	A3 1	
+pin X output 0 0 "(A1&A2&A3)" ""
+vector SAEDRVT14_AN3_0P75 X A2 NA :	A1 1 A3 1 
+pin X output 0 0 "(A1&A2&A3)" ""
+vector SAEDRVT14_AN3_0P75 X A3 NA :	A1 1 A2 1 
+END_TRUTH_TABLE
+function X "(A1&A2&A3)"
+leakage_power 9352.000000 "!A1&!A2&!A3" VDD
+leakage_power 10550.000000 "!A1&!A2&A3" VDD
+leakage_power 10460.000000 "!A1&A2&!A3" VDD
+leakage_power 17970.000000 "!A1&A2&A3" VDD
+leakage_power 10180.000000 "A1&!A2&!A3" VDD
+leakage_power 15050.000000 "A1&!A2&A3" VDD
+leakage_power 14900.000000 "A1&A2&!A3" VDD
+leakage_power 23990.000000 "A1&A2&A3" VDD
+leakage_power 23990.000000 "NA" VDD
+cell SAEDRVT14_AN4_0P5 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.00036 0.3 0.8 VDD
+pin A2 input 0.0004058 0.3 0.8 VDD
+pin A3 input 0.0003326 0.3 0.8 VDD
+pin A4 input 0.000313 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1&A2&A3&A4)" ""
+vector SAEDRVT14_AN4_0P5 X A1 NA :	A2 1	A3 1	A4 1	
+pin X output 0 0 "(A1&A2&A3&A4)" ""
+vector SAEDRVT14_AN4_0P5 X A2 NA :	A1 1 A3 1 A4 1 
+pin X output 0 0 "(A1&A2&A3&A4)" ""
+vector SAEDRVT14_AN4_0P5 X A3 NA :	A1 1 A2 1 A4 1 
+pin X output 0 0 "(A1&A2&A3&A4)" ""
+vector SAEDRVT14_AN4_0P5 X A4 NA :	A1 1 A2 1 A3 1 
+END_TRUTH_TABLE
+function X "(A1&A2&A3&A4)"
+leakage_power 6609.000000 "!A1&!A2&!A3&!A4" VDD
+leakage_power 7045.000000 "!A1&!A2&!A3&A4" VDD
+leakage_power 6995.000000 "!A1&!A2&A3&!A4" VDD
+leakage_power 8347.000000 "!A1&!A2&A3&A4" VDD
+leakage_power 6759.000000 "!A1&A2&!A3&!A4" VDD
+leakage_power 7601.000000 "!A1&A2&!A3&A4" VDD
+leakage_power 7538.000000 "!A1&A2&A3&!A4" VDD
+leakage_power 13440.000000 "!A1&A2&A3&A4" VDD
+leakage_power 6825.000000 "A1&!A2&!A3&!A4" VDD
+leakage_power 7646.000000 "A1&!A2&!A3&A4" VDD
+leakage_power 7583.000000 "A1&!A2&A3&!A4" VDD
+leakage_power 13110.000000 "A1&!A2&A3&A4" VDD
+leakage_power 7349.000000 "A1&A2&!A3&!A4" VDD
+leakage_power 10550.000000 "A1&A2&!A3&A4" VDD
+leakage_power 10470.000000 "A1&A2&A3&!A4" VDD
+leakage_power 19410.000000 "A1&A2&A3&A4" VDD
+leakage_power 19410.000000 "NA" VDD
+cell SAEDRVT14_AN4_1 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003583 0.3 0.8 VDD
+pin A2 input 0.0004068 0.3 0.8 VDD
+pin A3 input 0.000402 0.3 0.8 VDD
+pin A4 input 0.0004305 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1&A2&A3&A4)" ""
+vector SAEDRVT14_AN4_1 X A1 NA :	A2 1	A3 1	A4 1	
+pin X output 0 0 "(A1&A2&A3&A4)" ""
+vector SAEDRVT14_AN4_1 X A2 NA :	A1 1 A3 1 A4 1 
+pin X output 0 0 "(A1&A2&A3&A4)" ""
+vector SAEDRVT14_AN4_1 X A3 NA :	A1 1 A2 1 A4 1 
+pin X output 0 0 "(A1&A2&A3&A4)" ""
+vector SAEDRVT14_AN4_1 X A4 NA :	A1 1 A2 1 A3 1 
+END_TRUTH_TABLE
+function X "(A1&A2&A3&A4)"
+leakage_power 8747.000000 "!A1&!A2&!A3&!A4" VDD
+leakage_power 9192.000000 "!A1&!A2&!A3&A4" VDD
+leakage_power 9131.000000 "!A1&!A2&A3&!A4" VDD
+leakage_power 10230.000000 "!A1&!A2&A3&A4" VDD
+leakage_power 9095.000000 "!A1&A2&!A3&!A4" VDD
+leakage_power 10140.000000 "!A1&A2&!A3&A4" VDD
+leakage_power 10050.000000 "!A1&A2&A3&!A4" VDD
+leakage_power 15330.000000 "!A1&A2&A3&A4" VDD
+leakage_power 9151.000000 "A1&!A2&!A3&!A4" VDD
+leakage_power 10160.000000 "A1&!A2&!A3&A4" VDD
+leakage_power 10070.000000 "A1&!A2&A3&!A4" VDD
+leakage_power 15000.000000 "A1&!A2&A3&A4" VDD
+leakage_power 10130.000000 "A1&A2&!A3&!A4" VDD
+leakage_power 14870.000000 "A1&A2&!A3&A4" VDD
+leakage_power 14790.000000 "A1&A2&A3&!A4" VDD
+leakage_power 23870.000000 "A1&A2&A3&A4" VDD
+leakage_power 23870.000000 "NA" VDD
+cell SAEDRVT14_AO21B_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002907 0.3 0.8 VDD
+pin A2 input 0.0002997 0.3 0.8 VDD
+pin B input 0.0002778 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1&A2)|(!B))" ""
+vector SAEDRVT14_AO21B_0P5 X A1 NA :	A2 1	B 1	
+pin X output 0 0 "((A1&A2)|(!B))" ""
+vector SAEDRVT14_AO21B_0P5 X A2 NA :	A1 1 B 1 
+pin X output 0 0 "((A1&A2)|(!B))" ""
+vector SAEDRVT14_AO21B_0P5 X B NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "((A1&A2)|(!B))"
+leakage_power 10330.000000 "!A1&!A2&!B" VDD
+leakage_power 9449.000000 "!A1&!A2&B" VDD
+leakage_power 16070.000000 "!A1&A2&!B" VDD
+leakage_power 15190.000000 "!A1&A2&B" VDD
+leakage_power 13260.000000 "A1&!A2&!B" VDD
+leakage_power 12380.000000 "A1&!A2&B" VDD
+leakage_power 9895.000000 "A1&A2&!B" VDD
+leakage_power 14670.000000 "A1&A2&B" VDD
+leakage_power 16070.000000 "NA" VDD
+cell SAEDRVT14_AO21_U_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.000291 0.3 0.8 VDD
+pin A2 input 0.0002795 0.3 0.8 VDD
+pin B input 0.0002383 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1&A2)|B)" ""
+vector SAEDRVT14_AO21_U_0P5 X A1 NA :	A2 1	B 0	
+pin X output 0 0 "((A1&A2)|B)" ""
+vector SAEDRVT14_AO21_U_0P5 X A2 NA :	A1 1 B 0 
+pin X output 0 0 "((A1&A2)|B)" ""
+vector SAEDRVT14_AO21_U_0P5 X B NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "((A1&A2)|B)"
+leakage_power 10870.000000 "!A1&!A2&!B" VDD
+leakage_power 8848.000000 "!A1&!A2&B" VDD
+leakage_power 14270.000000 "!A1&A2&!B" VDD
+leakage_power 8843.000000 "!A1&A2&B" VDD
+leakage_power 14050.000000 "A1&!A2&!B" VDD
+leakage_power 8843.000000 "A1&!A2&B" VDD
+leakage_power 12000.000000 "A1&A2&!B" VDD
+leakage_power 7071.000000 "A1&A2&B" VDD
+leakage_power 14270.000000 "NA" VDD
+cell SAEDRVT14_AO22_0P5 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002341 0.3 0.8 VDD
+pin A2 input 0.0002825 0.3 0.8 VDD
+pin B1 input 0.000407 0.3 0.8 VDD
+pin B2 input 0.0004614 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1&A2)|(B1&B2))" ""
+vector SAEDRVT14_AO22_0P5 X A1 NA :	A2 1	B1 0	B2 0	
+pin X output 0 0 "((A1&A2)|(B1&B2))" ""
+vector SAEDRVT14_AO22_0P5 X A2 NA :	A1 1 B1 0 B2 0 
+pin X output 0 0 "((A1&A2)|(B1&B2))" ""
+vector SAEDRVT14_AO22_0P5 X B1 NA :	A1 0 A2 0 B2 1 
+pin X output 0 0 "((A1&A2)|(B1&B2))" ""
+vector SAEDRVT14_AO22_0P5 X B2 NA :	A1 0 A2 0 B1 1 
+END_TRUTH_TABLE
+function X "((A1&A2)|(B1&B2))"
+leakage_power 9389.000000 "!A1&!A2&!B1&!B2" VDD
+leakage_power 16180.000000 "!A1&!A2&!B1&B2" VDD
+leakage_power 15750.000000 "!A1&!A2&B1&!B2" VDD
+leakage_power 17370.000000 "!A1&!A2&B1&B2" VDD
+leakage_power 12780.000000 "!A1&A2&!B1&!B2" VDD
+leakage_power 19580.000000 "!A1&A2&!B1&B2" VDD
+leakage_power 19150.000000 "!A1&A2&B1&!B2" VDD
+leakage_power 17230.000000 "!A1&A2&B1&B2" VDD
+leakage_power 12570.000000 "A1&!A2&!B1&!B2" VDD
+leakage_power 19360.000000 "A1&!A2&!B1&B2" VDD
+leakage_power 18940.000000 "A1&!A2&B1&!B2" VDD
+leakage_power 17320.000000 "A1&!A2&B1&B2" VDD
+leakage_power 14240.000000 "A1&A2&!B1&!B2" VDD
+leakage_power 14230.000000 "A1&A2&!B1&B2" VDD
+leakage_power 14230.000000 "A1&A2&B1&!B2" VDD
+leakage_power 9021.000000 "A1&A2&B1&B2" VDD
+leakage_power 19580.000000 "NA" VDD
+cell SAEDRVT14_AO221_0P5 1 0 5 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003324 0.3 0.8 VDD
+pin A2 input 0.0003532 0.3 0.8 VDD
+pin B1 input 0.0003639 0.3 0.8 VDD
+pin B2 input 0.0002994 0.3 0.8 VDD
+pin C input 0.0003545 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1&A2)|(B1&B2)|C)" ""
+vector SAEDRVT14_AO221_0P5 X A1 NA :	A2 1	B1 0	B2 0	C 0	
+pin X output 0 0 "((A1&A2)|(B1&B2)|C)" ""
+vector SAEDRVT14_AO221_0P5 X A2 NA :	A1 1 B1 0 B2 0 C 0 
+pin X output 0 0 "((A1&A2)|(B1&B2)|C)" ""
+vector SAEDRVT14_AO221_0P5 X B1 NA :	A1 0 A2 0 B2 1 C 0 
+pin X output 0 0 "((A1&A2)|(B1&B2)|C)" ""
+vector SAEDRVT14_AO221_0P5 X B2 NA :	A1 0 A2 0 B1 1 C 0 
+pin X output 0 0 "((A1&A2)|(B1&B2)|C)" ""
+vector SAEDRVT14_AO221_0P5 X C NA :	A1 0 A2 0 B1 0 B2 0 
+END_TRUTH_TABLE
+function X "((A1&A2)|(B1&B2)|C)"
+leakage_power 12800.000000 "!A1&!A2&!B1&!B2&!C" VDD
+leakage_power 10700.000000 "!A1&!A2&!B1&!B2&C" VDD
+leakage_power 16190.000000 "!A1&!A2&!B1&B2&!C" VDD
+leakage_power 10690.000000 "!A1&!A2&!B1&B2&C" VDD
+leakage_power 15970.000000 "!A1&!A2&B1&!B2&!C" VDD
+leakage_power 10690.000000 "!A1&!A2&B1&!B2&C" VDD
+leakage_power 15490.000000 "!A1&!A2&B1&B2&!C" VDD
+leakage_power 8000.000000 "!A1&!A2&B1&B2&C" VDD
+leakage_power 16190.000000 "!A1&A2&!B1&!B2&!C" VDD
+leakage_power 10690.000000 "!A1&A2&!B1&!B2&C" VDD
+leakage_power 19580.000000 "!A1&A2&!B1&B2&!C" VDD
+leakage_power 10680.000000 "!A1&A2&!B1&B2&C" VDD
+leakage_power 19370.000000 "!A1&A2&B1&!B2&!C" VDD
+leakage_power 10680.000000 "!A1&A2&B1&!B2&C" VDD
+leakage_power 15480.000000 "!A1&A2&B1&B2&!C" VDD
+leakage_power 7993.000000 "!A1&A2&B1&B2&C" VDD
+leakage_power 15970.000000 "A1&!A2&!B1&!B2&!C" VDD
+leakage_power 10690.000000 "A1&!A2&!B1&!B2&C" VDD
+leakage_power 19370.000000 "A1&!A2&!B1&B2&!C" VDD
+leakage_power 10680.000000 "A1&!A2&!B1&B2&C" VDD
+leakage_power 19150.000000 "A1&!A2&B1&!B2&!C" VDD
+leakage_power 10680.000000 "A1&!A2&B1&!B2&C" VDD
+leakage_power 15480.000000 "A1&!A2&B1&B2&!C" VDD
+leakage_power 7993.000000 "A1&!A2&B1&B2&C" VDD
+leakage_power 15450.000000 "A1&A2&!B1&!B2&!C" VDD
+leakage_power 7990.000000 "A1&A2&!B1&!B2&C" VDD
+leakage_power 15470.000000 "A1&A2&!B1&B2&!C" VDD
+leakage_power 7987.000000 "A1&A2&!B1&B2&C" VDD
+leakage_power 15470.000000 "A1&A2&B1&!B2&!C" VDD
+leakage_power 7987.000000 "A1&A2&B1&!B2&C" VDD
+leakage_power 8895.000000 "A1&A2&B1&B2&!C" VDD
+leakage_power 7131.000000 "A1&A2&B1&B2&C" VDD
+leakage_power 19580.000000 "NA" VDD
+cell SAEDRVT14_AO222_1 1 0 6 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003191 0.3 0.8 VDD
+pin A2 input 0.000229 0.3 0.8 VDD
+pin B1 input 0.0003895 0.3 0.8 VDD
+pin B2 input 0.0004253 0.3 0.8 VDD
+pin C1 input 0.0004515 0.3 0.8 VDD
+pin C2 input 0.0006206 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_1 X A1 NA :	A2 1	B1 0	B2 0	C1 0	C2 0	
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_1 X A2 NA :	A1 1 B1 0 B2 0 C1 0 C2 0 
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_1 X B1 NA :	A1 0 A2 0 B2 1 C1 0 C2 0 
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_1 X B2 NA :	A1 0 A2 0 B1 1 C1 0 C2 0 
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_1 X C1 NA :	A1 0 A2 0 B1 0 B2 0 C2 1 
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_1 X C2 NA :	A1 0 A2 0 B1 0 B2 0 C1 1 
+END_TRUTH_TABLE
+function X "((A1&A2)|(B1&B2)|(C1&C2))"
+leakage_power 16350.000000 "!A1&!A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 23140.000000 "!A1&!A2&!B1&!B2&!C1&C2" VDD
+leakage_power 22720.000000 "!A1&!A2&!B1&!B2&C1&!C2" VDD
+leakage_power 27420.000000 "!A1&!A2&!B1&!B2&C1&C2" VDD
+leakage_power 23770.000000 "!A1&!A2&!B1&B2&!C1&!C2" VDD
+leakage_power 30560.000000 "!A1&!A2&!B1&B2&!C1&C2" VDD
+leakage_power 30140.000000 "!A1&!A2&!B1&B2&C1&!C2" VDD
+leakage_power 27350.000000 "!A1&!A2&!B1&B2&C1&C2" VDD
+leakage_power 20860.000000 "!A1&!A2&B1&!B2&!C1&!C2" VDD
+leakage_power 27650.000000 "!A1&!A2&B1&!B2&!C1&C2" VDD
+leakage_power 27220.000000 "!A1&!A2&B1&!B2&C1&!C2" VDD
+leakage_power 27400.000000 "!A1&!A2&B1&!B2&C1&C2" VDD
+leakage_power 22650.000000 "!A1&!A2&B1&B2&!C1&!C2" VDD
+leakage_power 22630.000000 "!A1&!A2&B1&B2&!C1&C2" VDD
+leakage_power 22640.000000 "!A1&!A2&B1&B2&C1&!C2" VDD
+leakage_power 15840.000000 "!A1&!A2&B1&B2&C1&C2" VDD
+leakage_power 19750.000000 "!A1&A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 26540.000000 "!A1&A2&!B1&!B2&!C1&C2" VDD
+leakage_power 26120.000000 "!A1&A2&!B1&!B2&C1&!C2" VDD
+leakage_power 27280.000000 "!A1&A2&!B1&!B2&C1&C2" VDD
+leakage_power 27170.000000 "!A1&A2&!B1&B2&!C1&!C2" VDD
+leakage_power 33960.000000 "!A1&A2&!B1&B2&!C1&C2" VDD
+leakage_power 33540.000000 "!A1&A2&!B1&B2&C1&!C2" VDD
+leakage_power 27250.000000 "!A1&A2&!B1&B2&C1&C2" VDD
+leakage_power 24260.000000 "!A1&A2&B1&!B2&!C1&!C2" VDD
+leakage_power 31050.000000 "!A1&A2&B1&!B2&!C1&C2" VDD
+leakage_power 30620.000000 "!A1&A2&B1&!B2&C1&!C2" VDD
+leakage_power 27280.000000 "!A1&A2&B1&!B2&C1&C2" VDD
+leakage_power 22530.000000 "!A1&A2&B1&B2&!C1&!C2" VDD
+leakage_power 22510.000000 "!A1&A2&B1&B2&!C1&C2" VDD
+leakage_power 22520.000000 "!A1&A2&B1&B2&C1&!C2" VDD
+leakage_power 15890.000000 "!A1&A2&B1&B2&C1&C2" VDD
+leakage_power 19530.000000 "A1&!A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 26320.000000 "A1&!A2&!B1&!B2&!C1&C2" VDD
+leakage_power 25900.000000 "A1&!A2&!B1&!B2&C1&!C2" VDD
+leakage_power 27280.000000 "A1&!A2&!B1&!B2&C1&C2" VDD
+leakage_power 26960.000000 "A1&!A2&!B1&B2&!C1&!C2" VDD
+leakage_power 33750.000000 "A1&!A2&!B1&B2&!C1&C2" VDD
+leakage_power 33330.000000 "A1&!A2&!B1&B2&C1&!C2" VDD
+leakage_power 27250.000000 "A1&!A2&!B1&B2&C1&C2" VDD
+leakage_power 24040.000000 "A1&!A2&B1&!B2&!C1&!C2" VDD
+leakage_power 30830.000000 "A1&!A2&B1&!B2&!C1&C2" VDD
+leakage_power 30410.000000 "A1&!A2&B1&!B2&C1&!C2" VDD
+leakage_power 27280.000000 "A1&!A2&B1&!B2&C1&C2" VDD
+leakage_power 22530.000000 "A1&!A2&B1&B2&!C1&!C2" VDD
+leakage_power 22510.000000 "A1&!A2&B1&B2&!C1&C2" VDD
+leakage_power 22520.000000 "A1&!A2&B1&B2&C1&!C2" VDD
+leakage_power 15890.000000 "A1&!A2&B1&B2&C1&C2" VDD
+leakage_power 17750.000000 "A1&A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 17740.000000 "A1&A2&!B1&!B2&!C1&C2" VDD
+leakage_power 17740.000000 "A1&A2&!B1&!B2&C1&!C2" VDD
+leakage_power 14570.000000 "A1&A2&!B1&!B2&C1&C2" VDD
+leakage_power 17740.000000 "A1&A2&!B1&B2&!C1&!C2" VDD
+leakage_power 17730.000000 "A1&A2&!B1&B2&!C1&C2" VDD
+leakage_power 17730.000000 "A1&A2&!B1&B2&C1&!C2" VDD
+leakage_power 14560.000000 "A1&A2&!B1&B2&C1&C2" VDD
+leakage_power 17740.000000 "A1&A2&B1&!B2&!C1&!C2" VDD
+leakage_power 17730.000000 "A1&A2&B1&!B2&!C1&C2" VDD
+leakage_power 17730.000000 "A1&A2&B1&!B2&C1&!C2" VDD
+leakage_power 14560.000000 "A1&A2&B1&!B2&C1&C2" VDD
+leakage_power 13980.000000 "A1&A2&B1&B2&!C1&!C2" VDD
+leakage_power 13960.000000 "A1&A2&B1&B2&!C1&C2" VDD
+leakage_power 13970.000000 "A1&A2&B1&B2&C1&!C2" VDD
+leakage_power 13090.000000 "A1&A2&B1&B2&C1&C2" VDD
+leakage_power 33960.000000 "NA" VDD
+cell SAEDRVT14_AO222_U_0P5 1 0 6 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003192 0.3 0.8 VDD
+pin A2 input 0.00023 0.3 0.8 VDD
+pin B1 input 0.0003896 0.3 0.8 VDD
+pin B2 input 0.0003974 0.3 0.8 VDD
+pin C1 input 0.0005492 0.3 0.8 VDD
+pin C2 input 0.00064 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_U_0P5 X A1 NA :	A2 1	B1 0	B2 0	C1 0	C2 0	
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_U_0P5 X A2 NA :	A1 1 B1 0 B2 0 C1 0 C2 0 
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_U_0P5 X B1 NA :	A1 0 A2 0 B2 1 C1 0 C2 0 
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_U_0P5 X B2 NA :	A1 0 A2 0 B1 1 C1 0 C2 0 
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_U_0P5 X C1 NA :	A1 0 A2 0 B1 0 B2 0 C2 1 
+pin X output 0 0 "((A1&A2)|(B1&B2)|(C1&C2))" ""
+vector SAEDRVT14_AO222_U_0P5 X C2 NA :	A1 0 A2 0 B1 0 B2 0 C1 1 
+END_TRUTH_TABLE
+function X "((A1&A2)|(B1&B2)|(C1&C2))"
+leakage_power 15060.000000 "!A1&!A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 26540.000000 "!A1&!A2&!B1&!B2&!C1&C2" VDD
+leakage_power 20920.000000 "!A1&!A2&!B1&!B2&C1&!C2" VDD
+leakage_power 24770.000000 "!A1&!A2&!B1&!B2&C1&C2" VDD
+leakage_power 22480.000000 "!A1&!A2&!B1&B2&!C1&!C2" VDD
+leakage_power 33960.000000 "!A1&!A2&!B1&B2&!C1&C2" VDD
+leakage_power 28340.000000 "!A1&!A2&!B1&B2&C1&!C2" VDD
+leakage_power 24700.000000 "!A1&!A2&!B1&B2&C1&C2" VDD
+leakage_power 19560.000000 "!A1&!A2&B1&!B2&!C1&!C2" VDD
+leakage_power 31050.000000 "!A1&!A2&B1&!B2&!C1&C2" VDD
+leakage_power 25430.000000 "!A1&!A2&B1&!B2&C1&!C2" VDD
+leakage_power 24750.000000 "!A1&!A2&B1&!B2&C1&C2" VDD
+leakage_power 20000.000000 "!A1&!A2&B1&B2&!C1&!C2" VDD
+leakage_power 19980.000000 "!A1&!A2&B1&B2&!C1&C2" VDD
+leakage_power 19990.000000 "!A1&!A2&B1&B2&C1&!C2" VDD
+leakage_power 13190.000000 "!A1&!A2&B1&B2&C1&C2" VDD
+leakage_power 18460.000000 "!A1&A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 29940.000000 "!A1&A2&!B1&!B2&!C1&C2" VDD
+leakage_power 24320.000000 "!A1&A2&!B1&!B2&C1&!C2" VDD
+leakage_power 24620.000000 "!A1&A2&!B1&!B2&C1&C2" VDD
+leakage_power 25880.000000 "!A1&A2&!B1&B2&!C1&!C2" VDD
+leakage_power 37360.000000 "!A1&A2&!B1&B2&!C1&C2" VDD
+leakage_power 31740.000000 "!A1&A2&!B1&B2&C1&!C2" VDD
+leakage_power 24590.000000 "!A1&A2&!B1&B2&C1&C2" VDD
+leakage_power 22960.000000 "!A1&A2&B1&!B2&!C1&!C2" VDD
+leakage_power 34450.000000 "!A1&A2&B1&!B2&!C1&C2" VDD
+leakage_power 28830.000000 "!A1&A2&B1&!B2&C1&!C2" VDD
+leakage_power 24620.000000 "!A1&A2&B1&!B2&C1&C2" VDD
+leakage_power 19880.000000 "!A1&A2&B1&B2&!C1&!C2" VDD
+leakage_power 19860.000000 "!A1&A2&B1&B2&!C1&C2" VDD
+leakage_power 19870.000000 "!A1&A2&B1&B2&C1&!C2" VDD
+leakage_power 13240.000000 "!A1&A2&B1&B2&C1&C2" VDD
+leakage_power 18240.000000 "A1&!A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 29730.000000 "A1&!A2&!B1&!B2&!C1&C2" VDD
+leakage_power 24100.000000 "A1&!A2&!B1&!B2&C1&!C2" VDD
+leakage_power 24620.000000 "A1&!A2&!B1&!B2&C1&C2" VDD
+leakage_power 25660.000000 "A1&!A2&!B1&B2&!C1&!C2" VDD
+leakage_power 37150.000000 "A1&!A2&!B1&B2&!C1&C2" VDD
+leakage_power 31530.000000 "A1&!A2&!B1&B2&C1&!C2" VDD
+leakage_power 24590.000000 "A1&!A2&!B1&B2&C1&C2" VDD
+leakage_power 22750.000000 "A1&!A2&B1&!B2&!C1&!C2" VDD
+leakage_power 34230.000000 "A1&!A2&B1&!B2&!C1&C2" VDD
+leakage_power 28610.000000 "A1&!A2&B1&!B2&C1&!C2" VDD
+leakage_power 24620.000000 "A1&!A2&B1&!B2&C1&C2" VDD
+leakage_power 19880.000000 "A1&!A2&B1&B2&!C1&!C2" VDD
+leakage_power 19860.000000 "A1&!A2&B1&B2&!C1&C2" VDD
+leakage_power 19870.000000 "A1&!A2&B1&B2&C1&!C2" VDD
+leakage_power 13240.000000 "A1&!A2&B1&B2&C1&C2" VDD
+leakage_power 15100.000000 "A1&A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 15080.000000 "A1&A2&!B1&!B2&!C1&C2" VDD
+leakage_power 15090.000000 "A1&A2&!B1&!B2&C1&!C2" VDD
+leakage_power 11920.000000 "A1&A2&!B1&!B2&C1&C2" VDD
+leakage_power 15090.000000 "A1&A2&!B1&B2&!C1&!C2" VDD
+leakage_power 15070.000000 "A1&A2&!B1&B2&!C1&C2" VDD
+leakage_power 15080.000000 "A1&A2&!B1&B2&C1&!C2" VDD
+leakage_power 11910.000000 "A1&A2&!B1&B2&C1&C2" VDD
+leakage_power 15090.000000 "A1&A2&B1&!B2&!C1&!C2" VDD
+leakage_power 15080.000000 "A1&A2&B1&!B2&!C1&C2" VDD
+leakage_power 15080.000000 "A1&A2&B1&!B2&C1&!C2" VDD
+leakage_power 11910.000000 "A1&A2&B1&!B2&C1&C2" VDD
+leakage_power 11330.000000 "A1&A2&B1&B2&!C1&!C2" VDD
+leakage_power 11310.000000 "A1&A2&B1&B2&!C1&C2" VDD
+leakage_power 11320.000000 "A1&A2&B1&B2&C1&!C2" VDD
+leakage_power 10440.000000 "A1&A2&B1&B2&C1&C2" VDD
+leakage_power 37360.000000 "NA" VDD
+cell SAEDRVT14_AO31_1 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0004033 0.3 0.8 VDD
+pin A2 input 0.0005443 0.3 0.8 VDD
+pin A3 input 0.0006713 0.3 0.8 VDD
+pin B input 0.0003466 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1&A2&A3)|B)" ""
+vector SAEDRVT14_AO31_1 X A1 NA :	A2 1	A3 1	B 0	
+pin X output 0 0 "((A1&A2&A3)|B)" ""
+vector SAEDRVT14_AO31_1 X A2 NA :	A1 1 A3 1 B 0 
+pin X output 0 0 "((A1&A2&A3)|B)" ""
+vector SAEDRVT14_AO31_1 X A3 NA :	A1 1 A2 1 B 0 
+pin X output 0 0 "((A1&A2&A3)|B)" ""
+vector SAEDRVT14_AO31_1 X B NA :	A1 0 A2 0 A3 0 
+END_TRUTH_TABLE
+function X "((A1&A2&A3)|B)"
+leakage_power 15880.000000 "!A1&!A2&!A3&!B" VDD
+leakage_power 15190.000000 "!A1&!A2&!A3&B" VDD
+leakage_power 17490.000000 "!A1&!A2&A3&!B" VDD
+leakage_power 15170.000000 "!A1&!A2&A3&B" VDD
+leakage_power 17320.000000 "!A1&A2&!A3&!B" VDD
+leakage_power 15180.000000 "!A1&A2&!A3&B" VDD
+leakage_power 23290.000000 "!A1&A2&A3&!B" VDD
+leakage_power 15160.000000 "!A1&A2&A3&B" VDD
+leakage_power 18230.000000 "A1&!A2&!A3&!B" VDD
+leakage_power 15180.000000 "A1&!A2&!A3&B" VDD
+leakage_power 27790.000000 "A1&!A2&A3&!B" VDD
+leakage_power 15170.000000 "A1&!A2&A3&B" VDD
+leakage_power 27600.000000 "A1&A2&!A3&!B" VDD
+leakage_power 15170.000000 "A1&A2&!A3&B" VDD
+leakage_power 29720.000000 "A1&A2&A3&!B" VDD
+leakage_power 12380.000000 "A1&A2&A3&B" VDD
+leakage_power 29720.000000 "NA" VDD
+cell SAEDRVT14_AO32_U_0P5 1 0 5 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003229 0.3 0.8 VDD
+pin A2 input 0.0003587 0.3 0.8 VDD
+pin A3 input 0.0002979 0.3 0.8 VDD
+pin B1 input 0.0003032 0.3 0.8 VDD
+pin B2 input 0.000237 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1&A2&A3)|(B1&B2))" ""
+vector SAEDRVT14_AO32_U_0P5 X A1 NA :	A2 1	A3 1	B1 0	B2 0	
+pin X output 0 0 "((A1&A2&A3)|(B1&B2))" ""
+vector SAEDRVT14_AO32_U_0P5 X A2 NA :	A1 1 A3 1 B1 0 B2 0 
+pin X output 0 0 "((A1&A2&A3)|(B1&B2))" ""
+vector SAEDRVT14_AO32_U_0P5 X A3 NA :	A1 1 A2 1 B1 0 B2 0 
+pin X output 0 0 "((A1&A2&A3)|(B1&B2))" ""
+vector SAEDRVT14_AO32_U_0P5 X B1 NA :	A1 0 A2 0 A3 0 B2 1 
+pin X output 0 0 "((A1&A2&A3)|(B1&B2))" ""
+vector SAEDRVT14_AO32_U_0P5 X B2 NA :	A1 0 A2 0 A3 0 B1 1 
+END_TRUTH_TABLE
+function X "((A1&A2&A3)|(B1&B2))"
+leakage_power 7552.000000 "!A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 13300.000000 "!A1&!A2&!A3&!B1&B2" VDD
+leakage_power 10480.000000 "!A1&!A2&!A3&B1&!B2" VDD
+leakage_power 12380.000000 "!A1&!A2&!A3&B1&B2" VDD
+leakage_power 9043.000000 "!A1&!A2&A3&!B1&!B2" VDD
+leakage_power 14790.000000 "!A1&!A2&A3&!B1&B2" VDD
+leakage_power 11970.000000 "!A1&!A2&A3&B1&!B2" VDD
+leakage_power 12380.000000 "!A1&!A2&A3&B1&B2" VDD
+leakage_power 8186.000000 "!A1&A2&!A3&!B1&!B2" VDD
+leakage_power 13930.000000 "!A1&A2&!A3&!B1&B2" VDD
+leakage_power 11110.000000 "!A1&A2&!A3&B1&!B2" VDD
+leakage_power 12380.000000 "!A1&A2&!A3&B1&B2" VDD
+leakage_power 16460.000000 "!A1&A2&A3&!B1&!B2" VDD
+leakage_power 22210.000000 "!A1&A2&A3&!B1&B2" VDD
+leakage_power 19390.000000 "!A1&A2&A3&B1&!B2" VDD
+leakage_power 12370.000000 "!A1&A2&A3&B1&B2" VDD
+leakage_power 8036.000000 "A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 13780.000000 "A1&!A2&!A3&!B1&B2" VDD
+leakage_power 10960.000000 "A1&!A2&!A3&B1&!B2" VDD
+leakage_power 12380.000000 "A1&!A2&!A3&B1&B2" VDD
+leakage_power 13540.000000 "A1&!A2&A3&!B1&!B2" VDD
+leakage_power 19290.000000 "A1&!A2&A3&!B1&B2" VDD
+leakage_power 16470.000000 "A1&!A2&A3&B1&!B2" VDD
+leakage_power 12370.000000 "A1&!A2&A3&B1&B2" VDD
+leakage_power 10940.000000 "A1&A2&!A3&!B1&!B2" VDD
+leakage_power 16690.000000 "A1&A2&!A3&!B1&B2" VDD
+leakage_power 13870.000000 "A1&A2&!A3&B1&!B2" VDD
+leakage_power 12370.000000 "A1&A2&!A3&B1&B2" VDD
+leakage_power 15430.000000 "A1&A2&A3&!B1&!B2" VDD
+leakage_power 15360.000000 "A1&A2&A3&!B1&B2" VDD
+leakage_power 15360.000000 "A1&A2&A3&B1&!B2" VDD
+leakage_power 8337.000000 "A1&A2&A3&B1&B2" VDD
+leakage_power 22210.000000 "NA" VDD
+cell SAEDRVT14_AO33_U_0P5 1 0 6 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003569 0.3 0.8 VDD
+pin A2 input 0.0003298 0.3 0.8 VDD
+pin A3 input 0.0002415 0.3 0.8 VDD
+pin B1 input 0.0002786 0.3 0.8 VDD
+pin B2 input 0.000323 0.3 0.8 VDD
+pin B3 input 0.0003085 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1&A2&A3)|(B1&B2&B3))" ""
+vector SAEDRVT14_AO33_U_0P5 X A1 NA :	A2 1	A3 1	B1 0	B2 0	B3 0	
+pin X output 0 0 "((A1&A2&A3)|(B1&B2&B3))" ""
+vector SAEDRVT14_AO33_U_0P5 X A2 NA :	A1 1 A3 1 B1 0 B2 0 B3 0 
+pin X output 0 0 "((A1&A2&A3)|(B1&B2&B3))" ""
+vector SAEDRVT14_AO33_U_0P5 X A3 NA :	A1 1 A2 1 B1 0 B2 0 B3 0 
+pin X output 0 0 "((A1&A2&A3)|(B1&B2&B3))" ""
+vector SAEDRVT14_AO33_U_0P5 X B1 NA :	A1 0 A2 0 A3 0 B2 1 B3 1 
+pin X output 0 0 "((A1&A2&A3)|(B1&B2&B3))" ""
+vector SAEDRVT14_AO33_U_0P5 X B2 NA :	A1 0 A2 0 A3 0 B1 1 B3 1 
+pin X output 0 0 "((A1&A2&A3)|(B1&B2&B3))" ""
+vector SAEDRVT14_AO33_U_0P5 X B3 NA :	A1 0 A2 0 A3 0 B1 1 B2 1 
+END_TRUTH_TABLE
+function X "((A1&A2&A3)|(B1&B2&B3))"
+leakage_power 6435.000000 "!A1&!A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 7127.000000 "!A1&!A2&!A3&!B1&!B2&B3" VDD
+leakage_power 7065.000000 "!A1&!A2&!A3&!B1&B2&!B3" VDD
+leakage_power 10520.000000 "!A1&!A2&!A3&!B1&B2&B3" VDD
+leakage_power 7081.000000 "!A1&!A2&!A3&B1&!B2&!B3" VDD
+leakage_power 10300.000000 "!A1&!A2&!A3&B1&!B2&B3" VDD
+leakage_power 10220.000000 "!A1&!A2&!A3&B1&B2&!B3" VDD
+leakage_power 15600.000000 "!A1&!A2&!A3&B1&B2&B3" VDD
+leakage_power 7737.000000 "!A1&!A2&A3&!B1&!B2&!B3" VDD
+leakage_power 8429.000000 "!A1&!A2&A3&!B1&!B2&B3" VDD
+leakage_power 8368.000000 "!A1&!A2&A3&!B1&B2&!B3" VDD
+leakage_power 11820.000000 "!A1&!A2&A3&!B1&B2&B3" VDD
+leakage_power 8383.000000 "!A1&!A2&A3&B1&!B2&!B3" VDD
+leakage_power 11610.000000 "!A1&!A2&A3&B1&!B2&B3" VDD
+leakage_power 11520.000000 "!A1&!A2&A3&B1&B2&!B3" VDD
+leakage_power 15620.000000 "!A1&!A2&A3&B1&B2&B3" VDD
+leakage_power 6991.000000 "!A1&A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 7683.000000 "!A1&A2&!A3&!B1&!B2&B3" VDD
+leakage_power 7622.000000 "!A1&A2&!A3&!B1&B2&!B3" VDD
+leakage_power 11080.000000 "!A1&A2&!A3&!B1&B2&B3" VDD
+leakage_power 7637.000000 "!A1&A2&!A3&B1&!B2&!B3" VDD
+leakage_power 10860.000000 "!A1&A2&!A3&B1&!B2&B3" VDD
+leakage_power 10770.000000 "!A1&A2&!A3&B1&B2&!B3" VDD
+leakage_power 15620.000000 "!A1&A2&!A3&B1&B2&B3" VDD
+leakage_power 12830.000000 "!A1&A2&A3&!B1&!B2&!B3" VDD
+leakage_power 13520.000000 "!A1&A2&A3&!B1&!B2&B3" VDD
+leakage_power 13460.000000 "!A1&A2&A3&!B1&B2&!B3" VDD
+leakage_power 16920.000000 "!A1&A2&A3&!B1&B2&B3" VDD
+leakage_power 13480.000000 "!A1&A2&A3&B1&!B2&!B3" VDD
+leakage_power 16700.000000 "!A1&A2&A3&B1&!B2&B3" VDD
+leakage_power 16620.000000 "!A1&A2&A3&B1&B2&!B3" VDD
+leakage_power 15530.000000 "!A1&A2&A3&B1&B2&B3" VDD
+leakage_power 7040.000000 "A1&!A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 7732.000000 "A1&!A2&!A3&!B1&!B2&B3" VDD
+leakage_power 7670.000000 "A1&!A2&!A3&!B1&B2&!B3" VDD
+leakage_power 11130.000000 "A1&!A2&!A3&!B1&B2&B3" VDD
+leakage_power 7686.000000 "A1&!A2&!A3&B1&!B2&!B3" VDD
+leakage_power 10910.000000 "A1&!A2&!A3&B1&!B2&B3" VDD
+leakage_power 10820.000000 "A1&!A2&!A3&B1&B2&!B3" VDD
+leakage_power 15620.000000 "A1&!A2&!A3&B1&B2&B3" VDD
+leakage_power 12510.000000 "A1&!A2&A3&!B1&!B2&!B3" VDD
+leakage_power 13200.000000 "A1&!A2&A3&!B1&!B2&B3" VDD
+leakage_power 13140.000000 "A1&!A2&A3&!B1&B2&!B3" VDD
+leakage_power 16600.000000 "A1&!A2&A3&!B1&B2&B3" VDD
+leakage_power 13160.000000 "A1&!A2&A3&B1&!B2&!B3" VDD
+leakage_power 16380.000000 "A1&!A2&A3&B1&!B2&B3" VDD
+leakage_power 16290.000000 "A1&!A2&A3&B1&B2&!B3" VDD
+leakage_power 15530.000000 "A1&!A2&A3&B1&B2&B3" VDD
+leakage_power 9941.000000 "A1&A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 10630.000000 "A1&A2&!A3&!B1&!B2&B3" VDD
+leakage_power 10570.000000 "A1&A2&!A3&!B1&B2&!B3" VDD
+leakage_power 14030.000000 "A1&A2&!A3&!B1&B2&B3" VDD
+leakage_power 10590.000000 "A1&A2&!A3&B1&!B2&!B3" VDD
+leakage_power 13810.000000 "A1&A2&!A3&B1&!B2&B3" VDD
+leakage_power 13730.000000 "A1&A2&!A3&B1&B2&!B3" VDD
+leakage_power 15530.000000 "A1&A2&!A3&B1&B2&B3" VDD
+leakage_power 15940.000000 "A1&A2&A3&!B1&!B2&!B3" VDD
+leakage_power 15930.000000 "A1&A2&A3&!B1&!B2&B3" VDD
+leakage_power 15930.000000 "A1&A2&A3&!B1&B2&!B3" VDD
+leakage_power 15920.000000 "A1&A2&A3&!B1&B2&B3" VDD
+leakage_power 15930.000000 "A1&A2&A3&B1&!B2&!B3" VDD
+leakage_power 15920.000000 "A1&A2&A3&B1&!B2&B3" VDD
+leakage_power 15920.000000 "A1&A2&A3&B1&B2&!B3" VDD
+leakage_power 8910.000000 "A1&A2&A3&B1&B2&B3" VDD
+leakage_power 16920.000000 "NA" VDD
+cell SAEDRVT14_AOI21_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.000379 0.3 0.8 VDD
+pin A2 input 0.0003987 0.3 0.8 VDD
+pin B input 0.0003373 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1&A2)|B))" ""
+vector SAEDRVT14_AOI21_0P5 X A1 NA :	A2 1	B 0	
+pin X output 0 0 "(!((A1&A2)|B))" ""
+vector SAEDRVT14_AOI21_0P5 X A2 NA :	A1 1 B 0 
+pin X output 0 0 "(!((A1&A2)|B))" ""
+vector SAEDRVT14_AOI21_0P5 X B NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(!((A1&A2)|B))"
+leakage_power 8481.000000 "!A1&!A2&!B" VDD
+leakage_power 7191.000000 "!A1&!A2&B" VDD
+leakage_power 15900.000000 "!A1&A2&!B" VDD
+leakage_power 7183.000000 "!A1&A2&B" VDD
+leakage_power 12980.000000 "A1&!A2&!B" VDD
+leakage_power 7182.000000 "A1&!A2&B" VDD
+leakage_power 10250.000000 "A1&A2&!B" VDD
+leakage_power 3091.000000 "A1&A2&B" VDD
+leakage_power 15900.000000 "NA" VDD
+cell SAEDRVT14_AOI21_0P75 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003792 0.3 0.8 VDD
+pin A2 input 0.0004442 0.3 0.8 VDD
+pin B input 0.0002834 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1&A2)|B))" ""
+vector SAEDRVT14_AOI21_0P75 X A1 NA :	A2 1	B 0	
+pin X output 0 0 "(!((A1&A2)|B))" ""
+vector SAEDRVT14_AOI21_0P75 X A2 NA :	A1 1 B 0 
+pin X output 0 0 "(!((A1&A2)|B))" ""
+vector SAEDRVT14_AOI21_0P75 X B NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(!((A1&A2)|B))"
+leakage_power 8481.000000 "!A1&!A2&!B" VDD
+leakage_power 5375.000000 "!A1&!A2&B" VDD
+leakage_power 15900.000000 "!A1&A2&!B" VDD
+leakage_power 5365.000000 "!A1&A2&B" VDD
+leakage_power 12980.000000 "A1&!A2&!B" VDD
+leakage_power 5367.000000 "A1&!A2&B" VDD
+leakage_power 11810.000000 "A1&A2&!B" VDD
+leakage_power 2884.000000 "A1&A2&B" VDD
+leakage_power 15900.000000 "NA" VDD
+cell SAEDRVT14_AOI21_1P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0009094 0.3 0.8 VDD
+pin A2 input 0.0008234 0.3 0.8 VDD
+pin B input 0.0007807 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1&A2)|B))" ""
+vector SAEDRVT14_AOI21_1P5 X A1 NA :	A2 1	B 0	
+pin X output 0 0 "(!((A1&A2)|B))" ""
+vector SAEDRVT14_AOI21_1P5 X A2 NA :	A1 1 B 0 
+pin X output 0 0 "(!((A1&A2)|B))" ""
+vector SAEDRVT14_AOI21_1P5 X B NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(!((A1&A2)|B))"
+leakage_power 16970.000000 "!A1&!A2&!B" VDD
+leakage_power 14430.000000 "!A1&!A2&B" VDD
+leakage_power 31800.000000 "!A1&A2&!B" VDD
+leakage_power 14410.000000 "!A1&A2&B" VDD
+leakage_power 25960.000000 "A1&!A2&!B" VDD
+leakage_power 14410.000000 "A1&!A2&B" VDD
+leakage_power 27180.000000 "A1&A2&!B" VDD
+leakage_power 7195.000000 "A1&A2&B" VDD
+leakage_power 31800.000000 "NA" VDD
+cell SAEDRVT14_AOI22_0P5 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002473 0.3 0.8 VDD
+pin A2 input 0.0002812 0.3 0.8 VDD
+pin B1 input 0.0003121 0.3 0.8 VDD
+pin B2 input 0.0003013 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1&A2)|(B1&B2)))" ""
+vector SAEDRVT14_AOI22_0P5 X A1 NA :	A2 1	B1 0	B2 0	
+pin X output 0 0 "(!((A1&A2)|(B1&B2)))" ""
+vector SAEDRVT14_AOI22_0P5 X A2 NA :	A1 1 B1 0 B2 0 
+pin X output 0 0 "(!((A1&A2)|(B1&B2)))" ""
+vector SAEDRVT14_AOI22_0P5 X B1 NA :	A1 0 A2 0 B2 1 
+pin X output 0 0 "(!((A1&A2)|(B1&B2)))" ""
+vector SAEDRVT14_AOI22_0P5 X B2 NA :	A1 0 A2 0 B1 1 
+END_TRUTH_TABLE
+function X "(!((A1&A2)|(B1&B2)))"
+leakage_power 13080.000000 "!A1&!A2&!B1&!B2" VDD
+leakage_power 18830.000000 "!A1&!A2&!B1&B2" VDD
+leakage_power 16010.000000 "!A1&!A2&B1&!B2" VDD
+leakage_power 15870.000000 "!A1&!A2&B1&B2" VDD
+leakage_power 16480.000000 "!A1&A2&!B1&!B2" VDD
+leakage_power 22220.000000 "!A1&A2&!B1&B2" VDD
+leakage_power 19400.000000 "!A1&A2&B1&!B2" VDD
+leakage_power 15890.000000 "!A1&A2&B1&B2" VDD
+leakage_power 16260.000000 "A1&!A2&!B1&!B2" VDD
+leakage_power 22010.000000 "A1&!A2&!B1&B2" VDD
+leakage_power 19190.000000 "A1&!A2&B1&!B2" VDD
+leakage_power 15910.000000 "A1&!A2&B1&B2" VDD
+leakage_power 17850.000000 "A1&A2&!B1&!B2" VDD
+leakage_power 17840.000000 "A1&A2&!B1&B2" VDD
+leakage_power 17840.000000 "A1&A2&B1&!B2" VDD
+leakage_power 11560.000000 "A1&A2&B1&B2" VDD
+leakage_power 22220.000000 "NA" VDD
+cell SAEDRVT14_AOI222_0P5 1 0 6 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.000324 0.3 0.8 VDD
+pin A2 input 0.0003586 0.3 0.8 VDD
+pin B1 input 0.0003007 0.3 0.8 VDD
+pin B2 input 0.0003782 0.3 0.8 VDD
+pin C1 input 0.0003158 0.3 0.8 VDD
+pin C2 input 0.0002926 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1&A2)|(B1&B2)|(C1&C2)))" ""
+vector SAEDRVT14_AOI222_0P5 X A1 NA :	A2 1	B1 0	B2 0	C1 0	C2 0	
+pin X output 0 0 "(!((A1&A2)|(B1&B2)|(C1&C2)))" ""
+vector SAEDRVT14_AOI222_0P5 X A2 NA :	A1 1 B1 0 B2 0 C1 0 C2 0 
+pin X output 0 0 "(!((A1&A2)|(B1&B2)|(C1&C2)))" ""
+vector SAEDRVT14_AOI222_0P5 X B1 NA :	A1 0 A2 0 B2 1 C1 0 C2 0 
+pin X output 0 0 "(!((A1&A2)|(B1&B2)|(C1&C2)))" ""
+vector SAEDRVT14_AOI222_0P5 X B2 NA :	A1 0 A2 0 B1 1 C1 0 C2 0 
+pin X output 0 0 "(!((A1&A2)|(B1&B2)|(C1&C2)))" ""
+vector SAEDRVT14_AOI222_0P5 X C1 NA :	A1 0 A2 0 B1 0 B2 0 C2 1 
+pin X output 0 0 "(!((A1&A2)|(B1&B2)|(C1&C2)))" ""
+vector SAEDRVT14_AOI222_0P5 X C2 NA :	A1 0 A2 0 B1 0 B2 0 C1 1 
+END_TRUTH_TABLE
+function X "(!((A1&A2)|(B1&B2)|(C1&C2)))"
+leakage_power 15000.000000 "!A1&!A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 20750.000000 "!A1&!A2&!B1&!B2&!C1&C2" VDD
+leakage_power 17930.000000 "!A1&!A2&!B1&!B2&C1&!C2" VDD
+leakage_power 15980.000000 "!A1&!A2&!B1&!B2&C1&C2" VDD
+leakage_power 18400.000000 "!A1&!A2&!B1&B2&!C1&!C2" VDD
+leakage_power 24140.000000 "!A1&!A2&!B1&B2&!C1&C2" VDD
+leakage_power 21320.000000 "!A1&!A2&!B1&B2&C1&!C2" VDD
+leakage_power 16000.000000 "!A1&!A2&!B1&B2&C1&C2" VDD
+leakage_power 18180.000000 "!A1&!A2&B1&!B2&!C1&!C2" VDD
+leakage_power 23930.000000 "!A1&!A2&B1&!B2&!C1&C2" VDD
+leakage_power 21110.000000 "!A1&!A2&B1&!B2&C1&!C2" VDD
+leakage_power 16020.000000 "!A1&!A2&B1&!B2&C1&C2" VDD
+leakage_power 17800.000000 "!A1&!A2&B1&B2&!C1&!C2" VDD
+leakage_power 17790.000000 "!A1&!A2&B1&B2&!C1&C2" VDD
+leakage_power 17790.000000 "!A1&!A2&B1&B2&C1&!C2" VDD
+leakage_power 11760.000000 "!A1&!A2&B1&B2&C1&C2" VDD
+leakage_power 18390.000000 "!A1&A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 24140.000000 "!A1&A2&!B1&!B2&!C1&C2" VDD
+leakage_power 21320.000000 "!A1&A2&!B1&!B2&C1&!C2" VDD
+leakage_power 16140.000000 "!A1&A2&!B1&!B2&C1&C2" VDD
+leakage_power 21790.000000 "!A1&A2&!B1&B2&!C1&!C2" VDD
+leakage_power 27530.000000 "!A1&A2&!B1&B2&!C1&C2" VDD
+leakage_power 24720.000000 "!A1&A2&!B1&B2&C1&!C2" VDD
+leakage_power 16170.000000 "!A1&A2&!B1&B2&C1&C2" VDD
+leakage_power 21570.000000 "!A1&A2&B1&!B2&!C1&!C2" VDD
+leakage_power 27320.000000 "!A1&A2&B1&!B2&!C1&C2" VDD
+leakage_power 24500.000000 "!A1&A2&B1&!B2&C1&!C2" VDD
+leakage_power 16170.000000 "!A1&A2&B1&!B2&C1&C2" VDD
+leakage_power 17860.000000 "!A1&A2&B1&B2&!C1&!C2" VDD
+leakage_power 17850.000000 "!A1&A2&B1&B2&!C1&C2" VDD
+leakage_power 17850.000000 "!A1&A2&B1&B2&C1&!C2" VDD
+leakage_power 12000.000000 "!A1&A2&B1&B2&C1&C2" VDD
+leakage_power 18180.000000 "A1&!A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 23930.000000 "A1&!A2&!B1&!B2&!C1&C2" VDD
+leakage_power 21110.000000 "A1&!A2&!B1&!B2&C1&!C2" VDD
+leakage_power 16120.000000 "A1&!A2&!B1&!B2&C1&C2" VDD
+leakage_power 21580.000000 "A1&!A2&!B1&B2&!C1&!C2" VDD
+leakage_power 27320.000000 "A1&!A2&!B1&B2&!C1&C2" VDD
+leakage_power 24500.000000 "A1&!A2&!B1&B2&C1&!C2" VDD
+leakage_power 16140.000000 "A1&!A2&!B1&B2&C1&C2" VDD
+leakage_power 21360.000000 "A1&!A2&B1&!B2&!C1&!C2" VDD
+leakage_power 27110.000000 "A1&!A2&B1&!B2&!C1&C2" VDD
+leakage_power 24290.000000 "A1&!A2&B1&!B2&C1&!C2" VDD
+leakage_power 16150.000000 "A1&!A2&B1&!B2&C1&C2" VDD
+leakage_power 17870.000000 "A1&!A2&B1&B2&!C1&!C2" VDD
+leakage_power 17870.000000 "A1&!A2&B1&B2&!C1&C2" VDD
+leakage_power 17870.000000 "A1&!A2&B1&B2&C1&!C2" VDD
+leakage_power 11950.000000 "A1&!A2&B1&B2&C1&C2" VDD
+leakage_power 21570.000000 "A1&A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 21560.000000 "A1&A2&!B1&!B2&!C1&C2" VDD
+leakage_power 21560.000000 "A1&A2&!B1&!B2&C1&!C2" VDD
+leakage_power 11930.000000 "A1&A2&!B1&!B2&C1&C2" VDD
+leakage_power 21550.000000 "A1&A2&!B1&B2&!C1&!C2" VDD
+leakage_power 21540.000000 "A1&A2&!B1&B2&!C1&C2" VDD
+leakage_power 21540.000000 "A1&A2&!B1&B2&C1&!C2" VDD
+leakage_power 11920.000000 "A1&A2&!B1&B2&C1&C2" VDD
+leakage_power 21560.000000 "A1&A2&B1&!B2&!C1&!C2" VDD
+leakage_power 21550.000000 "A1&A2&B1&!B2&!C1&C2" VDD
+leakage_power 21550.000000 "A1&A2&B1&!B2&C1&!C2" VDD
+leakage_power 11930.000000 "A1&A2&B1&!B2&C1&C2" VDD
+leakage_power 12430.000000 "A1&A2&B1&B2&!C1&!C2" VDD
+leakage_power 12420.000000 "A1&A2&B1&B2&!C1&C2" VDD
+leakage_power 12420.000000 "A1&A2&B1&B2&C1&!C2" VDD
+leakage_power 10940.000000 "A1&A2&B1&B2&C1&C2" VDD
+leakage_power 27530.000000 "NA" VDD
+cell SAEDRVT14_AOI31_0P5 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003241 0.3 0.8 VDD
+pin A2 input 0.0003371 0.3 0.8 VDD
+pin A3 input 0.0002863 0.3 0.8 VDD
+pin B input 0.0003846 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1&A2&A3)|B))" ""
+vector SAEDRVT14_AOI31_0P5 X A1 NA :	A2 1	A3 1	B 0	
+pin X output 0 0 "(!((A1&A2&A3)|B))" ""
+vector SAEDRVT14_AOI31_0P5 X A2 NA :	A1 1 A3 1 B 0 
+pin X output 0 0 "(!((A1&A2&A3)|B))" ""
+vector SAEDRVT14_AOI31_0P5 X A3 NA :	A1 1 A2 1 B 0 
+pin X output 0 0 "(!((A1&A2&A3)|B))" ""
+vector SAEDRVT14_AOI31_0P5 X B NA :	A1 0 A2 0 A3 0 
+END_TRUTH_TABLE
+function X "(!((A1&A2&A3)|B))"
+leakage_power 15960.000000 "!A1&!A2&!A3&!B" VDD
+leakage_power 16170.000000 "!A1&!A2&!A3&B" VDD
+leakage_power 17450.000000 "!A1&!A2&A3&!B" VDD
+leakage_power 16170.000000 "!A1&!A2&A3&B" VDD
+leakage_power 16590.000000 "!A1&A2&!A3&!B" VDD
+leakage_power 16170.000000 "!A1&A2&!A3&B" VDD
+leakage_power 24870.000000 "!A1&A2&A3&!B" VDD
+leakage_power 16160.000000 "!A1&A2&A3&B" VDD
+leakage_power 16440.000000 "A1&!A2&!A3&!B" VDD
+leakage_power 16170.000000 "A1&!A2&!A3&B" VDD
+leakage_power 21950.000000 "A1&!A2&A3&!B" VDD
+leakage_power 16160.000000 "A1&!A2&A3&B" VDD
+leakage_power 19350.000000 "A1&A2&!A3&!B" VDD
+leakage_power 16160.000000 "A1&A2&!A3&B" VDD
+leakage_power 19110.000000 "A1&A2&A3&!B" VDD
+leakage_power 12050.000000 "A1&A2&A3&B" VDD
+leakage_power 24870.000000 "NA" VDD
+cell SAEDRVT14_AOI311_0P5 1 0 5 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003463 0.3 0.8 VDD
+pin A2 input 0.0003108 0.3 0.8 VDD
+pin A3 input 0.0003654 0.3 0.8 VDD
+pin B1 input 0.0002258 0.3 0.8 VDD
+pin B2 input 0.0003842 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1&A2&A3)|B1|B2))" ""
+vector SAEDRVT14_AOI311_0P5 X A1 NA :	A2 1	A3 1	B1 0	B2 0	
+pin X output 0 0 "(!((A1&A2&A3)|B1|B2))" ""
+vector SAEDRVT14_AOI311_0P5 X A2 NA :	A1 1 A3 1 B1 0 B2 0 
+pin X output 0 0 "(!((A1&A2&A3)|B1|B2))" ""
+vector SAEDRVT14_AOI311_0P5 X A3 NA :	A1 1 A2 1 B1 0 B2 0 
+pin X output 0 0 "(!((A1&A2&A3)|B1|B2))" ""
+vector SAEDRVT14_AOI311_0P5 X B1 NA :	A1 0 A2 0 A3 0 B2 0 
+pin X output 0 0 "(!((A1&A2&A3)|B1|B2))" ""
+vector SAEDRVT14_AOI311_0P5 X B2 NA :	A1 0 A2 0 A3 0 B1 0 
+END_TRUTH_TABLE
+function X "(!((A1&A2&A3)|B1|B2))"
+leakage_power 22770.000000 "!A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 15790.000000 "!A1&!A2&!A3&!B1&B2" VDD
+leakage_power 12550.000000 "!A1&!A2&!A3&B1&!B2" VDD
+leakage_power 10780.000000 "!A1&!A2&!A3&B1&B2" VDD
+leakage_power 23610.000000 "!A1&!A2&A3&!B1&!B2" VDD
+leakage_power 15780.000000 "!A1&!A2&A3&!B1&B2" VDD
+leakage_power 12540.000000 "!A1&!A2&A3&B1&!B2" VDD
+leakage_power 10780.000000 "!A1&!A2&A3&B1&B2" VDD
+leakage_power 23540.000000 "!A1&A2&!A3&!B1&!B2" VDD
+leakage_power 15790.000000 "!A1&A2&!A3&!B1&B2" VDD
+leakage_power 12550.000000 "!A1&A2&!A3&B1&!B2" VDD
+leakage_power 10780.000000 "!A1&A2&!A3&B1&B2" VDD
+leakage_power 29350.000000 "!A1&A2&A3&!B1&!B2" VDD
+leakage_power 15780.000000 "!A1&A2&A3&!B1&B2" VDD
+leakage_power 12540.000000 "!A1&A2&A3&B1&!B2" VDD
+leakage_power 10770.000000 "!A1&A2&A3&B1&B2" VDD
+leakage_power 23280.000000 "A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 15790.000000 "A1&!A2&!A3&!B1&B2" VDD
+leakage_power 12550.000000 "A1&!A2&!A3&B1&!B2" VDD
+leakage_power 10780.000000 "A1&!A2&!A3&B1&B2" VDD
+leakage_power 26540.000000 "A1&!A2&A3&!B1&!B2" VDD
+leakage_power 15780.000000 "A1&!A2&A3&!B1&B2" VDD
+leakage_power 12540.000000 "A1&!A2&A3&B1&!B2" VDD
+leakage_power 10770.000000 "A1&!A2&A3&B1&B2" VDD
+leakage_power 26430.000000 "A1&A2&!A3&!B1&!B2" VDD
+leakage_power 15780.000000 "A1&A2&!A3&!B1&B2" VDD
+leakage_power 12540.000000 "A1&A2&!A3&B1&!B2" VDD
+leakage_power 10770.000000 "A1&A2&!A3&B1&B2" VDD
+leakage_power 20470.000000 "A1&A2&A3&!B1&!B2" VDD
+leakage_power 12230.000000 "A1&A2&A3&!B1&B2" VDD
+leakage_power 11230.000000 "A1&A2&A3&B1&!B2" VDD
+leakage_power 10380.000000 "A1&A2&A3&B1&B2" VDD
+leakage_power 29350.000000 "NA" VDD
+cell SAEDRVT14_BUF_1P5 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0004046 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "A" ""
+vector SAEDRVT14_BUF_1P5 X A NA :	
+END_TRUTH_TABLE
+function X "A"
+leakage_power 19010.000000 "!A" VDD
+leakage_power 21250.000000 "A" VDD
+leakage_power 21250.000000 "NA" VDD
+cell SAEDRVT14_BUF_ECO_3 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0004355 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "A" ""
+vector SAEDRVT14_BUF_ECO_3 X A NA :	
+END_TRUTH_TABLE
+function X "A"
+leakage_power 32890.000000 "!A" VDD
+leakage_power 39020.000000 "A" VDD
+leakage_power 39020.000000 "NA" VDD
+cell SAEDRVT14_BUF_S_1P5 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0003943 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "A" ""
+vector SAEDRVT14_BUF_S_1P5 X A NA :	
+END_TRUTH_TABLE
+function X "A"
+leakage_power 13500.000000 "!A" VDD
+leakage_power 13300.000000 "A" VDD
+leakage_power 13500.000000 "NA" VDD
+cell SAEDRVT14_BUF_S_3 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0004322 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "A" ""
+vector SAEDRVT14_BUF_S_3 X A NA :	
+END_TRUTH_TABLE
+function X "A"
+leakage_power 32850.000000 "!A" VDD
+leakage_power 38980.000000 "A" VDD
+leakage_power 38980.000000 "NA" VDD
+cell SAEDRVT14_BUF_U_0P5 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0003145 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "A" ""
+vector SAEDRVT14_BUF_U_0P5 X A NA :	
+END_TRUTH_TABLE
+function X "A"
+leakage_power 8966.000000 "!A" VDD
+leakage_power 8837.000000 "A" VDD
+leakage_power 8966.000000 "NA" VDD
+cell SAEDRVT14_DEL_R2V1_1 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0005568 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "A" ""
+vector SAEDRVT14_DEL_R2V1_1 X A NA :	
+END_TRUTH_TABLE
+function X "A"
+leakage_power 9335.000000 "!A" VDD
+leakage_power 11810.000000 "A" VDD
+leakage_power 11810.000000 "NA" VDD
+cell SAEDRVT14_DEL_R2V2_2 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0009576 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "A" ""
+vector SAEDRVT14_DEL_R2V2_2 X A NA :	
+END_TRUTH_TABLE
+function X "A"
+leakage_power 9694.000000 "!A" VDD
+leakage_power 10070.000000 "A" VDD
+leakage_power 10070.000000 "NA" VDD
+cell SAEDRVT14_EN2_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.000527 0.3 0.8 VDD
+pin A2 input 0.0004935 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1^A2))" ""
+vector SAEDRVT14_EN2_0P5 X A1 NA :	A2 0	
+pin X output 0 0 "(!(A1^A2))" ""
+vector SAEDRVT14_EN2_0P5 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(!(A1^A2))"
+leakage_power 39060.000000 "!A1&!A2" VDD
+leakage_power 34500.000000 "!A1&A2" VDD
+leakage_power 29440.000000 "A1&!A2" VDD
+leakage_power 20440.000000 "A1&A2" VDD
+leakage_power 39060.000000 "NA" VDD
+cell SAEDRVT14_EN3_U_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0005345 0.3 0.8 VDD
+pin A2 input 0.0005296 0.3 0.8 VDD
+pin A3 input 0.0004209 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1^A2^A3))" ""
+vector SAEDRVT14_EN3_U_0P5 X A1 NA :	A2 0	A3 0	
+pin X output 0 0 "(!(A1^A2^A3))" ""
+vector SAEDRVT14_EN3_U_0P5 X A2 NA :	A1 0 A3 0 
+pin X output 0 0 "(!(A1^A2^A3))" ""
+vector SAEDRVT14_EN3_U_0P5 X A3 NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(!(A1^A2^A3))"
+leakage_power 67530.000000 "!A1&!A2&!A3" VDD
+leakage_power 54330.000000 "!A1&!A2&A3" VDD
+leakage_power 46630.000000 "!A1&A2&!A3" VDD
+leakage_power 51540.000000 "!A1&A2&A3" VDD
+leakage_power 64700.000000 "A1&!A2&!A3" VDD
+leakage_power 49130.000000 "A1&!A2&A3" VDD
+leakage_power 41420.000000 "A1&A2&!A3" VDD
+leakage_power 48720.000000 "A1&A2&A3" VDD
+leakage_power 67530.000000 "NA" VDD
+cell SAEDRVT14_EO2_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0004789 0.3 0.8 VDD
+pin A2 input 0.0003471 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1^A2)" ""
+vector SAEDRVT14_EO2_0P5 X A1 NA :	A2 0	
+pin X output 0 0 "(A1^A2)" ""
+vector SAEDRVT14_EO2_0P5 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(A1^A2)"
+leakage_power 19670.000000 "!A1&!A2" VDD
+leakage_power 17810.000000 "!A1&A2" VDD
+leakage_power 26540.000000 "A1&!A2" VDD
+leakage_power 24620.000000 "A1&A2" VDD
+leakage_power 26540.000000 "NA" VDD
+cell SAEDRVT14_EO2_1 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0004754 0.3 0.8 VDD
+pin A2 input 0.0002808 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1^A2)" ""
+vector SAEDRVT14_EO2_1 X A1 NA :	A2 0	
+pin X output 0 0 "(A1^A2)" ""
+vector SAEDRVT14_EO2_1 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(A1^A2)"
+leakage_power 23440.000000 "!A1&!A2" VDD
+leakage_power 23110.000000 "!A1&A2" VDD
+leakage_power 31850.000000 "A1&!A2" VDD
+leakage_power 28390.000000 "A1&A2" VDD
+leakage_power 31850.000000 "NA" VDD
+cell SAEDRVT14_EO2_V1_0P75 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0006075 0.3 0.8 VDD
+pin A2 input 0.0007794 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1^A2)" ""
+vector SAEDRVT14_EO2_V1_0P75 X A1 NA :	A2 0	
+pin X output 0 0 "(A1^A2)" ""
+vector SAEDRVT14_EO2_V1_0P75 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(A1^A2)"
+leakage_power 20560.000000 "!A1&!A2" VDD
+leakage_power 17550.000000 "!A1&A2" VDD
+leakage_power 17570.000000 "A1&!A2" VDD
+leakage_power 16840.000000 "A1&A2" VDD
+leakage_power 20560.000000 "NA" VDD
+cell SAEDRVT14_EO3_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002932 0.3 0.8 VDD
+pin A2 input 0.0005801 0.3 0.8 VDD
+pin A3 input 0.0003274 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1^A2^A3)" ""
+vector SAEDRVT14_EO3_0P5 X A1 NA :	A2 0	A3 0	
+pin X output 0 0 "(A1^A2^A3)" ""
+vector SAEDRVT14_EO3_0P5 X A2 NA :	A1 0 A3 0 
+pin X output 0 0 "(A1^A2^A3)" ""
+vector SAEDRVT14_EO3_0P5 X A3 NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(A1^A2^A3)"
+leakage_power 50950.000000 "!A1&!A2&!A3" VDD
+leakage_power 54430.000000 "!A1&!A2&A3" VDD
+leakage_power 60510.000000 "!A1&A2&!A3" VDD
+leakage_power 50660.000000 "!A1&A2&A3" VDD
+leakage_power 48380.000000 "A1&!A2&!A3" VDD
+leakage_power 53220.000000 "A1&!A2&A3" VDD
+leakage_power 59300.000000 "A1&A2&!A3" VDD
+leakage_power 48090.000000 "A1&A2&A3" VDD
+leakage_power 60510.000000 "NA" VDD
+cell SAEDRVT14_EO4_1 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0006291 0.3 0.8 VDD
+pin A2 input 0.0004031 0.3 0.8 VDD
+pin A3 input 0.0006521 0.3 0.8 VDD
+pin A4 input 0.0003429 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1^A2^A3^A4)" ""
+vector SAEDRVT14_EO4_1 X A1 NA :	A2 0	A3 0	A4 0	
+pin X output 0 0 "(A1^A2^A3^A4)" ""
+vector SAEDRVT14_EO4_1 X A2 NA :	A1 0 A3 0 A4 0 
+pin X output 0 0 "(A1^A2^A3^A4)" ""
+vector SAEDRVT14_EO4_1 X A3 NA :	A1 0 A2 0 A4 0 
+pin X output 0 0 "(A1^A2^A3^A4)" ""
+vector SAEDRVT14_EO4_1 X A4 NA :	A1 0 A2 0 A3 0 
+END_TRUTH_TABLE
+function X "(A1^A2^A3^A4)"
+leakage_power 87450.000000 "!A1&!A2&!A3&!A4" VDD
+leakage_power 87960.000000 "!A1&!A2&!A3&A4" VDD
+leakage_power 78480.000000 "!A1&!A2&A3&!A4" VDD
+leakage_power 74100.000000 "!A1&!A2&A3&A4" VDD
+leakage_power 87160.000000 "!A1&A2&!A3&!A4" VDD
+leakage_power 80850.000000 "!A1&A2&!A3&A4" VDD
+leakage_power 71380.000000 "!A1&A2&A3&!A4" VDD
+leakage_power 73810.000000 "!A1&A2&A3&A4" VDD
+leakage_power 79570.000000 "A1&!A2&!A3&!A4" VDD
+leakage_power 73260.000000 "A1&!A2&!A3&A4" VDD
+leakage_power 63780.000000 "A1&!A2&A3&!A4" VDD
+leakage_power 66220.000000 "A1&!A2&A3&A4" VDD
+leakage_power 75920.000000 "A1&A2&!A3&!A4" VDD
+leakage_power 76420.000000 "A1&A2&!A3&A4" VDD
+leakage_power 66950.000000 "A1&A2&A3&!A4" VDD
+leakage_power 62580.000000 "A1&A2&A3&A4" VDD
+leakage_power 87960.000000 "NA" VDD
+cell SAEDRVT14_INV_0P5 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0002419 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_0P5 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 5301.000000 "!A" VDD
+leakage_power 3532.000000 "A" VDD
+leakage_power 5301.000000 "NA" VDD
+cell SAEDRVT14_INV_0P75 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0003418 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_0P75 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 7953.000000 "!A" VDD
+leakage_power 5347.000000 "A" VDD
+leakage_power 7953.000000 "NA" VDD
+cell SAEDRVT14_INV_1 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0004411 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_1 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 10600.000000 "!A" VDD
+leakage_power 7164.000000 "A" VDD
+leakage_power 10600.000000 "NA" VDD
+cell SAEDRVT14_INV_4 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.001715 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_4 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 42400.000000 "!A" VDD
+leakage_power 28590.000000 "A" VDD
+leakage_power 42400.000000 "NA" VDD
+cell SAEDRVT14_INV_S_0P5 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0002365 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_S_0P5 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 5301.000000 "!A" VDD
+leakage_power 3535.000000 "A" VDD
+leakage_power 5301.000000 "NA" VDD
+cell SAEDRVT14_INV_S_0P75 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0003367 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_S_0P75 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 7953.000000 "!A" VDD
+leakage_power 5352.000000 "A" VDD
+leakage_power 7953.000000 "NA" VDD
+cell SAEDRVT14_INV_S_1P5 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0006595 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_S_1P5 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 15900.000000 "!A" VDD
+leakage_power 10660.000000 "A" VDD
+leakage_power 15900.000000 "NA" VDD
+cell SAEDRVT14_INV_S_1 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0004386 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_S_1 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 10600.000000 "!A" VDD
+leakage_power 7170.000000 "A" VDD
+leakage_power 10600.000000 "NA" VDD
+cell SAEDRVT14_INV_S_2 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0008619 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_S_2 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 21200.000000 "!A" VDD
+leakage_power 14280.000000 "A" VDD
+leakage_power 21200.000000 "NA" VDD
+cell SAEDRVT14_MUX2_MM_0P5 1 0 3 0 5
+pin X output 0 0 0.3 0.8 VDD
+pin D0 input 0.0002915 0.3 0.8 VDD
+pin D1 input 0.0002404 0.3 0.8 VDD
+pin S input 0.0004726 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((D0&(!S))|(D1&S))" ""
+vector SAEDRVT14_MUX2_MM_0P5 X D0 NA : 	S 0 	
+END_TRUTH_TABLE
+function X "((D0&(!S))|(D1&S))"
+leakage_power 15930.000000 "!D0&!D1&!S" VDD
+leakage_power 14160.000000 "!D0&!D1&S" VDD
+leakage_power 19330.000000 "!D0&D1&!S" VDD
+leakage_power 15790.000000 "!D0&D1&S" VDD
+leakage_power 17700.000000 "D0&!D1&!S" VDD
+leakage_power 17560.000000 "D0&!D1&S" VDD
+leakage_power 15360.000000 "D0&D1&!S" VDD
+leakage_power 13460.000000 "D0&D1&S" VDD
+leakage_power 19330.000000 "NA" VDD
+cell SAEDRVT14_MUX2_U_0P5 1 0 3 0 5
+pin X output 0 0 0.3 0.8 VDD
+pin D0 input 0.0002919 0.3 0.8 VDD
+pin D1 input 0.0002404 0.3 0.8 VDD
+pin S input 0.0004727 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((D0&(!S))|(D1&S))" ""
+vector SAEDRVT14_MUX2_U_0P5 X D0 NA : 	S 0 	
+END_TRUTH_TABLE
+function X "((D0&(!S))|(D1&S))"
+leakage_power 15930.000000 "!D0&!D1&!S" VDD
+leakage_power 14160.000000 "!D0&!D1&S" VDD
+leakage_power 19330.000000 "!D0&D1&!S" VDD
+leakage_power 15790.000000 "!D0&D1&S" VDD
+leakage_power 17700.000000 "D0&!D1&!S" VDD
+leakage_power 17560.000000 "D0&!D1&S" VDD
+leakage_power 15360.000000 "D0&D1&!S" VDD
+leakage_power 13460.000000 "D0&D1&S" VDD
+leakage_power 19330.000000 "NA" VDD
+cell SAEDRVT14_MUXI2_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin D0 input 0.0002918 0.3 0.8 VDD
+pin D1 input 0.0002386 0.3 0.8 VDD
+pin S input 0.0004728 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((D0&(!S))|(D1&S)|(D0&D1)))" ""
+vector SAEDRVT14_MUXI2_0P5 X D0 NA :	S 0	D1 0	
+pin X output 0 0 "(!((D0&(!S))|(D1&S)|(D0&D1)))" ""
+vector SAEDRVT14_MUXI2_0P5 X S NA :	D0 1 D1 0 
+pin X output 0 0 "(!((D0&(!S))|(D1&S)|(D0&D1)))" ""
+vector SAEDRVT14_MUXI2_0P5 X D1 NA :	D0 0 S 1 
+END_TRUTH_TABLE
+function X "(!((D0&(!S))|(D1&S)|(D0&D1)))"
+leakage_power 21230.000000 "!D0&!D1&!S" VDD
+leakage_power 19470.000000 "!D0&!D1&S" VDD
+leakage_power 24630.000000 "!D0&D1&!S" VDD
+leakage_power 19470.000000 "!D0&D1&S" VDD
+leakage_power 21370.000000 "D0&!D1&!S" VDD
+leakage_power 22860.000000 "D0&!D1&S" VDD
+leakage_power 19040.000000 "D0&D1&!S" VDD
+leakage_power 17130.000000 "D0&D1&S" VDD
+leakage_power 24630.000000 "NA" VDD
+cell SAEDRVT14_MUXI2_U_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin D0 input 0.0003358 0.3 0.8 VDD
+pin D1 input 0.000237 0.3 0.8 VDD
+pin S input 0.0005012 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((D0&(!S))|(D1&S)|(D0&D1)))" ""
+vector SAEDRVT14_MUXI2_U_0P5 X D0 NA :	S 0	D1 0	
+pin X output 0 0 "(!((D0&(!S))|(D1&S)|(D0&D1)))" ""
+vector SAEDRVT14_MUXI2_U_0P5 X S NA :	D0 1 D1 0 
+pin X output 0 0 "(!((D0&(!S))|(D1&S)|(D0&D1)))" ""
+vector SAEDRVT14_MUXI2_U_0P5 X D1 NA :	D0 0 S 1 
+END_TRUTH_TABLE
+function X "(!((D0&(!S))|(D1&S)|(D0&D1)))"
+leakage_power 12260.000000 "!D0&!D1&!S" VDD
+leakage_power 10490.000000 "!D0&!D1&S" VDD
+leakage_power 15650.000000 "!D0&D1&!S" VDD
+leakage_power 10490.000000 "!D0&D1&S" VDD
+leakage_power 12400.000000 "D0&!D1&!S" VDD
+leakage_power 13890.000000 "D0&!D1&S" VDD
+leakage_power 10060.000000 "D0&D1&!S" VDD
+leakage_power 8151.000000 "D0&D1&S" VDD
+leakage_power 15650.000000 "NA" VDD
+cell SAEDRVT14_ND2_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0006309 0.3 0.8 VDD
+pin A2 input 0.0006129 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_0P5 X A1 NA :	A2 1	
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_0P5 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(!(A1&A2))"
+leakage_power 5375.000000 "!A1&!A2" VDD
+leakage_power 18540.000000 "!A1&A2" VDD
+leakage_power 12800.000000 "A1&!A2" VDD
+leakage_power 15910.000000 "A1&A2" VDD
+leakage_power 18540.000000 "NA" VDD
+cell SAEDRVT14_ND2_1P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.001248 0.3 0.8 VDD
+pin A2 input 0.00125 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_1P5 X A1 NA :	A2 1	
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_1P5 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(!(A1&A2))"
+leakage_power 10460.000000 "!A1&!A2" VDD
+leakage_power 29140.000000 "!A1&A2" VDD
+leakage_power 27950.000000 "A1&!A2" VDD
+leakage_power 28460.000000 "A1&A2" VDD
+leakage_power 29140.000000 "NA" VDD
+cell SAEDRVT14_ND2B_0P75 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0003369 0.3 0.8 VDD
+pin B input 0.0003314 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((!A)&B))" ""
+vector SAEDRVT14_ND2B_0P75 X A NA :	B 1	
+pin X output 0 0 "(!((!A)&B))" ""
+vector SAEDRVT14_ND2B_0P75 X B NA :	A 0 
+END_TRUTH_TABLE
+function X "(!((!A)&B))"
+leakage_power 23990.000000 "!A&!B" VDD
+leakage_power 24820.000000 "!A&B" VDD
+leakage_power 16880.000000 "A&!B" VDD
+leakage_power 24310.000000 "A&B" VDD
+leakage_power 24820.000000 "NA" VDD
+cell SAEDRVT14_ND2B_U_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.000321 0.3 0.8 VDD
+pin B input 0.0002322 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((!A)&B))" ""
+vector SAEDRVT14_ND2B_U_0P5 X A NA :	B 1	
+pin X output 0 0 "(!((!A)&B))" ""
+vector SAEDRVT14_ND2B_U_0P5 X B NA :	A 0 
+END_TRUTH_TABLE
+function X "(!((!A)&B))"
+leakage_power 10380.000000 "!A&!B" VDD
+leakage_power 12480.000000 "!A&B" VDD
+leakage_power 5437.000000 "A&!B" VDD
+leakage_power 8833.000000 "A&B" VDD
+leakage_power 12480.000000 "NA" VDD
+cell SAEDRVT14_ND2_CDC_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0004645 0.3 0.8 VDD
+pin A2 input 0.0003814 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_CDC_0P5 X A1 NA :	A2 1	
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_CDC_0P5 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(!(A1&A2))"
+leakage_power 3806.000000 "!A1&!A2" VDD
+leakage_power 10160.000000 "!A1&A2" VDD
+leakage_power 10600.000000 "A1&!A2" VDD
+leakage_power 10660.000000 "A1&A2" VDD
+leakage_power 10660.000000 "NA" VDD
+cell SAEDRVT14_ND2_CDC_1 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0004644 0.3 0.8 VDD
+pin A2 input 0.0003813 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_CDC_1 X A1 NA :	A2 1	
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_CDC_1 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(!(A1&A2))"
+leakage_power 3806.000000 "!A1&!A2" VDD
+leakage_power 10160.000000 "!A1&A2" VDD
+leakage_power 10600.000000 "A1&!A2" VDD
+leakage_power 10660.000000 "A1&A2" VDD
+leakage_power 10660.000000 "NA" VDD
+cell SAEDRVT14_ND2_ECO_1 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003704 0.3 0.8 VDD
+pin A2 input 0.0003868 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_ECO_1 X A1 NA :	A2 1	
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_ECO_1 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(!(A1&A2))"
+leakage_power 3804.000000 "!A1&!A2" VDD
+leakage_power 10590.000000 "!A1&A2" VDD
+leakage_power 10170.000000 "A1&!A2" VDD
+leakage_power 8896.000000 "A1&A2" VDD
+leakage_power 10590.000000 "NA" VDD
+cell SAEDRVT14_ND2_MM_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.000418 0.3 0.8 VDD
+pin A2 input 0.0004123 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_MM_0P5 X A1 NA :	A2 1	
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_MM_0P5 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(!(A1&A2))"
+leakage_power 3798.000000 "!A1&!A2" VDD
+leakage_power 10590.000000 "!A1&A2" VDD
+leakage_power 10160.000000 "A1&!A2" VDD
+leakage_power 7049.000000 "A1&A2" VDD
+leakage_power 10590.000000 "NA" VDD
+cell SAEDRVT14_ND2_MM_1 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0006319 0.3 0.8 VDD
+pin A2 input 0.0006968 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_MM_1 X A1 NA :	A2 1	
+pin X output 0 0 "(!(A1&A2))" ""
+vector SAEDRVT14_ND2_MM_1 X A2 NA :	A1 1 
+END_TRUTH_TABLE
+function X "(!(A1&A2))"
+leakage_power 7597.000000 "!A1&!A2" VDD
+leakage_power 21180.000000 "!A1&A2" VDD
+leakage_power 20320.000000 "A1&!A2" VDD
+leakage_power 14290.000000 "A1&A2" VDD
+leakage_power 21180.000000 "NA" VDD
+cell SAEDRVT14_ND3_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003385 0.3 0.8 VDD
+pin A2 input 0.0005725 0.3 0.8 VDD
+pin A3 input 0.0005919 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1&A2&A3))" ""
+vector SAEDRVT14_ND3_0P5 X A1 NA :	A2 1	A3 1	
+pin X output 0 0 "(!(A1&A2&A3))" ""
+vector SAEDRVT14_ND3_0P5 X A2 NA :	A1 1 A3 1 
+pin X output 0 0 "(!(A1&A2&A3))" ""
+vector SAEDRVT14_ND3_0P5 X A3 NA :	A1 1 A2 1 
+END_TRUTH_TABLE
+function X "(!(A1&A2&A3))"
+leakage_power 20140.000000 "!A1&!A2&!A3" VDD
+leakage_power 21300.000000 "!A1&!A2&A3" VDD
+leakage_power 21180.000000 "!A1&A2&!A3" VDD
+leakage_power 25870.000000 "!A1&A2&A3" VDD
+leakage_power 21620.000000 "A1&!A2&!A3" VDD
+leakage_power 28020.000000 "A1&!A2&A3" VDD
+leakage_power 27870.000000 "A1&A2&!A3" VDD
+leakage_power 32400.000000 "A1&A2&A3" VDD
+leakage_power 32400.000000 "NA" VDD
+cell SAEDRVT14_ND3B_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0004057 0.3 0.8 VDD
+pin B1 input 0.000242 0.3 0.8 VDD
+pin B2 input 0.0002243 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((!A)&B1&B2))" ""
+vector SAEDRVT14_ND3B_0P5 X A NA :	B1 1	B2 1	
+pin X output 0 0 "(!((!A)&B1&B2))" ""
+vector SAEDRVT14_ND3B_0P5 X B1 NA :	A 0 B2 1 
+pin X output 0 0 "(!((!A)&B1&B2))" ""
+vector SAEDRVT14_ND3B_0P5 X B2 NA :	A 0 B1 1 
+END_TRUTH_TABLE
+function X "(!((!A)&B1&B2))"
+leakage_power 22450.000000 "!A&!B1&!B2" VDD
+leakage_power 25710.000000 "!A&!B1&B2" VDD
+leakage_power 25600.000000 "!A&B1&!B2" VDD
+leakage_power 27720.000000 "!A&B1&B2" VDD
+leakage_power 19340.000000 "A&!B1&!B2" VDD
+leakage_power 20180.000000 "A&!B1&B2" VDD
+leakage_power 20110.000000 "A&B1&!B2" VDD
+leakage_power 25920.000000 "A&B1&B2" VDD
+leakage_power 27720.000000 "NA" VDD
+cell SAEDRVT14_ND3_ECO_1 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.000429 0.3 0.8 VDD
+pin A2 input 0.0004943 0.3 0.8 VDD
+pin A3 input 0.0004115 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1&A2&A3))" ""
+vector SAEDRVT14_ND3_ECO_1 X A1 NA :	A2 1	A3 1	
+pin X output 0 0 "(!(A1&A2&A3))" ""
+vector SAEDRVT14_ND3_ECO_1 X A2 NA :	A1 1 A3 1 
+pin X output 0 0 "(!(A1&A2&A3))" ""
+vector SAEDRVT14_ND3_ECO_1 X A3 NA :	A1 1 A2 1 
+END_TRUTH_TABLE
+function X "(!(A1&A2&A3))"
+leakage_power 20110.000000 "!A1&!A2&!A3" VDD
+leakage_power 21740.000000 "!A1&!A2&A3" VDD
+leakage_power 20990.000000 "!A1&A2&!A3" VDD
+leakage_power 28530.000000 "!A1&A2&A3" VDD
+leakage_power 21050.000000 "A1&!A2&!A3" VDD
+leakage_power 28100.000000 "A1&!A2&A3" VDD
+leakage_power 25500.000000 "A1&A2&!A3" VDD
+leakage_power 32500.000000 "A1&A2&A3" VDD
+leakage_power 32500.000000 "NA" VDD
+cell SAEDRVT14_NR2_1P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0006024 0.3 0.8 VDD
+pin A2 input 0.0006234 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2))" ""
+vector SAEDRVT14_NR2_1P5 X A1 NA :	A2 0	
+pin X output 0 0 "(!(A1|A2))" ""
+vector SAEDRVT14_NR2_1P5 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2))"
+leakage_power 21210.000000 "!A1&!A2" VDD
+leakage_power 10340.000000 "!A1&A2" VDD
+leakage_power 10690.000000 "A1&!A2" VDD
+leakage_power 3621.000000 "A1&A2" VDD
+leakage_power 21210.000000 "NA" VDD
+cell SAEDRVT14_NR2_1 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002927 0.3 0.8 VDD
+pin A2 input 0.000357 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2))" ""
+vector SAEDRVT14_NR2_1 X A1 NA :	A2 0	
+pin X output 0 0 "(!(A1|A2))" ""
+vector SAEDRVT14_NR2_1 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2))"
+leakage_power 10600.000000 "!A1&!A2" VDD
+leakage_power 5183.000000 "!A1&A2" VDD
+leakage_power 5359.000000 "A1&!A2" VDD
+leakage_power 1828.000000 "A1&A2" VDD
+leakage_power 10600.000000 "NA" VDD
+cell SAEDRVT14_NR2B_U_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0003294 0.3 0.8 VDD
+pin B input 0.0003312 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((!A)|B))" ""
+vector SAEDRVT14_NR2B_U_0P5 X A NA :	B 0	
+pin X output 0 0 "(!((!A)|B))" ""
+vector SAEDRVT14_NR2B_U_0P5 X B NA :	A 1 
+END_TRUTH_TABLE
+function X "(!((!A)|B))"
+leakage_power 17940.000000 "!A&!B" VDD
+leakage_power 15610.000000 "!A&B" VDD
+leakage_power 23110.000000 "A&!B" VDD
+leakage_power 15940.000000 "A&B" VDD
+leakage_power 23110.000000 "NA" VDD
+cell SAEDRVT14_NR2_MM_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002815 0.3 0.8 VDD
+pin A2 input 0.0003485 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2))" ""
+vector SAEDRVT14_NR2_MM_0P5 X A1 NA :	A2 0	
+pin X output 0 0 "(!(A1|A2))" ""
+vector SAEDRVT14_NR2_MM_0P5 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2))"
+leakage_power 10600.000000 "!A1&!A2" VDD
+leakage_power 5187.000000 "!A1&A2" VDD
+leakage_power 5363.000000 "A1&!A2" VDD
+leakage_power 1829.000000 "A1&A2" VDD
+leakage_power 10600.000000 "NA" VDD
+cell SAEDRVT14_NR2_MM_1 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.000389 0.3 0.8 VDD
+pin A2 input 0.0004713 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2))" ""
+vector SAEDRVT14_NR2_MM_1 X A1 NA :	A2 0	
+pin X output 0 0 "(!(A1|A2))" ""
+vector SAEDRVT14_NR2_MM_1 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2))"
+leakage_power 15910.000000 "!A1&!A2" VDD
+leakage_power 6956.000000 "!A1&A2" VDD
+leakage_power 7191.000000 "A1&!A2" VDD
+leakage_power 2452.000000 "A1&A2" VDD
+leakage_power 15910.000000 "NA" VDD
+cell SAEDRVT14_NR3_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002797 0.3 0.8 VDD
+pin A2 input 0.0003848 0.3 0.8 VDD
+pin A3 input 0.0003991 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_0P5 X A1 NA :	A2 0	A3 0	
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_0P5 X A2 NA :	A1 0 A3 0 
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_0P5 X A3 NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2|A3))"
+leakage_power 30300.000000 "!A1&!A2&!A3" VDD
+leakage_power 19410.000000 "!A1&!A2&A3" VDD
+leakage_power 19470.000000 "!A1&A2&!A3" VDD
+leakage_power 16110.000000 "!A1&A2&A3" VDD
+leakage_power 19650.000000 "A1&!A2&!A3" VDD
+leakage_power 16100.000000 "A1&!A2&A3" VDD
+leakage_power 16110.000000 "A1&A2&!A3" VDD
+leakage_power 15430.000000 "A1&A2&A3" VDD
+leakage_power 30300.000000 "NA" VDD
+cell SAEDRVT14_NR3_0P75 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003822 0.3 0.8 VDD
+pin A2 input 0.0005039 0.3 0.8 VDD
+pin A3 input 0.0005234 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_0P75 X A1 NA :	A2 0	A3 0	
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_0P75 X A2 NA :	A1 0 A3 0 
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_0P75 X A3 NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2|A3))"
+leakage_power 40900.000000 "!A1&!A2&!A3" VDD
+leakage_power 23040.000000 "!A1&!A2&A3" VDD
+leakage_power 23120.000000 "!A1&A2&!A3" VDD
+leakage_power 18620.000000 "!A1&A2&A3" VDD
+leakage_power 23360.000000 "A1&!A2&!A3" VDD
+leakage_power 18610.000000 "A1&!A2&A3" VDD
+leakage_power 18620.000000 "A1&A2&!A3" VDD
+leakage_power 17710.000000 "A1&A2&A3" VDD
+leakage_power 40900.000000 "NA" VDD
+cell SAEDRVT14_NR3_1 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003822 0.3 0.8 VDD
+pin A2 input 0.0005041 0.3 0.8 VDD
+pin A3 input 0.0005235 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_1 X A1 NA :	A2 0	A3 0	
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_1 X A2 NA :	A1 0 A3 0 
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_1 X A3 NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2|A3))"
+leakage_power 43500.000000 "!A1&!A2&!A3" VDD
+leakage_power 22280.000000 "!A1&!A2&A3" VDD
+leakage_power 22350.000000 "!A1&A2&!A3" VDD
+leakage_power 17860.000000 "!A1&A2&A3" VDD
+leakage_power 22590.000000 "A1&!A2&!A3" VDD
+leakage_power 17850.000000 "A1&!A2&A3" VDD
+leakage_power 17850.000000 "A1&A2&!A3" VDD
+leakage_power 16950.000000 "A1&A2&A3" VDD
+leakage_power 43500.000000 "NA" VDD
+cell SAEDRVT14_NR3_2 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003818 0.3 0.8 VDD
+pin A2 input 0.000504 0.3 0.8 VDD
+pin A3 input 0.0005233 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_2 X A1 NA :	A2 0	A3 0	
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_2 X A2 NA :	A1 0 A3 0 
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_2 X A3 NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2|A3))"
+leakage_power 54150.000000 "!A1&!A2&!A3" VDD
+leakage_power 32320.000000 "!A1&!A2&A3" VDD
+leakage_power 32400.000000 "!A1&A2&!A3" VDD
+leakage_power 27910.000000 "!A1&A2&A3" VDD
+leakage_power 32640.000000 "A1&!A2&!A3" VDD
+leakage_power 27890.000000 "A1&!A2&A3" VDD
+leakage_power 27900.000000 "A1&A2&!A3" VDD
+leakage_power 26990.000000 "A1&A2&A3" VDD
+leakage_power 54150.000000 "NA" VDD
+cell SAEDRVT14_NR3B_U_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0003229 0.3 0.8 VDD
+pin B1 input 0.0002457 0.3 0.8 VDD
+pin B2 input 0.0002254 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((!A)|B1|B2))" ""
+vector SAEDRVT14_NR3B_U_0P5 X A NA :	B1 0	B2 0	
+pin X output 0 0 "(!((!A)|B1|B2))" ""
+vector SAEDRVT14_NR3B_U_0P5 X B1 NA :	A 1 B2 0 
+pin X output 0 0 "(!((!A)|B1|B2))" ""
+vector SAEDRVT14_NR3B_U_0P5 X B2 NA :	A 1 B1 0 
+END_TRUTH_TABLE
+function X "(!((!A)|B1|B2))"
+leakage_power 23250.000000 "!A&!B1&!B2" VDD
+leakage_power 20910.000000 "!A&!B1&B2" VDD
+leakage_power 20910.000000 "!A&B1&!B2" VDD
+leakage_power 20460.000000 "!A&B1&B2" VDD
+leakage_power 28540.000000 "A&!B1&!B2" VDD
+leakage_power 21210.000000 "A&!B1&B2" VDD
+leakage_power 21250.000000 "A&B1&!B2" VDD
+leakage_power 19020.000000 "A&B1&B2" VDD
+leakage_power 28540.000000 "NA" VDD
+cell SAEDRVT14_NR3_ECO_1 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0004347 0.3 0.8 VDD
+pin A2 input 0.0004285 0.3 0.8 VDD
+pin A3 input 0.0004563 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_ECO_1 X A1 NA :	A2 0	A3 0	
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_ECO_1 X A2 NA :	A1 0 A3 0 
+pin X output 0 0 "(!(A1|A2|A3))" ""
+vector SAEDRVT14_NR3_ECO_1 X A3 NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2|A3))"
+leakage_power 40920.000000 "!A1&!A2&!A3" VDD
+leakage_power 25050.000000 "!A1&!A2&A3" VDD
+leakage_power 25070.000000 "!A1&A2&!A3" VDD
+leakage_power 20570.000000 "!A1&A2&A3" VDD
+leakage_power 25230.000000 "A1&!A2&!A3" VDD
+leakage_power 20510.000000 "A1&!A2&A3" VDD
+leakage_power 20510.000000 "A1&A2&!A3" VDD
+leakage_power 19610.000000 "A1&A2&A3" VDD
+leakage_power 40920.000000 "NA" VDD
+cell SAEDRVT14_NR4_0P75 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002793 0.3 0.8 VDD
+pin A2 input 0.0003585 0.3 0.8 VDD
+pin A3 input 0.0003605 0.3 0.8 VDD
+pin A4 input 0.0003616 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!(A1|A2|A3|A4))" ""
+vector SAEDRVT14_NR4_0P75 X A1 NA :	A2 0	A3 0	A4 0	
+pin X output 0 0 "(!(A1|A2|A3|A4))" ""
+vector SAEDRVT14_NR4_0P75 X A2 NA :	A1 0 A3 0 A4 0 
+pin X output 0 0 "(!(A1|A2|A3|A4))" ""
+vector SAEDRVT14_NR4_0P75 X A3 NA :	A1 0 A2 0 A4 0 
+pin X output 0 0 "(!(A1|A2|A3|A4))" ""
+vector SAEDRVT14_NR4_0P75 X A4 NA :	A1 0 A2 0 A3 0 
+END_TRUTH_TABLE
+function X "(!(A1|A2|A3|A4))"
+leakage_power 35620.000000 "!A1&!A2&!A3&!A4" VDD
+leakage_power 23170.000000 "!A1&!A2&!A3&A4" VDD
+leakage_power 23200.000000 "!A1&!A2&A3&!A4" VDD
+leakage_power 19910.000000 "!A1&!A2&A3&A4" VDD
+leakage_power 23260.000000 "!A1&A2&!A3&!A4" VDD
+leakage_power 19890.000000 "!A1&A2&!A3&A4" VDD
+leakage_power 19900.000000 "!A1&A2&A3&!A4" VDD
+leakage_power 19230.000000 "!A1&A2&A3&A4" VDD
+leakage_power 23440.000000 "A1&!A2&!A3&!A4" VDD
+leakage_power 19880.000000 "A1&!A2&!A3&A4" VDD
+leakage_power 19890.000000 "A1&!A2&A3&!A4" VDD
+leakage_power 19210.000000 "A1&!A2&A3&A4" VDD
+leakage_power 19890.000000 "A1&A2&!A3&!A4" VDD
+leakage_power 19210.000000 "A1&A2&!A3&A4" VDD
+leakage_power 19220.000000 "A1&A2&A3&!A4" VDD
+leakage_power 18920.000000 "A1&A2&A3&A4" VDD
+leakage_power 35620.000000 "NA" VDD
+cell SAEDRVT14_OA21_1 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003597 0.3 0.8 VDD
+pin A2 input 0.0004005 0.3 0.8 VDD
+pin B input 0.0004041 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2)&B)" ""
+vector SAEDRVT14_OA21_1 X A1 NA :	A2 0	B 1	
+pin X output 0 0 "((A1|A2)&B)" ""
+vector SAEDRVT14_OA21_1 X A2 NA :	A1 0 B 1 
+pin X output 0 0 "((A1|A2)&B)" ""
+vector SAEDRVT14_OA21_1 X B NA :	A1 1 A2 0 
+END_TRUTH_TABLE
+function X "((A1|A2)&B)"
+leakage_power 11550.000000 "!A1&!A2&!B" VDD
+leakage_power 22390.000000 "!A1&!A2&B" VDD
+leakage_power 15350.000000 "!A1&A2&!B" VDD
+leakage_power 21120.000000 "!A1&A2&B" VDD
+leakage_power 15350.000000 "A1&!A2&!B" VDD
+leakage_power 21300.000000 "A1&!A2&B" VDD
+leakage_power 15350.000000 "A1&A2&!B" VDD
+leakage_power 17760.000000 "A1&A2&B" VDD
+leakage_power 22390.000000 "NA" VDD
+cell SAEDRVT14_OA21B_1 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003522 0.3 0.8 VDD
+pin A2 input 0.0004658 0.3 0.8 VDD
+pin B input 0.0003366 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2)&(!B))" ""
+vector SAEDRVT14_OA21B_1 X A1 NA :	A2 0	B 0	
+pin X output 0 0 "((A1|A2)&(!B))" ""
+vector SAEDRVT14_OA21B_1 X A2 NA :	A1 0 B 0 
+pin X output 0 0 "((A1|A2)&(!B))" ""
+vector SAEDRVT14_OA21B_1 X B NA :	A1 1 A2 0 
+END_TRUTH_TABLE
+function X "((A1|A2)&(!B))"
+leakage_power 17700.000000 "!A1&!A2&!B" VDD
+leakage_power 13190.000000 "!A1&!A2&B" VDD
+leakage_power 17550.000000 "!A1&A2&!B" VDD
+leakage_power 14140.000000 "!A1&A2&B" VDD
+leakage_power 17790.000000 "A1&!A2&!B" VDD
+leakage_power 14380.000000 "A1&!A2&B" VDD
+leakage_power 13060.000000 "A1&A2&!B" VDD
+leakage_power 9646.000000 "A1&A2&B" VDD
+leakage_power 17790.000000 "NA" VDD
+cell SAEDRVT14_OA21B_U_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002463 0.3 0.8 VDD
+pin A2 input 0.0003291 0.3 0.8 VDD
+pin B input 0.0002289 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2)&(!B))" ""
+vector SAEDRVT14_OA21B_U_0P5 X A1 NA :	A2 0	B 0	
+pin X output 0 0 "((A1|A2)&(!B))" ""
+vector SAEDRVT14_OA21B_U_0P5 X A2 NA :	A1 0 B 0 
+pin X output 0 0 "((A1|A2)&(!B))" ""
+vector SAEDRVT14_OA21B_U_0P5 X B NA :	A1 1 A2 0 
+END_TRUTH_TABLE
+function X "((A1|A2)&(!B))"
+leakage_power 25780.000000 "!A1&!A2&!B" VDD
+leakage_power 23560.000000 "!A1&!A2&B" VDD
+leakage_power 23060.000000 "!A1&A2&!B" VDD
+leakage_power 18600.000000 "!A1&A2&B" VDD
+leakage_power 23180.000000 "A1&!A2&!B" VDD
+leakage_power 18710.000000 "A1&!A2&B" VDD
+leakage_power 20840.000000 "A1&A2&!B" VDD
+leakage_power 16380.000000 "A1&A2&B" VDD
+leakage_power 25780.000000 "NA" VDD
+cell SAEDRVT14_OA21_MM_1 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003476 0.3 0.8 VDD
+pin A2 input 0.0004076 0.3 0.8 VDD
+pin B input 0.0003883 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2)&B)" ""
+vector SAEDRVT14_OA21_MM_1 X A1 NA :	A2 0	B 1	
+pin X output 0 0 "((A1|A2)&B)" ""
+vector SAEDRVT14_OA21_MM_1 X A2 NA :	A1 0 B 1 
+pin X output 0 0 "((A1|A2)&B)" ""
+vector SAEDRVT14_OA21_MM_1 X B NA :	A1 1 A2 0 
+END_TRUTH_TABLE
+function X "((A1|A2)&B)"
+leakage_power 11240.000000 "!A1&!A2&!B" VDD
+leakage_power 25990.000000 "!A1&!A2&B" VDD
+leakage_power 15420.000000 "!A1&A2&!B" VDD
+leakage_power 21170.000000 "!A1&A2&B" VDD
+leakage_power 15450.000000 "A1&!A2&!B" VDD
+leakage_power 21310.000000 "A1&!A2&B" VDD
+leakage_power 15210.000000 "A1&A2&!B" VDD
+leakage_power 17770.000000 "A1&A2&B" VDD
+leakage_power 25990.000000 "NA" VDD
+cell SAEDRVT14_OA21_U_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0004788 0.3 0.8 VDD
+pin A2 input 0.0006568 0.3 0.8 VDD
+pin B input 0.0002326 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2)&B)" ""
+vector SAEDRVT14_OA21_U_0P5 X A1 NA :	A2 0	B 1	
+pin X output 0 0 "((A1|A2)&B)" ""
+vector SAEDRVT14_OA21_U_0P5 X A2 NA :	A1 0 B 1 
+pin X output 0 0 "((A1|A2)&B)" ""
+vector SAEDRVT14_OA21_U_0P5 X B NA :	A1 1 A2 0 
+END_TRUTH_TABLE
+function X "((A1|A2)&B)"
+leakage_power 9405.000000 "!A1&!A2&!B" VDD
+leakage_power 29870.000000 "!A1&!A2&B" VDD
+leakage_power 10840.000000 "!A1&A2&!B" VDD
+leakage_power 21740.000000 "!A1&A2&B" VDD
+leakage_power 10850.000000 "A1&!A2&!B" VDD
+leakage_power 18590.000000 "A1&!A2&B" VDD
+leakage_power 10830.000000 "A1&A2&!B" VDD
+leakage_power 14560.000000 "A1&A2&B" VDD
+leakage_power 29870.000000 "NA" VDD
+cell SAEDRVT14_OA221_U_0P5 1 0 5 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003305 0.3 0.8 VDD
+pin A2 input 0.0003491 0.3 0.8 VDD
+pin B1 input 0.0003459 0.3 0.8 VDD
+pin B2 input 0.0002978 0.3 0.8 VDD
+pin C input 0.0003359 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2)&(B1|B2)&C)" ""
+vector SAEDRVT14_OA221_U_0P5 X A1 NA :	A2 0	B1 1	B2 0	C 1	
+pin X output 0 0 "((A1|A2)&(B1|B2)&C)" ""
+vector SAEDRVT14_OA221_U_0P5 X A2 NA :	A1 0 B1 1 B2 0 C 1 
+pin X output 0 0 "((A1|A2)&(B1|B2)&C)" ""
+vector SAEDRVT14_OA221_U_0P5 X B1 NA :	A1 1 A2 0 B2 0 C 1 
+pin X output 0 0 "((A1|A2)&(B1|B2)&C)" ""
+vector SAEDRVT14_OA221_U_0P5 X B2 NA :	A1 1 A2 0 B1 0 C 1 
+pin X output 0 0 "((A1|A2)&(B1|B2)&C)" ""
+vector SAEDRVT14_OA221_U_0P5 X C NA :	A1 1 A2 0 B1 1 B2 0 
+END_TRUTH_TABLE
+function X "((A1|A2)&(B1|B2)&C)"
+leakage_power 6492.000000 "!A1&!A2&!B1&!B2&!C" VDD
+leakage_power 9110.000000 "!A1&!A2&!B1&!B2&C" VDD
+leakage_power 7701.000000 "!A1&!A2&!B1&B2&!C" VDD
+leakage_power 18450.000000 "!A1&!A2&!B1&B2&C" VDD
+leakage_power 7701.000000 "!A1&!A2&B1&!B2&!C" VDD
+leakage_power 18450.000000 "!A1&!A2&B1&!B2&C" VDD
+leakage_power 7621.000000 "!A1&!A2&B1&B2&!C" VDD
+leakage_power 18470.000000 "!A1&!A2&B1&B2&C" VDD
+leakage_power 7776.000000 "!A1&A2&!B1&!B2&!C" VDD
+leakage_power 18610.000000 "!A1&A2&!B1&!B2&C" VDD
+leakage_power 11580.000000 "!A1&A2&!B1&B2&!C" VDD
+leakage_power 15710.000000 "!A1&A2&!B1&B2&C" VDD
+leakage_power 11580.000000 "!A1&A2&B1&!B2&!C" VDD
+leakage_power 15800.000000 "!A1&A2&B1&!B2&C" VDD
+leakage_power 11580.000000 "!A1&A2&B1&B2&!C" VDD
+leakage_power 13460.000000 "!A1&A2&B1&B2&C" VDD
+leakage_power 7777.000000 "A1&!A2&!B1&!B2&!C" VDD
+leakage_power 18620.000000 "A1&!A2&!B1&!B2&C" VDD
+leakage_power 11580.000000 "A1&!A2&!B1&B2&!C" VDD
+leakage_power 15830.000000 "A1&!A2&!B1&B2&C" VDD
+leakage_power 11580.000000 "A1&!A2&B1&!B2&!C" VDD
+leakage_power 15910.000000 "A1&!A2&B1&!B2&C" VDD
+leakage_power 11580.000000 "A1&!A2&B1&B2&!C" VDD
+leakage_power 13580.000000 "A1&!A2&B1&B2&C" VDD
+leakage_power 7772.000000 "A1&A2&!B1&!B2&!C" VDD
+leakage_power 18610.000000 "A1&A2&!B1&!B2&C" VDD
+leakage_power 11580.000000 "A1&A2&!B1&B2&!C" VDD
+leakage_power 13490.000000 "A1&A2&!B1&B2&C" VDD
+leakage_power 11580.000000 "A1&A2&B1&!B2&!C" VDD
+leakage_power 13580.000000 "A1&A2&B1&!B2&C" VDD
+leakage_power 11580.000000 "A1&A2&B1&B2&!C" VDD
+leakage_power 11250.000000 "A1&A2&B1&B2&C" VDD
+leakage_power 18620.000000 "NA" VDD
+cell SAEDRVT14_OA22_U_0P5 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002508 0.3 0.8 VDD
+pin A2 input 0.0002294 0.3 0.8 VDD
+pin B1 input 0.0003212 0.3 0.8 VDD
+pin B2 input 0.0002803 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2)&(B1|B2))" ""
+vector SAEDRVT14_OA22_U_0P5 X A1 NA :	A2 0	B1 1	B2 0	
+pin X output 0 0 "((A1|A2)&(B1|B2))" ""
+vector SAEDRVT14_OA22_U_0P5 X A2 NA :	A1 0 B1 1 B2 0 
+pin X output 0 0 "((A1|A2)&(B1|B2))" ""
+vector SAEDRVT14_OA22_U_0P5 X B1 NA :	A1 1 A2 0 B2 0 
+pin X output 0 0 "((A1|A2)&(B1|B2))" ""
+vector SAEDRVT14_OA22_U_0P5 X B2 NA :	A1 1 A2 0 B1 0 
+END_TRUTH_TABLE
+function X "((A1|A2)&(B1|B2))"
+leakage_power 7480.000000 "!A1&!A2&!B1&!B2" VDD
+leakage_power 14270.000000 "!A1&!A2&!B1&B2" VDD
+leakage_power 14270.000000 "!A1&!A2&B1&!B2" VDD
+leakage_power 14270.000000 "!A1&!A2&B1&B2" VDD
+leakage_power 13840.000000 "!A1&A2&!B1&!B2" VDD
+leakage_power 12180.000000 "!A1&A2&!B1&B2" VDD
+leakage_power 14060.000000 "!A1&A2&B1&!B2" VDD
+leakage_power 10100.000000 "!A1&A2&B1&B2" VDD
+leakage_power 13840.000000 "A1&!A2&!B1&!B2" VDD
+leakage_power 12290.000000 "A1&!A2&!B1&B2" VDD
+leakage_power 14160.000000 "A1&!A2&B1&!B2" VDD
+leakage_power 10210.000000 "A1&!A2&B1&B2" VDD
+leakage_power 13840.000000 "A1&A2&!B1&!B2" VDD
+leakage_power 9956.000000 "A1&A2&!B1&B2" VDD
+leakage_power 11830.000000 "A1&A2&B1&!B2" VDD
+leakage_power 7873.000000 "A1&A2&B1&B2" VDD
+leakage_power 14270.000000 "NA" VDD
+cell SAEDRVT14_OA2BB2_V1_0P5 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002643 0.3 0.8 VDD
+pin A2 input 0.0003844 0.3 0.8 VDD
+pin B1 input 0.0002285 0.3 0.8 VDD
+pin B2 input 0.0002865 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(((!A1)|(!A2))&(B1|B2))" ""
+vector SAEDRVT14_OA2BB2_V1_0P5 X A1 NA :	A2 1	B1 1	B2 0	
+pin X output 0 0 "(((!A1)|(!A2))&(B1|B2))" ""
+vector SAEDRVT14_OA2BB2_V1_0P5 X A2 NA :	A1 1 B1 1 B2 0 
+pin X output 0 0 "(((!A1)|(!A2))&(B1|B2))" ""
+vector SAEDRVT14_OA2BB2_V1_0P5 X B1 NA :	A1 0 A2 0 B2 0 
+pin X output 0 0 "(((!A1)|(!A2))&(B1|B2))" ""
+vector SAEDRVT14_OA2BB2_V1_0P5 X B2 NA :	A1 0 A2 0 B1 0 
+END_TRUTH_TABLE
+function X "(((!A1)|(!A2))&(B1|B2))"
+leakage_power 14280.000000 "!A1&!A2&!B1&!B2" VDD
+leakage_power 10640.000000 "!A1&!A2&!B1&B2" VDD
+leakage_power 10750.000000 "!A1&!A2&B1&!B2" VDD
+leakage_power 8419.000000 "!A1&!A2&B1&B2" VDD
+leakage_power 14270.000000 "!A1&A2&!B1&!B2" VDD
+leakage_power 14030.000000 "!A1&A2&!B1&B2" VDD
+leakage_power 14140.000000 "!A1&A2&B1&!B2" VDD
+leakage_power 11810.000000 "!A1&A2&B1&B2" VDD
+leakage_power 14280.000000 "A1&!A2&!B1&!B2" VDD
+leakage_power 13810.000000 "A1&!A2&!B1&B2" VDD
+leakage_power 13930.000000 "A1&!A2&B1&!B2" VDD
+leakage_power 11600.000000 "A1&!A2&B1&B2" VDD
+leakage_power 12840.000000 "A1&A2&!B1&!B2" VDD
+leakage_power 13390.000000 "A1&A2&!B1&B2" VDD
+leakage_power 13510.000000 "A1&A2&B1&!B2" VDD
+leakage_power 11180.000000 "A1&A2&B1&B2" VDD
+leakage_power 14280.000000 "NA" VDD
+cell SAEDRVT14_OA31_1 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.000383 0.3 0.8 VDD
+pin A2 input 0.000414 0.3 0.8 VDD
+pin A3 input 0.0004041 0.3 0.8 VDD
+pin B input 0.0003949 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2|A3)&B)" ""
+vector SAEDRVT14_OA31_1 X A1 NA :	A2 0	A3 0	B 1	
+pin X output 0 0 "((A1|A2|A3)&B)" ""
+vector SAEDRVT14_OA31_1 X A2 NA :	A1 0 A3 0 B 1 
+pin X output 0 0 "((A1|A2|A3)&B)" ""
+vector SAEDRVT14_OA31_1 X A3 NA :	A1 0 A2 0 B 1 
+pin X output 0 0 "((A1|A2|A3)&B)" ""
+vector SAEDRVT14_OA31_1 X B NA :	A1 1 A2 0 A3 0 
+END_TRUTH_TABLE
+function X "((A1|A2|A3)&B)"
+leakage_power 12370.000000 "!A1&!A2&!A3&!B" VDD
+leakage_power 29670.000000 "!A1&!A2&!A3&B" VDD
+leakage_power 15400.000000 "!A1&!A2&A3&!B" VDD
+leakage_power 21080.000000 "!A1&!A2&A3&B" VDD
+leakage_power 15400.000000 "!A1&A2&!A3&!B" VDD
+leakage_power 21140.000000 "!A1&A2&!A3&B" VDD
+leakage_power 15400.000000 "!A1&A2&A3&!B" VDD
+leakage_power 17780.000000 "!A1&A2&A3&B" VDD
+leakage_power 15410.000000 "A1&!A2&!A3&!B" VDD
+leakage_power 21310.000000 "A1&!A2&!A3&B" VDD
+leakage_power 15400.000000 "A1&!A2&A3&!B" VDD
+leakage_power 17770.000000 "A1&!A2&A3&B" VDD
+leakage_power 15400.000000 "A1&A2&!A3&!B" VDD
+leakage_power 17770.000000 "A1&A2&!A3&B" VDD
+leakage_power 15390.000000 "A1&A2&A3&!B" VDD
+leakage_power 17090.000000 "A1&A2&A3&B" VDD
+leakage_power 29670.000000 "NA" VDD
+cell SAEDRVT14_OA31_U_0P5 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003593 0.3 0.8 VDD
+pin A2 input 0.0005323 0.3 0.8 VDD
+pin A3 input 0.0005714 0.3 0.8 VDD
+pin B input 0.0003335 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2|A3)&B)" ""
+vector SAEDRVT14_OA31_U_0P5 X A1 NA :	A2 0	A3 0	B 1	
+pin X output 0 0 "((A1|A2|A3)&B)" ""
+vector SAEDRVT14_OA31_U_0P5 X A2 NA :	A1 0 A3 0 B 1 
+pin X output 0 0 "((A1|A2|A3)&B)" ""
+vector SAEDRVT14_OA31_U_0P5 X A3 NA :	A1 0 A2 0 B 1 
+pin X output 0 0 "((A1|A2|A3)&B)" ""
+vector SAEDRVT14_OA31_U_0P5 X B NA :	A1 1 A2 0 A3 0 
+END_TRUTH_TABLE
+function X "((A1|A2|A3)&B)"
+leakage_power 11410.000000 "!A1&!A2&!A3&!B" VDD
+leakage_power 27990.000000 "!A1&!A2&!A3&B" VDD
+leakage_power 16180.000000 "!A1&!A2&A3&!B" VDD
+leakage_power 21740.000000 "!A1&!A2&A3&B" VDD
+leakage_power 16180.000000 "!A1&A2&!A3&!B" VDD
+leakage_power 21810.000000 "!A1&A2&!A3&B" VDD
+leakage_power 16170.000000 "!A1&A2&A3&!B" VDD
+leakage_power 15150.000000 "!A1&A2&A3&B" VDD
+leakage_power 16180.000000 "A1&!A2&!A3&!B" VDD
+leakage_power 18730.000000 "A1&!A2&!A3&B" VDD
+leakage_power 16170.000000 "A1&!A2&A3&!B" VDD
+leakage_power 14610.000000 "A1&!A2&A3&B" VDD
+leakage_power 16170.000000 "A1&A2&!A3&!B" VDD
+leakage_power 14620.000000 "A1&A2&!A3&B" VDD
+leakage_power 16160.000000 "A1&A2&A3&!B" VDD
+leakage_power 13540.000000 "A1&A2&A3&B" VDD
+leakage_power 27990.000000 "NA" VDD
+cell SAEDRVT14_OA33_U_0P5 1 0 6 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.00035 0.3 0.8 VDD
+pin A2 input 0.0003162 0.3 0.8 VDD
+pin A3 input 0.0003487 0.3 0.8 VDD
+pin B1 input 0.0003399 0.3 0.8 VDD
+pin B2 input 0.0004041 0.3 0.8 VDD
+pin B3 input 0.0003088 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "((A1|A2|A3)&(B1|B2|B3))" ""
+vector SAEDRVT14_OA33_U_0P5 X A1 NA :	A2 0	A3 0	B1 1	B2 0	B3 0	
+pin X output 0 0 "((A1|A2|A3)&(B1|B2|B3))" ""
+vector SAEDRVT14_OA33_U_0P5 X A2 NA :	A1 0 A3 0 B1 1 B2 0 B3 0 
+pin X output 0 0 "((A1|A2|A3)&(B1|B2|B3))" ""
+vector SAEDRVT14_OA33_U_0P5 X A3 NA :	A1 0 A2 0 B1 1 B2 0 B3 0 
+pin X output 0 0 "((A1|A2|A3)&(B1|B2|B3))" ""
+vector SAEDRVT14_OA33_U_0P5 X B1 NA :	A1 1 A2 0 A3 0 B2 0 B3 0 
+pin X output 0 0 "((A1|A2|A3)&(B1|B2|B3))" ""
+vector SAEDRVT14_OA33_U_0P5 X B2 NA :	A1 1 A2 0 A3 0 B1 0 B3 0 
+pin X output 0 0 "((A1|A2|A3)&(B1|B2|B3))" ""
+vector SAEDRVT14_OA33_U_0P5 X B3 NA :	A1 1 A2 0 A3 0 B1 0 B2 0 
+END_TRUTH_TABLE
+function X "((A1|A2|A3)&(B1|B2|B3))"
+leakage_power 9738.000000 "!A1&!A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 22230.000000 "!A1&!A2&!A3&!B1&!B2&B3" VDD
+leakage_power 22220.000000 "!A1&!A2&!A3&!B1&B2&!B3" VDD
+leakage_power 22230.000000 "!A1&!A2&!A3&!B1&B2&B3" VDD
+leakage_power 22230.000000 "!A1&!A2&!A3&B1&!B2&!B3" VDD
+leakage_power 22230.000000 "!A1&!A2&!A3&B1&!B2&B3" VDD
+leakage_power 22230.000000 "!A1&!A2&!A3&B1&B2&!B3" VDD
+leakage_power 22220.000000 "!A1&!A2&!A3&B1&B2&B3" VDD
+leakage_power 19020.000000 "!A1&!A2&A3&!B1&!B2&!B3" VDD
+leakage_power 12210.000000 "!A1&!A2&A3&!B1&!B2&B3" VDD
+leakage_power 13940.000000 "!A1&!A2&A3&!B1&B2&!B3" VDD
+leakage_power 10160.000000 "!A1&!A2&A3&!B1&B2&B3" VDD
+leakage_power 14110.000000 "!A1&!A2&A3&B1&!B2&!B3" VDD
+leakage_power 10140.000000 "!A1&!A2&A3&B1&!B2&B3" VDD
+leakage_power 10580.000000 "!A1&!A2&A3&B1&B2&!B3" VDD
+leakage_power 9729.000000 "!A1&!A2&A3&B1&B2&B3" VDD
+leakage_power 18920.000000 "!A1&A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 12260.000000 "!A1&A2&!A3&!B1&!B2&B3" VDD
+leakage_power 13980.000000 "!A1&A2&!A3&!B1&B2&!B3" VDD
+leakage_power 10210.000000 "!A1&A2&!A3&!B1&B2&B3" VDD
+leakage_power 14160.000000 "!A1&A2&!A3&B1&!B2&!B3" VDD
+leakage_power 10190.000000 "!A1&A2&!A3&B1&!B2&B3" VDD
+leakage_power 10620.000000 "!A1&A2&!A3&B1&B2&!B3" VDD
+leakage_power 9776.000000 "!A1&A2&!A3&B1&B2&B3" VDD
+leakage_power 19050.000000 "!A1&A2&A3&!B1&!B2&!B3" VDD
+leakage_power 10010.000000 "!A1&A2&A3&!B1&!B2&B3" VDD
+leakage_power 11740.000000 "!A1&A2&A3&!B1&B2&!B3" VDD
+leakage_power 7962.000000 "!A1&A2&A3&!B1&B2&B3" VDD
+leakage_power 11910.000000 "!A1&A2&A3&B1&!B2&!B3" VDD
+leakage_power 7944.000000 "!A1&A2&A3&B1&!B2&B3" VDD
+leakage_power 8377.000000 "!A1&A2&A3&B1&B2&!B3" VDD
+leakage_power 7530.000000 "!A1&A2&A3&B1&B2&B3" VDD
+leakage_power 18910.000000 "A1&!A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 14110.000000 "A1&!A2&!A3&!B1&!B2&B3" VDD
+leakage_power 15830.000000 "A1&!A2&!A3&!B1&B2&!B3" VDD
+leakage_power 12060.000000 "A1&!A2&!A3&!B1&B2&B3" VDD
+leakage_power 16010.000000 "A1&!A2&!A3&B1&!B2&!B3" VDD
+leakage_power 12040.000000 "A1&!A2&!A3&B1&!B2&B3" VDD
+leakage_power 12470.000000 "A1&!A2&!A3&B1&B2&!B3" VDD
+leakage_power 11630.000000 "A1&!A2&!A3&B1&B2&B3" VDD
+leakage_power 19050.000000 "A1&!A2&A3&!B1&!B2&!B3" VDD
+leakage_power 10140.000000 "A1&!A2&A3&!B1&!B2&B3" VDD
+leakage_power 11860.000000 "A1&!A2&A3&!B1&B2&!B3" VDD
+leakage_power 8090.000000 "A1&!A2&A3&!B1&B2&B3" VDD
+leakage_power 12040.000000 "A1&!A2&A3&B1&!B2&!B3" VDD
+leakage_power 8072.000000 "A1&!A2&A3&B1&!B2&B3" VDD
+leakage_power 8505.000000 "A1&!A2&A3&B1&B2&!B3" VDD
+leakage_power 7658.000000 "A1&!A2&A3&B1&B2&B3" VDD
+leakage_power 19050.000000 "A1&A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 10150.000000 "A1&A2&!A3&!B1&!B2&B3" VDD
+leakage_power 11870.000000 "A1&A2&!A3&!B1&B2&!B3" VDD
+leakage_power 8092.000000 "A1&A2&!A3&!B1&B2&B3" VDD
+leakage_power 12040.000000 "A1&A2&!A3&B1&!B2&!B3" VDD
+leakage_power 8074.000000 "A1&A2&!A3&B1&!B2&B3" VDD
+leakage_power 8507.000000 "A1&A2&!A3&B1&B2&!B3" VDD
+leakage_power 7661.000000 "A1&A2&!A3&B1&B2&B3" VDD
+leakage_power 18990.000000 "A1&A2&A3&!B1&!B2&!B3" VDD
+leakage_power 9607.000000 "A1&A2&A3&!B1&!B2&B3" VDD
+leakage_power 11330.000000 "A1&A2&A3&!B1&B2&!B3" VDD
+leakage_power 7554.000000 "A1&A2&A3&!B1&B2&B3" VDD
+leakage_power 11510.000000 "A1&A2&A3&B1&!B2&!B3" VDD
+leakage_power 7536.000000 "A1&A2&A3&B1&!B2&B3" VDD
+leakage_power 7969.000000 "A1&A2&A3&B1&B2&!B3" VDD
+leakage_power 7123.000000 "A1&A2&A3&B1&B2&B3" VDD
+leakage_power 22230.000000 "NA" VDD
+cell SAEDRVT14_OAI21_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003793 0.3 0.8 VDD
+pin A2 input 0.0005151 0.3 0.8 VDD
+pin B input 0.0002772 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2)&B))" ""
+vector SAEDRVT14_OAI21_0P5 X A1 NA :	A2 0	B 1	
+pin X output 0 0 "(!((A1|A2)&B))" ""
+vector SAEDRVT14_OAI21_0P5 X A2 NA :	A1 0 B 1 
+pin X output 0 0 "(!((A1|A2)&B))" ""
+vector SAEDRVT14_OAI21_0P5 X B NA :	A1 1 A2 0 
+END_TRUTH_TABLE
+function X "(!((A1|A2)&B))"
+leakage_power 4450.000000 "!A1&!A2&!B" VDD
+leakage_power 17410.000000 "!A1&!A2&B" VDD
+leakage_power 7957.000000 "!A1&A2&!B" VDD
+leakage_power 10460.000000 "!A1&A2&B" VDD
+leakage_power 7958.000000 "A1&!A2&!B" VDD
+leakage_power 10690.000000 "A1&!A2&B" VDD
+leakage_power 7949.000000 "A1&A2&!B" VDD
+leakage_power 5961.000000 "A1&A2&B" VDD
+leakage_power 17410.000000 "NA" VDD
+cell SAEDRVT14_OAI21_0P75 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003795 0.3 0.8 VDD
+pin A2 input 0.0005151 0.3 0.8 VDD
+pin B input 0.0002828 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2)&B))" ""
+vector SAEDRVT14_OAI21_0P75 X A1 NA :	A2 0	B 1	
+pin X output 0 0 "(!((A1|A2)&B))" ""
+vector SAEDRVT14_OAI21_0P75 X A2 NA :	A1 0 B 1 
+pin X output 0 0 "(!((A1|A2)&B))" ""
+vector SAEDRVT14_OAI21_0P75 X B NA :	A1 1 A2 0 
+END_TRUTH_TABLE
+function X "(!((A1|A2)&B))"
+leakage_power 4450.000000 "!A1&!A2&!B" VDD
+leakage_power 17410.000000 "!A1&!A2&B" VDD
+leakage_power 7957.000000 "!A1&A2&!B" VDD
+leakage_power 10460.000000 "!A1&A2&B" VDD
+leakage_power 7958.000000 "A1&!A2&!B" VDD
+leakage_power 10690.000000 "A1&!A2&B" VDD
+leakage_power 7949.000000 "A1&A2&!B" VDD
+leakage_power 5961.000000 "A1&A2&B" VDD
+leakage_power 17410.000000 "NA" VDD
+cell SAEDRVT14_OAI22_0P5 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.000248 0.3 0.8 VDD
+pin A2 input 0.0002712 0.3 0.8 VDD
+pin B1 input 0.000248 0.3 0.8 VDD
+pin B2 input 0.0002825 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2)&(B1|B2)))" ""
+vector SAEDRVT14_OAI22_0P5 X A1 NA :	A2 0	B1 1	B2 0	
+pin X output 0 0 "(!((A1|A2)&(B1|B2)))" ""
+vector SAEDRVT14_OAI22_0P5 X A2 NA :	A1 0 B1 1 B2 0 
+pin X output 0 0 "(!((A1|A2)&(B1|B2)))" ""
+vector SAEDRVT14_OAI22_0P5 X B1 NA :	A1 1 A2 0 B2 0 
+pin X output 0 0 "(!((A1|A2)&(B1|B2)))" ""
+vector SAEDRVT14_OAI22_0P5 X B2 NA :	A1 1 A2 0 B1 0 
+END_TRUTH_TABLE
+function X "(!((A1|A2)&(B1|B2)))"
+leakage_power 3808.000000 "!A1&!A2&!B1&!B2" VDD
+leakage_power 10600.000000 "!A1&!A2&!B1&B2" VDD
+leakage_power 10600.000000 "!A1&!A2&B1&!B2" VDD
+leakage_power 10600.000000 "!A1&!A2&B1&B2" VDD
+leakage_power 10160.000000 "!A1&A2&!B1&!B2" VDD
+leakage_power 6831.000000 "!A1&A2&!B1&B2" VDD
+leakage_power 6947.000000 "!A1&A2&B1&!B2" VDD
+leakage_power 4616.000000 "!A1&A2&B1&B2" VDD
+leakage_power 10160.000000 "A1&!A2&!B1&!B2" VDD
+leakage_power 6941.000000 "A1&!A2&!B1&B2" VDD
+leakage_power 7057.000000 "A1&!A2&B1&!B2" VDD
+leakage_power 4726.000000 "A1&!A2&B1&B2" VDD
+leakage_power 10160.000000 "A1&A2&!B1&!B2" VDD
+leakage_power 4608.000000 "A1&A2&!B1&B2" VDD
+leakage_power 4724.000000 "A1&A2&B1&!B2" VDD
+leakage_power 2393.000000 "A1&A2&B1&B2" VDD
+leakage_power 10600.000000 "NA" VDD
+cell SAEDRVT14_OAI222_0P5 1 0 6 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003627 0.3 0.8 VDD
+pin A2 input 0.0003454 0.3 0.8 VDD
+pin B1 input 0.0003806 0.3 0.8 VDD
+pin B2 input 0.0003622 0.3 0.8 VDD
+pin C1 input 0.0002987 0.3 0.8 VDD
+pin C2 input 0.0004727 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2)&(B1|B2)&(C1|C2)))" ""
+vector SAEDRVT14_OAI222_0P5 X A1 NA :	A2 0	B1 1	B2 0	C1 1	C2 0	
+pin X output 0 0 "(!((A1|A2)&(B1|B2)&(C1|C2)))" ""
+vector SAEDRVT14_OAI222_0P5 X A2 NA :	A1 0 B1 1 B2 0 C1 1 C2 0 
+pin X output 0 0 "(!((A1|A2)&(B1|B2)&(C1|C2)))" ""
+vector SAEDRVT14_OAI222_0P5 X B1 NA :	A1 1 A2 0 B2 0 C1 1 C2 0 
+pin X output 0 0 "(!((A1|A2)&(B1|B2)&(C1|C2)))" ""
+vector SAEDRVT14_OAI222_0P5 X B2 NA :	A1 1 A2 0 B1 0 C1 1 C2 0 
+pin X output 0 0 "(!((A1|A2)&(B1|B2)&(C1|C2)))" ""
+vector SAEDRVT14_OAI222_0P5 X C1 NA :	A1 1 A2 0 B1 1 B2 0 C2 0 
+pin X output 0 0 "(!((A1|A2)&(B1|B2)&(C1|C2)))" ""
+vector SAEDRVT14_OAI222_0P5 X C2 NA :	A1 1 A2 0 B1 1 B2 0 C1 0 
+END_TRUTH_TABLE
+function X "(!((A1|A2)&(B1|B2)&(C1|C2)))"
+leakage_power 14590.000000 "!A1&!A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 16850.000000 "!A1&!A2&!B1&!B2&!C1&C2" VDD
+leakage_power 16850.000000 "!A1&!A2&!B1&!B2&C1&!C2" VDD
+leakage_power 16850.000000 "!A1&!A2&!B1&!B2&C1&C2" VDD
+leakage_power 16760.000000 "!A1&!A2&!B1&B2&!C1&!C2" VDD
+leakage_power 29330.000000 "!A1&!A2&!B1&B2&!C1&C2" VDD
+leakage_power 29320.000000 "!A1&!A2&!B1&B2&C1&!C2" VDD
+leakage_power 29330.000000 "!A1&!A2&!B1&B2&C1&C2" VDD
+leakage_power 16760.000000 "!A1&!A2&B1&!B2&!C1&!C2" VDD
+leakage_power 29330.000000 "!A1&!A2&B1&!B2&!C1&C2" VDD
+leakage_power 29320.000000 "!A1&!A2&B1&!B2&C1&!C2" VDD
+leakage_power 29330.000000 "!A1&!A2&B1&!B2&C1&C2" VDD
+leakage_power 16660.000000 "!A1&!A2&B1&B2&!C1&!C2" VDD
+leakage_power 29330.000000 "!A1&!A2&B1&B2&!C1&C2" VDD
+leakage_power 29320.000000 "!A1&!A2&B1&B2&C1&!C2" VDD
+leakage_power 29330.000000 "!A1&!A2&B1&B2&C1&C2" VDD
+leakage_power 16630.000000 "!A1&A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 26160.000000 "!A1&A2&!B1&!B2&!C1&C2" VDD
+leakage_power 26160.000000 "!A1&A2&!B1&!B2&C1&!C2" VDD
+leakage_power 26160.000000 "!A1&A2&!B1&!B2&C1&C2" VDD
+leakage_power 25960.000000 "!A1&A2&!B1&B2&!C1&!C2" VDD
+leakage_power 21160.000000 "!A1&A2&!B1&B2&!C1&C2" VDD
+leakage_power 21340.000000 "!A1&A2&!B1&B2&C1&!C2" VDD
+leakage_power 17800.000000 "!A1&A2&!B1&B2&C1&C2" VDD
+leakage_power 25950.000000 "!A1&A2&B1&!B2&!C1&!C2" VDD
+leakage_power 23050.000000 "!A1&A2&B1&!B2&!C1&C2" VDD
+leakage_power 23220.000000 "!A1&A2&B1&!B2&C1&!C2" VDD
+leakage_power 19690.000000 "!A1&A2&B1&!B2&C1&C2" VDD
+leakage_power 25970.000000 "!A1&A2&B1&B2&!C1&!C2" VDD
+leakage_power 19080.000000 "!A1&A2&B1&B2&!C1&C2" VDD
+leakage_power 19260.000000 "!A1&A2&B1&B2&C1&!C2" VDD
+leakage_power 15720.000000 "!A1&A2&B1&B2&C1&C2" VDD
+leakage_power 16680.000000 "A1&!A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 26120.000000 "A1&!A2&!B1&!B2&!C1&C2" VDD
+leakage_power 26120.000000 "A1&!A2&!B1&!B2&C1&!C2" VDD
+leakage_power 26120.000000 "A1&!A2&!B1&!B2&C1&C2" VDD
+leakage_power 25960.000000 "A1&!A2&!B1&B2&!C1&!C2" VDD
+leakage_power 23020.000000 "A1&!A2&!B1&B2&!C1&C2" VDD
+leakage_power 23190.000000 "A1&!A2&!B1&B2&C1&!C2" VDD
+leakage_power 19660.000000 "A1&!A2&!B1&B2&C1&C2" VDD
+leakage_power 25960.000000 "A1&!A2&B1&!B2&!C1&!C2" VDD
+leakage_power 24900.000000 "A1&!A2&B1&!B2&!C1&C2" VDD
+leakage_power 25080.000000 "A1&!A2&B1&!B2&C1&!C2" VDD
+leakage_power 21540.000000 "A1&!A2&B1&!B2&C1&C2" VDD
+leakage_power 25970.000000 "A1&!A2&B1&B2&!C1&!C2" VDD
+leakage_power 20930.000000 "A1&!A2&B1&B2&!C1&C2" VDD
+leakage_power 21110.000000 "A1&!A2&B1&B2&C1&!C2" VDD
+leakage_power 17580.000000 "A1&!A2&B1&B2&C1&C2" VDD
+leakage_power 16390.000000 "A1&A2&!B1&!B2&!C1&!C2" VDD
+leakage_power 26100.000000 "A1&A2&!B1&!B2&!C1&C2" VDD
+leakage_power 26100.000000 "A1&A2&!B1&!B2&C1&!C2" VDD
+leakage_power 26100.000000 "A1&A2&!B1&!B2&C1&C2" VDD
+leakage_power 25800.000000 "A1&A2&!B1&B2&!C1&!C2" VDD
+leakage_power 19040.000000 "A1&A2&!B1&B2&!C1&C2" VDD
+leakage_power 19220.000000 "A1&A2&!B1&B2&C1&!C2" VDD
+leakage_power 15680.000000 "A1&A2&!B1&B2&C1&C2" VDD
+leakage_power 25800.000000 "A1&A2&B1&!B2&!C1&!C2" VDD
+leakage_power 20930.000000 "A1&A2&B1&!B2&!C1&C2" VDD
+leakage_power 21110.000000 "A1&A2&B1&!B2&C1&!C2" VDD
+leakage_power 17570.000000 "A1&A2&B1&!B2&C1&C2" VDD
+leakage_power 25820.000000 "A1&A2&B1&B2&!C1&!C2" VDD
+leakage_power 16960.000000 "A1&A2&B1&B2&!C1&C2" VDD
+leakage_power 17140.000000 "A1&A2&B1&B2&C1&!C2" VDD
+leakage_power 13600.000000 "A1&A2&B1&B2&C1&C2" VDD
+leakage_power 29330.000000 "NA" VDD
+cell SAEDRVT14_OAI31_0P5 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003322 0.3 0.8 VDD
+pin A2 input 0.0003434 0.3 0.8 VDD
+pin A3 input 0.0004091 0.3 0.8 VDD
+pin B input 0.0002705 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2|A3)&B))" ""
+vector SAEDRVT14_OAI31_0P5 X A1 NA :	A2 0	A3 0	B 1	
+pin X output 0 0 "(!((A1|A2|A3)&B))" ""
+vector SAEDRVT14_OAI31_0P5 X A2 NA :	A1 0 A3 0 B 1 
+pin X output 0 0 "(!((A1|A2|A3)&B))" ""
+vector SAEDRVT14_OAI31_0P5 X A3 NA :	A1 0 A2 0 B 1 
+pin X output 0 0 "(!((A1|A2|A3)&B))" ""
+vector SAEDRVT14_OAI31_0P5 X B NA :	A1 1 A2 0 A3 0 
+END_TRUTH_TABLE
+function X "(!((A1|A2|A3)&B))"
+leakage_power 13430.000000 "!A1&!A2&!A3&!B" VDD
+leakage_power 26380.000000 "!A1&!A2&!A3&B" VDD
+leakage_power 16940.000000 "!A1&!A2&A3&!B" VDD
+leakage_power 17660.000000 "!A1&!A2&A3&B" VDD
+leakage_power 16940.000000 "!A1&A2&!A3&!B" VDD
+leakage_power 17740.000000 "!A1&A2&!A3&B" VDD
+leakage_power 16930.000000 "!A1&A2&A3&!B" VDD
+leakage_power 14350.000000 "!A1&A2&A3&B" VDD
+leakage_power 16930.000000 "A1&!A2&!A3&!B" VDD
+leakage_power 19680.000000 "A1&!A2&!A3&B" VDD
+leakage_power 16930.000000 "A1&!A2&A3&!B" VDD
+leakage_power 14530.000000 "A1&!A2&A3&B" VDD
+leakage_power 16930.000000 "A1&A2&!A3&!B" VDD
+leakage_power 14530.000000 "A1&A2&!A3&B" VDD
+leakage_power 16920.000000 "A1&A2&A3&!B" VDD
+leakage_power 13760.000000 "A1&A2&A3&B" VDD
+leakage_power 26380.000000 "NA" VDD
+cell SAEDRVT14_OAI31_0P75 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003346 0.3 0.8 VDD
+pin A2 input 0.0004618 0.3 0.8 VDD
+pin A3 input 0.0003975 0.3 0.8 VDD
+pin B input 0.0002732 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2|A3)&B))" ""
+vector SAEDRVT14_OAI31_0P75 X A1 NA :	A2 0	A3 0	B 1	
+pin X output 0 0 "(!((A1|A2|A3)&B))" ""
+vector SAEDRVT14_OAI31_0P75 X A2 NA :	A1 0 A3 0 B 1 
+pin X output 0 0 "(!((A1|A2|A3)&B))" ""
+vector SAEDRVT14_OAI31_0P75 X A3 NA :	A1 0 A2 0 B 1 
+pin X output 0 0 "(!((A1|A2|A3)&B))" ""
+vector SAEDRVT14_OAI31_0P75 X B NA :	A1 1 A2 0 A3 0 
+END_TRUTH_TABLE
+function X "(!((A1|A2|A3)&B))"
+leakage_power 13680.000000 "!A1&!A2&!A3&!B" VDD
+leakage_power 28800.000000 "!A1&!A2&!A3&B" VDD
+leakage_power 16940.000000 "!A1&!A2&A3&!B" VDD
+leakage_power 17700.000000 "!A1&!A2&A3&B" VDD
+leakage_power 16940.000000 "!A1&A2&!A3&!B" VDD
+leakage_power 19450.000000 "!A1&A2&!A3&B" VDD
+leakage_power 16930.000000 "!A1&A2&A3&!B" VDD
+leakage_power 14550.000000 "!A1&A2&A3&B" VDD
+leakage_power 16940.000000 "A1&!A2&!A3&!B" VDD
+leakage_power 19690.000000 "A1&!A2&!A3&B" VDD
+leakage_power 16930.000000 "A1&!A2&A3&!B" VDD
+leakage_power 14530.000000 "A1&!A2&A3&B" VDD
+leakage_power 16930.000000 "A1&A2&!A3&!B" VDD
+leakage_power 14950.000000 "A1&A2&!A3&B" VDD
+leakage_power 16920.000000 "A1&A2&A3&!B" VDD
+leakage_power 13880.000000 "A1&A2&A3&B" VDD
+leakage_power 28800.000000 "NA" VDD
+cell SAEDRVT14_OAI311_0P5 1 0 5 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003544 0.3 0.8 VDD
+pin A2 input 0.00036 0.3 0.8 VDD
+pin A3 input 0.0003116 0.3 0.8 VDD
+pin B1 input 0.0002948 0.3 0.8 VDD
+pin B2 input 0.0002949 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P5 X A1 NA :	A2 0	A3 0	B1 1	B2 1	
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P5 X A2 NA :	A1 0 A3 0 B1 1 B2 1 
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P5 X A3 NA :	A1 0 A2 0 B1 1 B2 1 
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P5 X B1 NA :	A1 1 A2 0 A3 0 B2 1 
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P5 X B2 NA :	A1 1 A2 0 A3 0 B1 1 
+END_TRUTH_TABLE
+function X "(!((A1|A2|A3)&B1&B2))"
+leakage_power 10800.000000 "!A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 13080.000000 "!A1&!A2&!A3&!B1&B2" VDD
+leakage_power 12190.000000 "!A1&!A2&!A3&B1&!B2" VDD
+leakage_power 23590.000000 "!A1&!A2&!A3&B1&B2" VDD
+leakage_power 11190.000000 "!A1&!A2&A3&!B1&!B2" VDD
+leakage_power 16930.000000 "!A1&!A2&A3&!B1&B2" VDD
+leakage_power 14120.000000 "!A1&!A2&A3&B1&!B2" VDD
+leakage_power 19560.000000 "!A1&!A2&A3&B1&B2" VDD
+leakage_power 11190.000000 "!A1&A2&!A3&!B1&!B2" VDD
+leakage_power 16930.000000 "!A1&A2&!A3&!B1&B2" VDD
+leakage_power 14120.000000 "!A1&A2&!A3&B1&!B2" VDD
+leakage_power 21300.000000 "!A1&A2&!A3&B1&B2" VDD
+leakage_power 11190.000000 "!A1&A2&A3&!B1&!B2" VDD
+leakage_power 16930.000000 "!A1&A2&A3&!B1&B2" VDD
+leakage_power 14110.000000 "!A1&A2&A3&B1&!B2" VDD
+leakage_power 17500.000000 "!A1&A2&A3&B1&B2" VDD
+leakage_power 11190.000000 "A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 16930.000000 "A1&!A2&!A3&!B1&B2" VDD
+leakage_power 14120.000000 "A1&!A2&!A3&B1&!B2" VDD
+leakage_power 23240.000000 "A1&!A2&!A3&B1&B2" VDD
+leakage_power 11180.000000 "A1&!A2&A3&!B1&!B2" VDD
+leakage_power 16930.000000 "A1&!A2&A3&!B1&B2" VDD
+leakage_power 14110.000000 "A1&!A2&A3&B1&!B2" VDD
+leakage_power 17580.000000 "A1&!A2&A3&B1&B2" VDD
+leakage_power 11180.000000 "A1&A2&!A3&!B1&!B2" VDD
+leakage_power 16920.000000 "A1&A2&!A3&!B1&B2" VDD
+leakage_power 14110.000000 "A1&A2&!A3&B1&!B2" VDD
+leakage_power 18090.000000 "A1&A2&!A3&B1&B2" VDD
+leakage_power 11180.000000 "A1&A2&A3&!B1&!B2" VDD
+leakage_power 16920.000000 "A1&A2&A3&!B1&B2" VDD
+leakage_power 14100.000000 "A1&A2&A3&B1&!B2" VDD
+leakage_power 17130.000000 "A1&A2&A3&B1&B2" VDD
+leakage_power 23590.000000 "NA" VDD
+cell SAEDRVT14_OAI311_0P75 1 0 5 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003544 0.3 0.8 VDD
+pin A2 input 0.00036 0.3 0.8 VDD
+pin A3 input 0.0003116 0.3 0.8 VDD
+pin B1 input 0.0002948 0.3 0.8 VDD
+pin B2 input 0.0002949 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P75 X A1 NA :	A2 0	A3 0	B1 1	B2 1	
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P75 X A2 NA :	A1 0 A3 0 B1 1 B2 1 
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P75 X A3 NA :	A1 0 A2 0 B1 1 B2 1 
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P75 X B1 NA :	A1 1 A2 0 A3 0 B2 1 
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_0P75 X B2 NA :	A1 1 A2 0 A3 0 B1 1 
+END_TRUTH_TABLE
+function X "(!((A1|A2|A3)&B1&B2))"
+leakage_power 10800.000000 "!A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 13080.000000 "!A1&!A2&!A3&!B1&B2" VDD
+leakage_power 12190.000000 "!A1&!A2&!A3&B1&!B2" VDD
+leakage_power 23590.000000 "!A1&!A2&!A3&B1&B2" VDD
+leakage_power 11190.000000 "!A1&!A2&A3&!B1&!B2" VDD
+leakage_power 16930.000000 "!A1&!A2&A3&!B1&B2" VDD
+leakage_power 14120.000000 "!A1&!A2&A3&B1&!B2" VDD
+leakage_power 19560.000000 "!A1&!A2&A3&B1&B2" VDD
+leakage_power 11190.000000 "!A1&A2&!A3&!B1&!B2" VDD
+leakage_power 16930.000000 "!A1&A2&!A3&!B1&B2" VDD
+leakage_power 14120.000000 "!A1&A2&!A3&B1&!B2" VDD
+leakage_power 21300.000000 "!A1&A2&!A3&B1&B2" VDD
+leakage_power 11190.000000 "!A1&A2&A3&!B1&!B2" VDD
+leakage_power 16930.000000 "!A1&A2&A3&!B1&B2" VDD
+leakage_power 14110.000000 "!A1&A2&A3&B1&!B2" VDD
+leakage_power 17500.000000 "!A1&A2&A3&B1&B2" VDD
+leakage_power 11190.000000 "A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 16930.000000 "A1&!A2&!A3&!B1&B2" VDD
+leakage_power 14120.000000 "A1&!A2&!A3&B1&!B2" VDD
+leakage_power 23240.000000 "A1&!A2&!A3&B1&B2" VDD
+leakage_power 11180.000000 "A1&!A2&A3&!B1&!B2" VDD
+leakage_power 16930.000000 "A1&!A2&A3&!B1&B2" VDD
+leakage_power 14110.000000 "A1&!A2&A3&B1&!B2" VDD
+leakage_power 17580.000000 "A1&!A2&A3&B1&B2" VDD
+leakage_power 11180.000000 "A1&A2&!A3&!B1&!B2" VDD
+leakage_power 16920.000000 "A1&A2&!A3&!B1&B2" VDD
+leakage_power 14110.000000 "A1&A2&!A3&B1&!B2" VDD
+leakage_power 18090.000000 "A1&A2&!A3&B1&B2" VDD
+leakage_power 11180.000000 "A1&A2&A3&!B1&!B2" VDD
+leakage_power 16920.000000 "A1&A2&A3&!B1&B2" VDD
+leakage_power 14100.000000 "A1&A2&A3&B1&!B2" VDD
+leakage_power 17130.000000 "A1&A2&A3&B1&B2" VDD
+leakage_power 23590.000000 "NA" VDD
+cell SAEDRVT14_OAI311_1 1 0 5 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003544 0.3 0.8 VDD
+pin A2 input 0.00036 0.3 0.8 VDD
+pin A3 input 0.0003116 0.3 0.8 VDD
+pin B1 input 0.0002747 0.3 0.8 VDD
+pin B2 input 0.0002751 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_1 X A1 NA :	A2 0	A3 0	B1 1	B2 1	
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_1 X A2 NA :	A1 0 A3 0 B1 1 B2 1 
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_1 X A3 NA :	A1 0 A2 0 B1 1 B2 1 
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_1 X B1 NA :	A1 1 A2 0 A3 0 B2 1 
+pin X output 0 0 "(!((A1|A2|A3)&B1&B2))" ""
+vector SAEDRVT14_OAI311_1 X B2 NA :	A1 1 A2 0 A3 0 B1 1 
+END_TRUTH_TABLE
+function X "(!((A1|A2|A3)&B1&B2))"
+leakage_power 13460.000000 "!A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 15730.000000 "!A1&!A2&!A3&!B1&B2" VDD
+leakage_power 14850.000000 "!A1&!A2&!A3&B1&!B2" VDD
+leakage_power 26240.000000 "!A1&!A2&!A3&B1&B2" VDD
+leakage_power 13850.000000 "!A1&!A2&A3&!B1&!B2" VDD
+leakage_power 19590.000000 "!A1&!A2&A3&!B1&B2" VDD
+leakage_power 16770.000000 "!A1&!A2&A3&B1&!B2" VDD
+leakage_power 21450.000000 "!A1&!A2&A3&B1&B2" VDD
+leakage_power 13840.000000 "!A1&A2&!A3&!B1&!B2" VDD
+leakage_power 19580.000000 "!A1&A2&!A3&!B1&B2" VDD
+leakage_power 16770.000000 "!A1&A2&!A3&B1&!B2" VDD
+leakage_power 23190.000000 "!A1&A2&!A3&B1&B2" VDD
+leakage_power 13840.000000 "!A1&A2&A3&!B1&!B2" VDD
+leakage_power 19580.000000 "!A1&A2&A3&!B1&B2" VDD
+leakage_power 16770.000000 "!A1&A2&A3&B1&!B2" VDD
+leakage_power 19390.000000 "!A1&A2&A3&B1&B2" VDD
+leakage_power 13840.000000 "A1&!A2&!A3&!B1&!B2" VDD
+leakage_power 19580.000000 "A1&!A2&!A3&!B1&B2" VDD
+leakage_power 16770.000000 "A1&!A2&!A3&B1&!B2" VDD
+leakage_power 25130.000000 "A1&!A2&!A3&B1&B2" VDD
+leakage_power 13840.000000 "A1&!A2&A3&!B1&!B2" VDD
+leakage_power 19580.000000 "A1&!A2&A3&!B1&B2" VDD
+leakage_power 16760.000000 "A1&!A2&A3&B1&!B2" VDD
+leakage_power 19470.000000 "A1&!A2&A3&B1&B2" VDD
+leakage_power 13830.000000 "A1&A2&!A3&!B1&!B2" VDD
+leakage_power 19580.000000 "A1&A2&!A3&!B1&B2" VDD
+leakage_power 16760.000000 "A1&A2&!A3&B1&!B2" VDD
+leakage_power 19970.000000 "A1&A2&!A3&B1&B2" VDD
+leakage_power 13830.000000 "A1&A2&A3&!B1&!B2" VDD
+leakage_power 19570.000000 "A1&A2&A3&!B1&B2" VDD
+leakage_power 16760.000000 "A1&A2&A3&B1&!B2" VDD
+leakage_power 19010.000000 "A1&A2&A3&B1&B2" VDD
+leakage_power 26240.000000 "NA" VDD
+cell SAEDRVT14_OAI33_0P5 1 0 6 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002606 0.3 0.8 VDD
+pin A2 input 0.0004728 0.3 0.8 VDD
+pin A3 input 0.0004006 0.3 0.8 VDD
+pin B1 input 0.0003699 0.3 0.8 VDD
+pin B2 input 0.0004575 0.3 0.8 VDD
+pin B3 input 0.000377 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(!((A1|A2|A3)&(B1|B2|B3)))" ""
+vector SAEDRVT14_OAI33_0P5 X A1 NA :	A2 0	A3 0	B1 1	B2 0	B3 0	
+pin X output 0 0 "(!((A1|A2|A3)&(B1|B2|B3)))" ""
+vector SAEDRVT14_OAI33_0P5 X A2 NA :	A1 0 A3 0 B1 1 B2 0 B3 0 
+pin X output 0 0 "(!((A1|A2|A3)&(B1|B2|B3)))" ""
+vector SAEDRVT14_OAI33_0P5 X A3 NA :	A1 0 A2 0 B1 1 B2 0 B3 0 
+pin X output 0 0 "(!((A1|A2|A3)&(B1|B2|B3)))" ""
+vector SAEDRVT14_OAI33_0P5 X B1 NA :	A1 1 A2 0 A3 0 B2 0 B3 0 
+pin X output 0 0 "(!((A1|A2|A3)&(B1|B2|B3)))" ""
+vector SAEDRVT14_OAI33_0P5 X B2 NA :	A1 1 A2 0 A3 0 B1 0 B3 0 
+pin X output 0 0 "(!((A1|A2|A3)&(B1|B2|B3)))" ""
+vector SAEDRVT14_OAI33_0P5 X B3 NA :	A1 1 A2 0 A3 0 B1 0 B2 0 
+END_TRUTH_TABLE
+function X "(!((A1|A2|A3)&(B1|B2|B3)))"
+leakage_power 15410.000000 "!A1&!A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 30240.000000 "!A1&!A2&!A3&!B1&!B2&B3" VDD
+leakage_power 30240.000000 "!A1&!A2&!A3&!B1&B2&!B3" VDD
+leakage_power 30240.000000 "!A1&!A2&!A3&!B1&B2&B3" VDD
+leakage_power 30240.000000 "!A1&!A2&!A3&B1&!B2&!B3" VDD
+leakage_power 30250.000000 "!A1&!A2&!A3&B1&!B2&B3" VDD
+leakage_power 30240.000000 "!A1&!A2&!A3&B1&B2&!B3" VDD
+leakage_power 30240.000000 "!A1&!A2&!A3&B1&B2&B3" VDD
+leakage_power 24480.000000 "!A1&!A2&A3&!B1&!B2&!B3" VDD
+leakage_power 22030.000000 "!A1&!A2&A3&!B1&!B2&B3" VDD
+leakage_power 23770.000000 "!A1&!A2&A3&!B1&B2&!B3" VDD
+leakage_power 18870.000000 "!A1&!A2&A3&!B1&B2&B3" VDD
+leakage_power 24010.000000 "!A1&!A2&A3&B1&!B2&!B3" VDD
+leakage_power 18850.000000 "!A1&!A2&A3&B1&!B2&B3" VDD
+leakage_power 19270.000000 "!A1&!A2&A3&B1&B2&!B3" VDD
+leakage_power 18200.000000 "!A1&!A2&A3&B1&B2&B3" VDD
+leakage_power 24470.000000 "!A1&A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 23680.000000 "!A1&A2&!A3&!B1&!B2&B3" VDD
+leakage_power 25420.000000 "!A1&A2&!A3&!B1&B2&!B3" VDD
+leakage_power 20510.000000 "!A1&A2&!A3&!B1&B2&B3" VDD
+leakage_power 25660.000000 "!A1&A2&!A3&B1&!B2&!B3" VDD
+leakage_power 20490.000000 "!A1&A2&!A3&B1&!B2&B3" VDD
+leakage_power 20910.000000 "!A1&A2&!A3&B1&B2&!B3" VDD
+leakage_power 19850.000000 "!A1&A2&!A3&B1&B2&B3" VDD
+leakage_power 24490.000000 "!A1&A2&A3&!B1&!B2&!B3" VDD
+leakage_power 18860.000000 "!A1&A2&A3&!B1&!B2&B3" VDD
+leakage_power 20600.000000 "!A1&A2&A3&!B1&B2&!B3" VDD
+leakage_power 15690.000000 "!A1&A2&A3&!B1&B2&B3" VDD
+leakage_power 20840.000000 "!A1&A2&A3&B1&!B2&!B3" VDD
+leakage_power 15670.000000 "!A1&A2&A3&B1&!B2&B3" VDD
+leakage_power 16100.000000 "!A1&A2&A3&B1&B2&!B3" VDD
+leakage_power 15030.000000 "!A1&A2&A3&B1&B2&B3" VDD
+leakage_power 24380.000000 "A1&!A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 20410.000000 "A1&!A2&!A3&!B1&!B2&B3" VDD
+leakage_power 22150.000000 "A1&!A2&!A3&!B1&B2&!B3" VDD
+leakage_power 17250.000000 "A1&!A2&!A3&!B1&B2&B3" VDD
+leakage_power 22390.000000 "A1&!A2&!A3&B1&!B2&!B3" VDD
+leakage_power 17230.000000 "A1&!A2&!A3&B1&!B2&B3" VDD
+leakage_power 17650.000000 "A1&!A2&!A3&B1&B2&!B3" VDD
+leakage_power 16580.000000 "A1&!A2&!A3&B1&B2&B3" VDD
+leakage_power 24520.000000 "A1&!A2&A3&!B1&!B2&!B3" VDD
+leakage_power 18390.000000 "A1&!A2&A3&!B1&!B2&B3" VDD
+leakage_power 20130.000000 "A1&!A2&A3&!B1&B2&!B3" VDD
+leakage_power 15230.000000 "A1&!A2&A3&!B1&B2&B3" VDD
+leakage_power 20370.000000 "A1&!A2&A3&B1&!B2&!B3" VDD
+leakage_power 15210.000000 "A1&!A2&A3&B1&!B2&B3" VDD
+leakage_power 15630.000000 "A1&!A2&A3&B1&B2&!B3" VDD
+leakage_power 14560.000000 "A1&!A2&A3&B1&B2&B3" VDD
+leakage_power 24520.000000 "A1&A2&!A3&!B1&!B2&!B3" VDD
+leakage_power 18640.000000 "A1&A2&!A3&!B1&!B2&B3" VDD
+leakage_power 20380.000000 "A1&A2&!A3&!B1&B2&!B3" VDD
+leakage_power 15480.000000 "A1&A2&!A3&!B1&B2&B3" VDD
+leakage_power 20620.000000 "A1&A2&!A3&B1&!B2&!B3" VDD
+leakage_power 15460.000000 "A1&A2&!A3&B1&!B2&B3" VDD
+leakage_power 15880.000000 "A1&A2&!A3&B1&B2&!B3" VDD
+leakage_power 14810.000000 "A1&A2&!A3&B1&B2&B3" VDD
+leakage_power 24410.000000 "A1&A2&A3&!B1&!B2&!B3" VDD
+leakage_power 17950.000000 "A1&A2&A3&!B1&!B2&B3" VDD
+leakage_power 19700.000000 "A1&A2&A3&!B1&B2&!B3" VDD
+leakage_power 14790.000000 "A1&A2&A3&!B1&B2&B3" VDD
+leakage_power 19930.000000 "A1&A2&A3&B1&!B2&!B3" VDD
+leakage_power 14770.000000 "A1&A2&A3&B1&!B2&B3" VDD
+leakage_power 15190.000000 "A1&A2&A3&B1&B2&!B3" VDD
+leakage_power 14130.000000 "A1&A2&A3&B1&B2&B3" VDD
+leakage_power 30250.000000 "NA" VDD
+cell SAEDRVT14_OR2_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003022 0.3 0.8 VDD
+pin A2 input 0.0003316 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1|A2)" ""
+vector SAEDRVT14_OR2_0P5 X A1 NA :	A2 0	
+pin X output 0 0 "(A1|A2)" ""
+vector SAEDRVT14_OR2_0P5 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(A1|A2)"
+leakage_power 14270.000000 "!A1&!A2" VDD
+leakage_power 8783.000000 "!A1&A2" VDD
+leakage_power 10660.000000 "A1&!A2" VDD
+leakage_power 6700.000000 "A1&A2" VDD
+leakage_power 14270.000000 "NA" VDD
+cell SAEDRVT14_OR2_MM_0P5 1 0 2 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003531 0.3 0.8 VDD
+pin A2 input 0.0002863 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1|A2)" ""
+vector SAEDRVT14_OR2_MM_0P5 X A1 NA :	A2 0	
+pin X output 0 0 "(A1|A2)" ""
+vector SAEDRVT14_OR2_MM_0P5 X A2 NA :	A1 0 
+END_TRUTH_TABLE
+function X "(A1|A2)"
+leakage_power 14270.000000 "!A1&!A2" VDD
+leakage_power 8783.000000 "!A1&A2" VDD
+leakage_power 10660.000000 "A1&!A2" VDD
+leakage_power 6700.000000 "A1&A2" VDD
+leakage_power 14270.000000 "NA" VDD
+cell SAEDRVT14_OR3_0P5 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003535 0.3 0.8 VDD
+pin A2 input 0.00038 0.3 0.8 VDD
+pin A3 input 0.0003157 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1|A2|A3)" ""
+vector SAEDRVT14_OR3_0P5 X A1 NA :	A2 0	A3 0	
+pin X output 0 0 "(A1|A2|A3)" ""
+vector SAEDRVT14_OR3_0P5 X A2 NA :	A1 0 A3 0 
+pin X output 0 0 "(A1|A2|A3)" ""
+vector SAEDRVT14_OR3_0P5 X A3 NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(A1|A2|A3)"
+leakage_power 19580.000000 "!A1&!A2&!A3" VDD
+leakage_power 8771.000000 "!A1&!A2&A3" VDD
+leakage_power 10490.000000 "!A1&A2&!A3" VDD
+leakage_power 6721.000000 "!A1&A2&A3" VDD
+leakage_power 10670.000000 "A1&!A2&!A3" VDD
+leakage_power 6703.000000 "A1&!A2&A3" VDD
+leakage_power 7136.000000 "A1&A2&!A3" VDD
+leakage_power 6290.000000 "A1&A2&A3" VDD
+leakage_power 19580.000000 "NA" VDD
+cell SAEDRVT14_OR3_1 1 0 3 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0002987 0.3 0.8 VDD
+pin A2 input 0.0003787 0.3 0.8 VDD
+pin A3 input 0.0003912 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1|A2|A3)" ""
+vector SAEDRVT14_OR3_1 X A1 NA :	A2 0	A3 0	
+pin X output 0 0 "(A1|A2|A3)" ""
+vector SAEDRVT14_OR3_1 X A2 NA :	A1 0 A3 0 
+pin X output 0 0 "(A1|A2|A3)" ""
+vector SAEDRVT14_OR3_1 X A3 NA :	A1 0 A2 0 
+END_TRUTH_TABLE
+function X "(A1|A2|A3)"
+leakage_power 23350.000000 "!A1&!A2&!A3" VDD
+leakage_power 15740.000000 "!A1&!A2&A3" VDD
+leakage_power 15800.000000 "!A1&A2&!A3" VDD
+leakage_power 12440.000000 "!A1&A2&A3" VDD
+leakage_power 15980.000000 "A1&!A2&!A3" VDD
+leakage_power 12440.000000 "A1&!A2&A3" VDD
+leakage_power 12440.000000 "A1&A2&!A3" VDD
+leakage_power 11760.000000 "A1&A2&A3" VDD
+leakage_power 23350.000000 "NA" VDD
+cell SAEDRVT14_OR4_1 1 0 4 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A1 input 0.0003536 0.3 0.8 VDD
+pin A2 input 0.0004909 0.3 0.8 VDD
+pin A3 input 0.0004078 0.3 0.8 VDD
+pin A4 input 0.0003899 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin X output 0 0 "(A1|A2|A3|A4)" ""
+vector SAEDRVT14_OR4_1 X A1 NA :	A2 0	A3 0	A4 0	
+pin X output 0 0 "(A1|A2|A3|A4)" ""
+vector SAEDRVT14_OR4_1 X A2 NA :	A1 0 A3 0 A4 0 
+pin X output 0 0 "(A1|A2|A3|A4)" ""
+vector SAEDRVT14_OR4_1 X A3 NA :	A1 0 A2 0 A4 0 
+pin X output 0 0 "(A1|A2|A3|A4)" ""
+vector SAEDRVT14_OR4_1 X A4 NA :	A1 0 A2 0 A3 0 
+END_TRUTH_TABLE
+function X "(A1|A2|A3|A4)"
+leakage_power 28670.000000 "!A1&!A2&!A3&!A4" VDD
+leakage_power 15780.000000 "!A1&!A2&!A3&A4" VDD
+leakage_power 15820.000000 "!A1&!A2&A3&!A4" VDD
+leakage_power 12510.000000 "!A1&!A2&A3&A4" VDD
+leakage_power 17580.000000 "!A1&A2&!A3&!A4" VDD
+leakage_power 12660.000000 "!A1&A2&!A3&A4" VDD
+leakage_power 12670.000000 "!A1&A2&A3&!A4" VDD
+leakage_power 11910.000000 "!A1&A2&A3&A4" VDD
+leakage_power 17810.000000 "A1&!A2&!A3&!A4" VDD
+leakage_power 12640.000000 "A1&!A2&!A3&A4" VDD
+leakage_power 12650.000000 "A1&!A2&A3&!A4" VDD
+leakage_power 11870.000000 "A1&!A2&A3&A4" VDD
+leakage_power 13070.000000 "A1&A2&!A3&!A4" VDD
+leakage_power 12000.000000 "A1&A2&!A3&A4" VDD
+leakage_power 12000.000000 "A1&A2&A3&!A4" VDD
+leakage_power 11620.000000 "A1&A2&A3&A4" VDD
+leakage_power 28670.000000 "NA" VDD
+cell SAEDRVT14_FDPCBQ_V2LP_1 1 0 3 2 0
+pin Q output 0 0 0.3 0.8 VDD
+clock CK input 0.0002386 0.3 0.8 VDD
+pin D input 0.0001808 0.3 0.8 VDD
+pin RS input 0.0002643 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin Q output 0 2 "((((D&RS)) | 0) & !(0))" "CK"
+vector SAEDRVT14_FDPCBQ_V2LP_1 Q D CK : 	RS 1 	
+END_TRUTH_TABLE
+leakage_power 33040.000000 "!CK&!D&!RS&!Q" VDD
+leakage_power 44600.000000 "!CK&!D&!RS&Q" VDD
+leakage_power 36270.000000 "!CK&!D&RS&!Q" VDD
+leakage_power 47820.000000 "!CK&!D&RS&Q" VDD
+leakage_power 36180.000000 "!CK&D&!RS&!Q" VDD
+leakage_power 47740.000000 "!CK&D&!RS&Q" VDD
+leakage_power 47670.000000 "!CK&D&RS&!Q" VDD
+leakage_power 42030.000000 "!CK&D&RS&Q" VDD
+leakage_power 33060.000000 "CK&!D&!RS&!Q" VDD
+leakage_power 37580.000000 "CK&!D&!RS&Q" VDD
+leakage_power 33750.000000 "CK&!D&RS&!Q" VDD
+leakage_power 37570.000000 "CK&!D&RS&Q" VDD
+leakage_power 33690.000000 "CK&D&!RS&!Q" VDD
+leakage_power 37570.000000 "CK&D&!RS&Q" VDD
+leakage_power 37150.000000 "CK&D&RS&!Q" VDD
+leakage_power 35800.000000 "CK&D&RS&Q" VDD
+leakage_power 47820.000000 "NA" VDD
+cell SAEDRVT14_FDPQB_V2LP_0P5 1 0 2 2 0
+pin QN output 0 0 0.3 0.8 VDD
+clock CK input 0.0004027 0.3 0.8 VDD
+pin D input 0.0003202 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin QN output 0 2 "(!(((D) | 0) & !(0)))" "CK"
+vector SAEDRVT14_FDPQB_V2LP_0P5 QN D CK :	
+END_TRUTH_TABLE
+leakage_power 40890.000000 "!CK&!D&!QN" VDD
+leakage_power 34120.000000 "!CK&!D&QN" VDD
+leakage_power 31830.000000 "!CK&D&!QN" VDD
+leakage_power 42270.000000 "!CK&D&QN" VDD
+leakage_power 30620.000000 "CK&!D&!QN" VDD
+leakage_power 31610.000000 "CK&!D&QN" VDD
+leakage_power 28280.000000 "CK&D&!QN" VDD
+leakage_power 35000.000000 "CK&D&QN" VDD
+leakage_power 42270.000000 "NA" VDD
+cell SAEDRVT14_FDPQB_V2LP_1 1 0 2 2 0
+pin QN output 0 0 0.3 0.8 VDD
+clock CK input 0.0002895 0.3 0.8 VDD
+pin D input 0.0003204 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin QN output 0 2 "(!(((D) | 0) & !(0)))" "CK"
+vector SAEDRVT14_FDPQB_V2LP_1 QN D CK :	
+END_TRUTH_TABLE
+leakage_power 44670.000000 "!CK&!D&!QN" VDD
+leakage_power 39420.000000 "!CK&!D&QN" VDD
+leakage_power 35610.000000 "!CK&D&!QN" VDD
+leakage_power 47580.000000 "!CK&D&QN" VDD
+leakage_power 34390.000000 "CK&!D&!QN" VDD
+leakage_power 36910.000000 "CK&!D&QN" VDD
+leakage_power 32050.000000 "CK&D&!QN" VDD
+leakage_power 40310.000000 "CK&D&QN" VDD
+leakage_power 47580.000000 "NA" VDD
+cell SAEDRVT14_FDPSYNSBQ_V2_4 1 0 3 2 0
+pin Q output 0 0 0.3 0.8 VDD
+clock CK input 0.0003271 0.3 0.8 VDD
+pin D input 0.0001675 0.3 0.8 VDD
+pin SD input 0.0002289 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin Q output 0 2 "((((D|(!SD))) | 0) & !(0))" "CK"
+vector SAEDRVT14_FDPSYNSBQ_V2_4 Q D CK : 	SD 1 	
+END_TRUTH_TABLE
+leakage_power 81900.000000 "!CK&!D&!SD&!Q" VDD
+leakage_power 84160.000000 "!CK&!D&!SD&Q" VDD
+leakage_power 76790.000000 "!CK&!D&SD&!Q" VDD
+leakage_power 96260.000000 "!CK&!D&SD&Q" VDD
+leakage_power 79720.000000 "!CK&D&!SD&!Q" VDD
+leakage_power 81980.000000 "!CK&D&!SD&Q" VDD
+leakage_power 80050.000000 "!CK&D&SD&!Q" VDD
+leakage_power 82310.000000 "!CK&D&SD&Q" VDD
+leakage_power 72780.000000 "CK&!D&!SD&!Q" VDD
+leakage_power 78770.000000 "CK&!D&!SD&Q" VDD
+leakage_power 68350.000000 "CK&!D&SD&!Q" VDD
+leakage_power 79220.000000 "CK&!D&SD&Q" VDD
+leakage_power 72770.000000 "CK&D&!SD&!Q" VDD
+leakage_power 78330.000000 "CK&D&!SD&Q" VDD
+leakage_power 70890.000000 "CK&D&SD&!Q" VDD
+leakage_power 76880.000000 "CK&D&SD&Q" VDD
+leakage_power 96260.000000 "NA" VDD
+cell SAEDRVT14_FDP_V2LP_1 2 0 2 2 0
+pin Q output 0 0 0.3 0.8 VDD
+pin QN output 0 0 0.3 0.8 VDD
+clock CK input 0.000237 0.3 0.8 VDD
+pin D input 0.0002855 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin Q output 0 2 "(((D) | 0) & !(0))" "CK"
+vector SAEDRVT14_FDP_V2LP_1 Q D CK : 	
+pin QN output 0 2 "(!(((D) | 0) & !(0)))" "CK"
+vector SAEDRVT14_FDP_V2LP_1 QN D CK :	
+END_TRUTH_TABLE
+leakage_power 46870.000000 "!CK&!D&!Q&QN" VDD
+leakage_power 55270.000000 "!CK&!D&Q&!QN" VDD
+leakage_power 55030.000000 "!CK&D&!Q&QN" VDD
+leakage_power 46210.000000 "!CK&D&Q&!QN" VDD
+leakage_power 44360.000000 "CK&!D&!Q&QN" VDD
+leakage_power 45000.000000 "CK&!D&Q&!QN" VDD
+leakage_power 47760.000000 "CK&D&!Q&QN" VDD
+leakage_power 42660.000000 "CK&D&Q&!QN" VDD
+leakage_power 55270.000000 "NA" VDD
+cell SAEDRVT14_FDP_V2LP_2 2 0 2 2 0
+pin Q output 0 0 0.3 0.8 VDD
+pin QN output 0 0 0.3 0.8 VDD
+clock CK input 0.0002452 0.3 0.8 VDD
+pin D input 0.0002855 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin Q output 0 2 "(((D) | 0) & !(0))" "CK"
+vector SAEDRVT14_FDP_V2LP_2 Q D CK : 	
+pin QN output 0 2 "(!(((D) | 0) & !(0)))" "CK"
+vector SAEDRVT14_FDP_V2LP_2 QN D CK :	
+END_TRUTH_TABLE
+leakage_power 64870.000000 "!CK&!D&!Q&QN" VDD
+leakage_power 73280.000000 "!CK&!D&Q&!QN" VDD
+leakage_power 73040.000000 "!CK&D&!Q&QN" VDD
+leakage_power 64220.000000 "!CK&D&Q&!QN" VDD
+leakage_power 62360.000000 "CK&!D&!Q&QN" VDD
+leakage_power 63000.000000 "CK&!D&Q&!QN" VDD
+leakage_power 65760.000000 "CK&D&!Q&QN" VDD
+leakage_power 60660.000000 "CK&D&Q&!QN" VDD
+leakage_power 73280.000000 "NA" VDD
+cell SAEDRVT14_LDNQ_V1_1 1 0 2 1 0
+pin Q output 0 0 0.3 0.8 VDD
+pin D input 0.0004538 0.3 0.8 VDD
+clock G input 0.0004368 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin Q output 0 1 "(((D) | 0) & !(0))" "(!G)"
+vector SAEDRVT14_LDNQ_V1_1 Q D (!G) : 	
+END_TRUTH_TABLE
+leakage_power 31990.000000 "!G&!D&!Q" VDD
+leakage_power 33130.000000 "!G&D&Q" VDD
+leakage_power 27800.000000 "G&!D&!Q" VDD
+leakage_power 31980.000000 "G&!D&Q" VDD
+leakage_power 30340.000000 "G&D&!Q" VDD
+leakage_power 30210.000000 "G&D&Q" VDD
+leakage_power 33130.000000 "NA" VDD
+cell SAEDRVT14_FSDPQB_V2LP_2 1 0 4 2 0
+pin QN output 0 0 0.3 0.8 VDD
+clock CK input 0.0003807 0.3 0.8 VDD
+pin D input 0.0003287 0.3 0.8 VDD
+pin SE input 0.0006143 0.3 0.8 VDD
+pin SI input 0.0003432 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin QN output 0 2 "(!(((((D&(!SE))|(SI&SE)|(D&SI))) | 0) & !(0)))" "CK"
+vector SAEDRVT14_FSDPQB_V2LP_2 QN D CK :	SE 0	SI 0	
+END_TRUTH_TABLE
+leakage_power 59270.000000 "!CK&!D&!SI&!SE&!QN" VDD
+leakage_power 57220.000000 "!CK&!D&!SI&!SE&QN" VDD
+leakage_power 57310.000000 "!CK&!D&!SI&SE&!QN" VDD
+leakage_power 55260.000000 "!CK&!D&!SI&SE&QN" VDD
+leakage_power 62410.000000 "!CK&!D&SI&!SE&!QN" VDD
+leakage_power 60360.000000 "!CK&!D&SI&!SE&QN" VDD
+leakage_power 49800.000000 "!CK&!D&SI&SE&!QN" VDD
+leakage_power 64980.000000 "!CK&!D&SI&SE&QN" VDD
+leakage_power 51720.000000 "!CK&D&!SI&!SE&!QN" VDD
+leakage_power 66900.000000 "!CK&D&!SI&!SE&QN" VDD
+leakage_power 60420.000000 "!CK&D&!SI&SE&!QN" VDD
+leakage_power 58360.000000 "!CK&D&!SI&SE&QN" VDD
+leakage_power 49570.000000 "!CK&D&SI&!SE&!QN" VDD
+leakage_power 64740.000000 "!CK&D&SI&!SE&QN" VDD
+leakage_power 47650.000000 "!CK&D&SI&SE&!QN" VDD
+leakage_power 62830.000000 "!CK&D&SI&SE&QN" VDD
+leakage_power 47260.000000 "CK&!D&!SI&!SE&!QN" VDD
+leakage_power 53440.000000 "CK&!D&!SI&!SE&QN" VDD
+leakage_power 45370.000000 "CK&!D&!SI&SE&!QN" VDD
+leakage_power 51490.000000 "CK&!D&!SI&SE&QN" VDD
+leakage_power 47250.000000 "CK&!D&SI&!SE&!QN" VDD
+leakage_power 53800.000000 "CK&!D&SI&!SE&QN" VDD
+leakage_power 43590.000000 "CK&!D&SI&SE&!QN" VDD
+leakage_power 54450.000000 "CK&!D&SI&SE&QN" VDD
+leakage_power 45480.000000 "CK&D&!SI&!SE&!QN" VDD
+leakage_power 56340.000000 "CK&D&!SI&!SE&QN" VDD
+leakage_power 45360.000000 "CK&D&!SI&SE&!QN" VDD
+leakage_power 51810.000000 "CK&D&!SI&SE&QN" VDD
+leakage_power 45230.000000 "CK&D&SI&!SE&!QN" VDD
+leakage_power 56340.000000 "CK&D&SI&!SE&QN" VDD
+leakage_power 43340.000000 "CK&D&SI&SE&!QN" VDD
+leakage_power 54450.000000 "CK&D&SI&SE&QN" VDD
+leakage_power 66900.000000 "NA" VDD
+cell SAEDRVT14_FSDPQ_V2LP_0P5 1 0 4 2 0
+pin Q output 0 0 0.3 0.8 VDD
+clock CK input 0.0002914 0.3 0.8 VDD
+pin D input 0.0002403 0.3 0.8 VDD
+pin SE scan_input 0.0004026 0.3 0.8 VDD
+pin SI scan_input 0.0002663 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin Q output 0 2 "(((D) | 0) & !(0))" "CK"
+vector SAEDRVT14_FSDPQ_V2LP_0P5 Q D CK : 	
+END_TRUTH_TABLE
+leakage_power 44270.000000 "!CK&!D&!SI&!SE&!Q" VDD
+leakage_power 54710.000000 "!CK&!D&!SI&!SE&Q" VDD
+leakage_power 42510.000000 "!CK&!D&!SI&SE&!Q" VDD
+leakage_power 52940.000000 "!CK&!D&!SI&SE&Q" VDD
+leakage_power 47670.000000 "!CK&!D&SI&!SE&!Q" VDD
+leakage_power 58110.000000 "!CK&!D&SI&!SE&Q" VDD
+leakage_power 51400.000000 "!CK&!D&SI&SE&!Q" VDD
+leakage_power 44620.000000 "!CK&!D&SI&SE&Q" VDD
+leakage_power 53320.000000 "!CK&D&!SI&!SE&!Q" VDD
+leakage_power 46540.000000 "!CK&D&!SI&!SE&Q" VDD
+leakage_power 45910.000000 "!CK&D&!SI&SE&!Q" VDD
+leakage_power 56340.000000 "!CK&D&!SI&SE&Q" VDD
+leakage_power 50980.000000 "!CK&D&SI&!SE&!Q" VDD
+leakage_power 44200.000000 "!CK&D&SI&!SE&Q" VDD
+leakage_power 49060.000000 "!CK&D&SI&SE&!Q" VDD
+leakage_power 42280.000000 "!CK&D&SI&SE&Q" VDD
+leakage_power 40710.000000 "CK&!D&!SI&!SE&!Q" VDD
+leakage_power 47420.000000 "CK&!D&!SI&!SE&Q" VDD
+leakage_power 38940.000000 "CK&!D&!SI&SE&!Q" VDD
+leakage_power 45660.000000 "CK&!D&!SI&SE&Q" VDD
+leakage_power 44100.000000 "CK&!D&SI&!SE&!Q" VDD
+leakage_power 50820.000000 "CK&!D&SI&!SE&Q" VDD
+leakage_power 41130.000000 "CK&!D&SI&SE&!Q" VDD
+leakage_power 42100.000000 "CK&!D&SI&SE&Q" VDD
+leakage_power 43050.000000 "CK&D&!SI&!SE&!Q" VDD
+leakage_power 44030.000000 "CK&D&!SI&!SE&Q" VDD
+leakage_power 42340.000000 "CK&D&!SI&SE&!Q" VDD
+leakage_power 49050.000000 "CK&D&!SI&SE&Q" VDD
+leakage_power 40710.000000 "CK&D&SI&!SE&!Q" VDD
+leakage_power 41690.000000 "CK&D&SI&!SE&Q" VDD
+leakage_power 38790.000000 "CK&D&SI&SE&!Q" VDD
+leakage_power 39770.000000 "CK&D&SI&SE&Q" VDD
+leakage_power 58110.000000 "NA" VDD
+cell SAEDRVT14_FSDPSYNRBQ_V2LP_0P5 1 0 5 2 0
+pin Q output 0 0 0.3 0.8 VDD
+clock CK input 0.0002487 0.3 0.8 VDD
+pin D input 0.000153 0.3 0.8 VDD
+pin RD input 0.0002481 0.3 0.8 VDD
+pin SE scan_input 0.0003745 0.3 0.8 VDD
+pin SI scan_input 0.000244 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin Q output 0 2 "(((((D&RD&(!SE))|(SI&SE)|(D&RD&SI))) | 0) & !(0))" "CK"
+scanvector SAEDRVT14_FSDPSYNRBQ_V2LP_0P5 Q SI CK : 	D 0 	RD 0 	SE 1 	
+pin Q output 0 2 "(((D) | !(SD)) & !(0))" "CK"
+vector SAEDRVT14_FSDPSYNRBQ_V2LP_0P5 Q D CK : 	SD 1 	
+END_TRUTH_TABLE
+leakage_power 41090.000000 "!CK&!D&!SI&!SE&!RD&!Q" VDD
+leakage_power 51530.000000 "!CK&!D&!SI&!SE&!RD&Q" VDD
+leakage_power 44490.000000 "!CK&!D&!SI&!SE&RD&!Q" VDD
+leakage_power 54920.000000 "!CK&!D&!SI&!SE&RD&Q" VDD
+leakage_power 42760.000000 "!CK&!D&!SI&SE&!RD&!Q" VDD
+leakage_power 53200.000000 "!CK&!D&!SI&SE&!RD&Q" VDD
+leakage_power 46160.000000 "!CK&!D&!SI&SE&RD&!Q" VDD
+leakage_power 56600.000000 "!CK&!D&!SI&SE&RD&Q" VDD
+leakage_power 44490.000000 "!CK&!D&SI&!SE&!RD&!Q" VDD
+leakage_power 54920.000000 "!CK&!D&SI&!SE&!RD&Q" VDD
+leakage_power 47880.000000 "!CK&!D&SI&!SE&RD&!Q" VDD
+leakage_power 58320.000000 "!CK&!D&SI&!SE&RD&Q" VDD
+leakage_power 58610.000000 "!CK&!D&SI&SE&!RD&!Q" VDD
+leakage_power 51830.000000 "!CK&!D&SI&SE&!RD&Q" VDD
+leakage_power 62000.000000 "!CK&!D&SI&SE&RD&!Q" VDD
+leakage_power 55220.000000 "!CK&!D&SI&SE&RD&Q" VDD
+leakage_power 44270.000000 "!CK&D&!SI&!SE&!RD&!Q" VDD
+leakage_power 54710.000000 "!CK&D&!SI&!SE&!RD&Q" VDD
+leakage_power 56950.000000 "!CK&D&!SI&!SE&RD&!Q" VDD
+leakage_power 50180.000000 "!CK&D&!SI&!SE&RD&Q" VDD
+leakage_power 45940.000000 "!CK&D&!SI&SE&!RD&!Q" VDD
+leakage_power 56380.000000 "!CK&D&!SI&SE&!RD&Q" VDD
+leakage_power 56460.000000 "!CK&D&!SI&SE&RD&!Q" VDD
+leakage_power 66890.000000 "!CK&D&!SI&SE&RD&Q" VDD
+leakage_power 47670.000000 "!CK&D&SI&!SE&!RD&!Q" VDD
+leakage_power 58100.000000 "!CK&D&SI&!SE&!RD&Q" VDD
+leakage_power 54610.000000 "!CK&D&SI&!SE&RD&!Q" VDD
+leakage_power 47830.000000 "!CK&D&SI&!SE&RD&Q" VDD
+leakage_power 61780.000000 "!CK&D&SI&SE&!RD&!Q" VDD
+leakage_power 55010.000000 "!CK&D&SI&SE&!RD&Q" VDD
+leakage_power 55120.000000 "!CK&D&SI&SE&RD&!Q" VDD
+leakage_power 48340.000000 "!CK&D&SI&SE&RD&Q" VDD
+leakage_power 37520.000000 "CK&!D&!SI&!SE&!RD&!Q" VDD
+leakage_power 44240.000000 "CK&!D&!SI&!SE&!RD&Q" VDD
+leakage_power 40920.000000 "CK&!D&!SI&!SE&RD&!Q" VDD
+leakage_power 47640.000000 "CK&!D&!SI&!SE&RD&Q" VDD
+leakage_power 39200.000000 "CK&!D&!SI&SE&!RD&!Q" VDD
+leakage_power 45910.000000 "CK&!D&!SI&SE&!RD&Q" VDD
+leakage_power 42590.000000 "CK&!D&!SI&SE&RD&!Q" VDD
+leakage_power 49310.000000 "CK&!D&!SI&SE&RD&Q" VDD
+leakage_power 40920.000000 "CK&!D&SI&!SE&!RD&!Q" VDD
+leakage_power 47640.000000 "CK&!D&SI&!SE&!RD&Q" VDD
+leakage_power 44310.000000 "CK&!D&SI&!SE&RD&!Q" VDD
+leakage_power 51030.000000 "CK&!D&SI&!SE&RD&Q" VDD
+leakage_power 48340.000000 "CK&!D&SI&SE&!RD&!Q" VDD
+leakage_power 49320.000000 "CK&!D&SI&SE&!RD&Q" VDD
+leakage_power 51730.000000 "CK&!D&SI&SE&RD&!Q" VDD
+leakage_power 52710.000000 "CK&!D&SI&SE&RD&Q" VDD
+leakage_power 40700.000000 "CK&D&!SI&!SE&!RD&!Q" VDD
+leakage_power 47420.000000 "CK&D&!SI&!SE&!RD&Q" VDD
+leakage_power 46680.000000 "CK&D&!SI&!SE&RD&!Q" VDD
+leakage_power 47660.000000 "CK&D&!SI&!SE&RD&Q" VDD
+leakage_power 42370.000000 "CK&D&!SI&SE&!RD&!Q" VDD
+leakage_power 49090.000000 "CK&D&!SI&SE&!RD&Q" VDD
+leakage_power 52890.000000 "CK&D&!SI&SE&RD&!Q" VDD
+leakage_power 59610.000000 "CK&D&!SI&SE&RD&Q" VDD
+leakage_power 44100.000000 "CK&D&SI&!SE&!RD&!Q" VDD
+leakage_power 50820.000000 "CK&D&SI&!SE&!RD&Q" VDD
+leakage_power 44340.000000 "CK&D&SI&!SE&RD&!Q" VDD
+leakage_power 45320.000000 "CK&D&SI&!SE&RD&Q" VDD
+leakage_power 51510.000000 "CK&D&SI&SE&!RD&!Q" VDD
+leakage_power 52490.000000 "CK&D&SI&SE&!RD&Q" VDD
+leakage_power 44850.000000 "CK&D&SI&SE&RD&!Q" VDD
+leakage_power 45830.000000 "CK&D&SI&SE&RD&Q" VDD
+leakage_power 66890.000000 "NA" VDD
+cell SAEDRVT14_FSDPSYNSBQ_V2LP_0P5 1 0 5 2 0
+pin Q output 0 0 0.3 0.8 VDD
+clock CK input 0.0002327 0.3 0.8 VDD
+pin D input 0.0001529 0.3 0.8 VDD
+pin SD input 0.0002541 0.3 0.8 VDD
+pin SE scan_input 0.0003385 0.3 0.8 VDD
+pin SI scan_input 0.0002283 0.3 0.8 VDD
+START_TRUTH_TABLE
+pin Q output 0 2 "((((((D|(!SD))&(!SE))|(SI&SE)|((D|(!SD))&SI))) | 0) & !(0))" "CK"
+scanvector SAEDRVT14_FSDPSYNSBQ_V2LP_0P5 Q SI CK : 	D 0 	SD 0 	SE 1 	
+pin Q output 0 2 "(((D * RD) | 0) & !(0))" "CK"
+vector SAEDRVT14_FSDPSYNSBQ_V2LP_0P5 Q D CK : 	RD 1 	
+END_TRUTH_TABLE
+leakage_power 58760.000000 "!CK&!D&!SI&!SE&!SD&!Q" VDD
+leakage_power 51990.000000 "!CK&!D&!SI&!SE&!SD&Q" VDD
+leakage_power 53330.000000 "!CK&!D&!SI&!SE&SD&!Q" VDD
+leakage_power 63760.000000 "!CK&!D&!SI&!SE&SD&Q" VDD
+leakage_power 58280.000000 "!CK&!D&!SI&SE&!SD&!Q" VDD
+leakage_power 68720.000000 "!CK&!D&!SI&SE&!SD&Q" VDD
+leakage_power 55000.000000 "!CK&!D&!SI&SE&SD&!Q" VDD
+leakage_power 65430.000000 "!CK&!D&!SI&SE&SD&Q" VDD
+leakage_power 56420.000000 "!CK&!D&SI&!SE&!SD&!Q" VDD
+leakage_power 49650.000000 "!CK&!D&SI&!SE&!SD&Q" VDD
+leakage_power 56720.000000 "!CK&!D&SI&!SE&SD&!Q" VDD
+leakage_power 67160.000000 "!CK&!D&SI&!SE&SD&Q" VDD
+leakage_power 56930.000000 "!CK&!D&SI&SE&!SD&!Q" VDD
+leakage_power 50160.000000 "!CK&!D&SI&SE&!SD&Q" VDD
+leakage_power 70840.000000 "!CK&!D&SI&SE&SD&!Q" VDD
+leakage_power 64060.000000 "!CK&!D&SI&SE&SD&Q" VDD
+leakage_power 56540.000000 "!CK&D&!SI&!SE&!SD&!Q" VDD
+leakage_power 49760.000000 "!CK&D&!SI&!SE&!SD&Q" VDD
+leakage_power 56990.000000 "!CK&D&!SI&!SE&SD&!Q" VDD
+leakage_power 50210.000000 "!CK&D&!SI&!SE&SD&Q" VDD
+leakage_power 56060.000000 "!CK&D&!SI&SE&!SD&!Q" VDD
+leakage_power 66500.000000 "!CK&D&!SI&SE&!SD&Q" VDD
+leakage_power 56510.000000 "!CK&D&!SI&SE&SD&!Q" VDD
+leakage_power 66940.000000 "!CK&D&!SI&SE&SD&Q" VDD
+leakage_power 54200.000000 "!CK&D&SI&!SE&!SD&!Q" VDD
+leakage_power 47420.000000 "!CK&D&SI&!SE&!SD&Q" VDD
+leakage_power 54640.000000 "!CK&D&SI&!SE&SD&!Q" VDD
+leakage_power 47870.000000 "!CK&D&SI&!SE&SD&Q" VDD
+leakage_power 54710.000000 "!CK&D&SI&SE&!SD&!Q" VDD
+leakage_power 47930.000000 "!CK&D&SI&SE&!SD&Q" VDD
+leakage_power 55160.000000 "!CK&D&SI&SE&SD&!Q" VDD
+leakage_power 48380.000000 "!CK&D&SI&SE&SD&Q" VDD
+leakage_power 48500.000000 "CK&!D&!SI&!SE&!SD&!Q" VDD
+leakage_power 49480.000000 "CK&!D&!SI&!SE&!SD&Q" VDD
+leakage_power 49760.000000 "CK&!D&!SI&!SE&SD&!Q" VDD
+leakage_power 56470.000000 "CK&!D&!SI&!SE&SD&Q" VDD
+leakage_power 54710.000000 "CK&!D&!SI&SE&!SD&!Q" VDD
+leakage_power 61430.000000 "CK&!D&!SI&SE&!SD&Q" VDD
+leakage_power 51430.000000 "CK&!D&!SI&SE&SD&!Q" VDD
+leakage_power 58150.000000 "CK&!D&!SI&SE&SD&Q" VDD
+leakage_power 46160.000000 "CK&!D&SI&!SE&!SD&!Q" VDD
+leakage_power 47140.000000 "CK&!D&SI&!SE&!SD&Q" VDD
+leakage_power 53150.000000 "CK&!D&SI&!SE&SD&!Q" VDD
+leakage_power 59870.000000 "CK&!D&SI&!SE&SD&Q" VDD
+leakage_power 46670.000000 "CK&!D&SI&SE&!SD&!Q" VDD
+leakage_power 47650.000000 "CK&!D&SI&SE&!SD&Q" VDD
+leakage_power 60570.000000 "CK&!D&SI&SE&SD&!Q" VDD
+leakage_power 61550.000000 "CK&!D&SI&SE&SD&Q" VDD
+leakage_power 46270.000000 "CK&D&!SI&!SE&!SD&!Q" VDD
+leakage_power 47250.000000 "CK&D&!SI&!SE&!SD&Q" VDD
+leakage_power 46720.000000 "CK&D&!SI&!SE&SD&!Q" VDD
+leakage_power 47700.000000 "CK&D&!SI&!SE&SD&Q" VDD
+leakage_power 52490.000000 "CK&D&!SI&SE&!SD&!Q" VDD
+leakage_power 59210.000000 "CK&D&!SI&SE&!SD&Q" VDD
+leakage_power 52930.000000 "CK&D&!SI&SE&SD&!Q" VDD
+leakage_power 59650.000000 "CK&D&!SI&SE&SD&Q" VDD
+leakage_power 43930.000000 "CK&D&SI&!SE&!SD&!Q" VDD
+leakage_power 44910.000000 "CK&D&SI&!SE&!SD&Q" VDD
+leakage_power 44380.000000 "CK&D&SI&!SE&SD&!Q" VDD
+leakage_power 45360.000000 "CK&D&SI&!SE&SD&Q" VDD
+leakage_power 44440.000000 "CK&D&SI&SE&!SD&!Q" VDD
+leakage_power 45420.000000 "CK&D&SI&SE&!SD&Q" VDD
+leakage_power 44890.000000 "CK&D&SI&SE&SD&!Q" VDD
+leakage_power 45870.000000 "CK&D&SI&SE&SD&Q" VDD
+leakage_power 70840.000000 "NA" VDD
+cell SAEDRVT14_INV_PS_1 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDDR
+pin A input 0.0004201 0.3 0.8 VDDR
+pin VDD vdd
+pin VDDR vdd
+pin VSS gnd
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_INV_PS_1 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 0.000000 "!A" VDD
+leakage_power 10600.000000 "!A" VDDR
+leakage_power 0.000000 "A" VDD
+leakage_power 7163.000000 "A" VDDR
+leakage_power 0.000000 "NA" VDD
+leakage_power 10600.000000 "NA" VDDR
+cell SAEDRVT14_TIE0_4 1 0 0 0 0
+pin X output 0 0 0.3 0.8 VDD
+START_TRUTH_TABLE
+END_TRUTH_TABLE
+function X "0"
+cell SAEDRVT14_TIE1_V1_2 1 0 0 0 0
+pin X output 0 0 0.3 0.8 VDD
+START_TRUTH_TABLE
+END_TRUTH_TABLE
+function X "1"
+cell SAEDRVT14_AOINV_IW_0P5 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0002364 0.3 0.8 VDD
+pin VDD vdd
+pin VDDR vdd
+pin VSS gnd
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_AOINV_IW_0P5 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 0.000357 "!A" VDD
+leakage_power 107.400000 "A" VDD
+leakage_power 107.400000 "NA" VDD
+cell SAEDRVT14_AOINV_IW_1 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0003666 0.3 0.8 VDD
+pin VDD vdd
+pin VDDR vdd
+pin VSS gnd
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_AOINV_IW_1 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 0.000707 "!A" VDD
+leakage_power 214.700000 "A" VDD
+leakage_power 214.700000 "NA" VDD
+cell SAEDRVT14_AOINV_IW_2 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.0007315 0.3 0.8 VDD
+pin VDD vdd
+pin VDDR vdd
+pin VSS gnd
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_AOINV_IW_2 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 0.001086 "!A" VDD
+leakage_power 378.600000 "A" VDD
+leakage_power 378.600000 "NA" VDD
+cell SAEDRVT14_AOINV_IW_4 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.001465 0.3 0.8 VDD
+pin VDD vdd
+pin VDDR vdd
+pin VSS gnd
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_AOINV_IW_4 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 0.002242 "!A" VDD
+leakage_power 757.200000 "A" VDD
+leakage_power 757.200000 "NA" VDD
+cell SAEDRVT14_AOINV_IW_6 1 0 1 0 0
+pin X output 0 0 0.3 0.8 VDD
+pin A input 0.002196 0.3 0.8 VDD
+pin VDD vdd
+pin VDDR vdd
+pin VSS gnd
+START_TRUTH_TABLE
+pin X output 0 0 "(!A)" ""
+vector SAEDRVT14_AOINV_IW_6 X A NA :	
+END_TRUTH_TABLE
+function X "(!A)"
+leakage_power 0.003405 "!A" VDD
+leakage_power 1136.000000 "A" VDD
+leakage_power 1136.000000 "NA" VDD

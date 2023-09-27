@@ -1,0 +1,10 @@
+#This file reports Data Integrity issues associated with STD_CELL definition.
+
+#SITE name (used in LEF MACRO CELL) which is missing definition in LEF file.
+#siteName           #cellName 
+
+#SITE name (used in DEF ROW section) which is missing definition in LEF file.
+#siteName 
+
+#Cells whose SITE Names not present in DEF ROW section or in GSR:STANDARD_CELL_HEIGHT section. 
+#cellName                   #cellHeight        #cellSite 

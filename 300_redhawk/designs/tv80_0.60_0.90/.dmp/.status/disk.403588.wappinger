@@ -1,0 +1,5 @@
+# Version 2.0 (Type 0: CWD; 1: CACHE_DIR; 2: WORKING_DIR; 3: GLOBAL_DIR)
+# Type=0 Disk_Total=15504674 MB Path=/home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90 File_System=/dev/mapper/mainVG-mainLV1
+# Time: Type: Disk_Avail (MB)
+2023-09-19 21:53:29: 0: 38445 
+2023-09-19 21:55:29: 0: 38432 

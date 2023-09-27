@@ -1,0 +1,104 @@
+#Tcl (Sep 19 21:53:46): perform extraction -power -ground
+
+***********************************************************
+****   Start Extraction...
+***********************************************************
+
+
+***********************************************************
+****   Building Connectivity
+***********************************************************
+
+
+---------------------------------------------------------
+Building net<VDD>: 
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VDD>
+	 which has no physical geometry.
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VDD>
+	 which has no physical geometry.
+  
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+
+SUMMARY:
+  WARNING(NET-404): total 2
+ There are a total of 2 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+
+---------------------------------------------------------
+Building net<VSS>: 
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VSS>
+	 which has no physical geometry.
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VSS>
+	 which has no physical geometry.
+  
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+
+SUMMARY:
+  WARNING(NET-404): total 2
+ There are a total of 2 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+
+Check Connectivity:
+-----------------------------------------------
+Checking net<VDD>:
+WARNING(NET-405): Pin<tv80s:VDD> is not physically(only logically) connected to net<VDD>.
+WARNING(NET-450): (7) wires in net<tv80s:VDD> are not connected to power sources or pins.
+	 Please check <adsRpt/tv80s.Wire.unconnect> for details.
+WARNING(NET-452): (1) pins in net<tv80s:VDD> are not physically connected.
+	 Please check <adsRpt/tv80s.Pin.unconnect> for details.
+WARNING(NET-453): (28) pinInsts in net<tv80s:VDD> are not physically connected.
+	 Please check <adsRpt/tv80s.PinInst.unconnect> for details.
+
+SUMMARY:
+  WARNING(NET-453): total 1
+  WARNING(NET-452): total 1
+  WARNING(NET-450): total 1
+  WARNING(NET-405): total 1
+    DIAGNOSIS: Please check DEFs and assure this is okay.
+ There are a total of 4 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+Net<VDD> is not fully connected
+-----------------------------------------------
+Checking net<VSS>:
+WARNING(NET-405): Pin<tv80s:VSS> is not physically(only logically) connected to net<VSS>.
+WARNING(NET-452): (1) pins in net<tv80s:VSS> are not physically connected.
+	 Please check <adsRpt/tv80s.Pin.unconnect> for details.
+
+SUMMARY:
+  WARNING(NET-452): total 1
+  WARNING(NET-405): total 1
+    DIAGNOSIS: Please check DEFs and assure this is okay.
+ There are a total of 2 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+Net<VSS> is not fully connected
+MEMORY USAGE (build connectivity): 2849 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 59 secs.
+
+***********************************************************
+****   Finish Building Connectivity
+***********************************************************
+
+
+***********************************************************
+****   Extracting R
+***********************************************************
+
+Build R network: 
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+INFO(PAD-050): POWER and GROUND sources are listed in file `adsRpt/PG.ploc' (in .ploc format).
+MEMORY USAGE (Extracting R): 2849 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 59 secs.
+
+SUMMARY:
+  INFO(PAD-050): total 1
+    DIAGNOSIS: Please consult <report>/PG.ploc to know the P/G source locations RedHawk specified.
+
+***********************************************************
+****   Finish Extracting R.
+***********************************************************
+
+INFO(ACK-109): Total # of Cells: 1 .
+INFO(ACK-109): Total # of Cells: 1 .
+INFO(ACK-109): Total # of Cells: 1 .

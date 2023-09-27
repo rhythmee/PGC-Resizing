@@ -1,0 +1,21 @@
+2023-09-19 21:53:36: # CWD: /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90
+2023-09-19 21:53:36: # CMD: /tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.403588.wappinger -g .apache/user.gsr -apacheDir .apache -rptDir adsRpt -logFileName adsPower/.dmp_para_calc_power.log -para 
+2023-09-19 21:53:36: # Timeout: 5
+# Date Time VIRT(MB) RSS PEAK CPU-Time(s)
+2023-09-19 21:53:36: 250 13 314 0.02
+2023-09-19 21:53:41: 269 15 314 0.02
+2023-09-19 21:53:46: 269 15 314 0.02
+2023-09-19 21:53:51: 269 15 314 0.02
+2023-09-19 21:53:56: 269 15 314 0.02
+2023-09-19 21:54:01: 269 15 314 0.02
+2023-09-19 21:54:06: 269 15 314 0.02
+2023-09-19 21:54:11: 269 15 314 0.03
+2023-09-19 21:54:16: 269 15 314 0.03
+2023-09-19 21:54:21: 269 15 314 0.03
+2023-09-19 21:54:26: 269 15 314 0.03
+2023-09-19 21:54:31: 269 15 314 0.03
+2023-09-19 21:54:36: 269 15 314 0.03
+2023-09-19 21:54:41: 269 15 314 0.03
+2023-09-19 21:54:46: 383 44 748 0.43
+2023-09-19 21:54:47: 375 41 748 0.47
+2023-09-19 21:54:47: # Exit with reason (normal, status code 0).

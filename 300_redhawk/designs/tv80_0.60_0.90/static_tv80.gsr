@@ -1,0 +1,129 @@
+
+# Input Data Keywords
+DEF_FILES	{
+    /home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/results/tv80_0.60_0.90/tv80.def top
+}
+
+LEF_FILES	{
+    #/home/sam28/ygjung/decap_insertion/400_redhawk/200_run_redhawk/0_scripts/lef/saed14nm_rvt_1p9m.lef
+    #/home/ygjung/ML_PDN/300_redhawk/scripts/saed14nm_rvt_1p9m.lef
+    /home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/results/tv80_0.60_0.90/tv80.lef
+}
+
+LIB_FILES	{
+    #/home/hot_data/DB/snps14/stdcell_rvt/db_ccs/saed14rvt_ss0p72v125c.lib
+    /home/hot_data/DB/snps14/stdcell_rvt/db_ccs/saed14rvt_ff0p88v125c.lib
+}
+
+PGNET_HONOR_DEF_TYPE	1
+
+#TECH_FILE /home/ygjung/ML_PDN/300_redhawk/scripts/saed14nm_1p9m_nominal.tech
+#TECH_FILE /home/ygjung/ML_PDN/300_redhawk/scripts/dj_example.tech
+TECH_FILE /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech
+
+#LEFDEF_TECH_LAYER_MAP_FILE  /home/sam28/daniel/500_ir_drop/210829_decap_ir/filcap_to_fil_test/gsr_files/lefdef_tech_layer_map_file_1p6m.map
+EXACT_PINPORT_VM 1
+
+ENABLE_AUTO_EM 1
+
+# Parameter Keywords
+#FREQUENCY	1020.4081633M
+TEMPERATURE 125
+TEMPERATURE_EM 125
+
+GND_NETS	{
+	VSS	0
+}
+
+VDD_NETS	{
+	VDD	0.88
+}
+
+# Characterization Keywords
+APL_FILES	{
+    #/home/daniel/500_ir_drop/211111_snps14/010_apl/results_merge current
+#    /home/ygjung/ML_PDN/300_redhawk/000_apl/results_merge current
+    /home/ischo/generative-IR/experiments/000_SETUP/apl_results_merge current
+#    /home/sam28/ygjung/decap_insertion/400_redhawk/000_apl/results_stdcell current
+#    /home/ygjung/ML_PDN/300_redhawk/000_apl/results_decap/corner1/CAP cap
+    /home/ischo/generative-IR/experiments/000_SETUP/apl_CAP cap
+}
+
+PAD_FILES	{
+#    /home/sam28/ygjung/decap_insertion/400_redhawk/100_designs/tv80_0.60_0.90/tv80.ploc
+    #/home/ischo/decap_insertion/400_redhawk/100_designs/tv80_0.60_0.90/tv80.ploc
+    /home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/results/tv80_0.60_0.90/tv80.ploc
+}
+
+# NO VCD yet
+#VCD_FILE	{
+#    top /home/sam28/ygjung/decap_insertion/400_redhawk/100_designs/tv80_0.60_0.90/tv80.vcd
+#	FILE_TYPE VCD
+#	FRONT_PATH "/tb_tv80/dut"
+#	# range unit ps
+#	SELECT_RANGE 201880 202860
+#	SELECT_TYPE WORST_POWER_CYCLE
+#	TRUE_TIME 1
+#}
+
+# For runtime comparision
+MULTI_THREADS 0
+APL_INTERPOLATION_METHOD 4
+APL_MODE Extended
+#MUlTI_THREADS 1 10
+
+#STA_FILE	{
+#	#GENERIC ./design_data/timing/GENERIC.timing.gz
+#	CIRCUIT /home/ischo/decap_insertion/400_redhawk/100_designs/tv80_0.60_0.90/tv80.timing.gz
+#}
+
+
+# Timing Keywords
+# INPUT_TRANSITION	0.3n
+
+# Dynamic Simulation Conditions Keywords
+#DYNAMIC_PRESIM_TIME	-1
+#DYNAMIC_SIMULATION_TIME	1.02ns
+##DYNAMIC_SIMULATION_TIME 10.2ns
+#DYNAMIC_TIME_STEP	1p
+##DYNAMIC_VOLTAGE_CHECK	0
+#DYNAMIC_REPORT_DVD 1
+#DYNAMIC_SAVE_WAVEFORM 2 #save instance's current waverform
+
+
+# Low Power Design Keywords
+#EXTRACT_INTERNAL_NET	1
+#SWITCH_MODEL_FILE	{
+#	./design_data/switch/switch.model
+#}
+
+# Ignore Function Keywords
+#IGNORE_DEF_ERROR	1
+#IGNORE_GDSMEM_ERROR	1
+#IGNORE_LEF_DEF_MISMATCH	1
+#IGNORE_LIB_CHECK	1
+
+# Power Calculation Keywords
+#CELL_RC_FILES	{
+#	CONDITION worst
+##    tv80 /home/sam28/ygjung/decap_insertion/400_redhawk/100_designs/tv80_0.60_0.90/tv80.tlup_max_125.spef
+##    tv80 /home/ischo/decap_insertion/400_redhawk/100_designs/tv80_0.60_0.90/tv80.tlup_max_125.spef
+#    CIRCUIT /home/ischo/decap_insertion/400_redhawk/100_designs/tv80_0.60_0.90/tv80.tlup_max_125.spef
+#}
+
+#PROBE_NODE_FILE probe_node_file
+
+#LIB2AVM_MSTATE	1
+POWER_ANALYSIS_MODE	averaged
+POWER_MODE	LIB
+#PARA_CALC_POWER 0
+#LONG_WIRE_RES_CALC 1 #accurate long wire resistance
+#TOGGLE_RATE	0.5  #edited
+#TOGGLE_RATE	4.0 #edited
+#TOGGLE_RATE	1.6 #edited
+
+# decap 
+#USE_FAST_DECAP_ALG 0
+
+#DYNAMIC_REPORT_DECAP 2
+#DYNAMIC_REPORT_DVD

@@ -1,0 +1,151 @@
+
+****   Importing GSR
+
+
+****   Importing Technology File
+
+WARNING(TEC-242): Unable to convert Foundry_Process process node parameter 'temp' - ignored!
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'MRDL' at line# 22 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'M9' at line# 29 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'M8' at line# 36 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'M7' at line# 43 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'M6' at line# 50 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'M5' at line# 57 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'M4' at line# 64 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'M1' at line# 87 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'POLY' at line# 95 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'GATE' at line# 103 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'CPO' at line# 111 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'CTM1' at line# 119 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'DIFF' at line# 127 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'DIFFVIA0' at line# 133 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'POLYVIA0' at line# 139 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA1' at line# 145 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA1_BAR' at line# 151 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA1_LRG' at line# 157 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA2' at line# 163 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA2_BAR' at line# 169 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA2_LRG' at line# 175 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA3' at line# 181 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA3_BAR' at line# 187 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA3_LRG' at line# 193 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA4' at line# 199 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA4_BAR' at line# 205 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA4_LRG' at line# 211 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA5' at line# 217 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA5_BAR' at line# 223 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA5_LRG' at line# 229 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA6' at line# 235 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA6_BAR' at line# 241 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA6_LRG' at line# 247 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA7' at line# 253 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA7_BAR' at line# 259 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA7_LRG' at line# 265 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIA8' at line# 271 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or EMV_VS_AREA or Topology_Based_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK or VIA_LANDING_RULES' is not specified for 'VIARDL' at line# 277 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-065): Layer <DIFF>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <CTM1>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <CPO>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <GATE>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <POLY>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <M1>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <M2>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <M3>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <M4>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <M5>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <M6>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <M7>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <M8>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <M9>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <MRDL>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <DIFFVIA0>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <POLYVIA0>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA1>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA1_BAR>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA1_LRG>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA2>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA2_BAR>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA2_LRG>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA3>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA3_BAR>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA3_LRG>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA4>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA4_BAR>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA4_LRG>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA5>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA5_BAR>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA5_LRG>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA6>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA6_BAR>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA6_LRG>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA7>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA7_BAR>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA7_LRG>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIA8>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <VIARDL>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+
+****   Importing LEFs
+
+WARNING(LEF-026): DIVIDERCHAR is undefined. "/" is used as default.
+
+****   Importing Library
+
+
+****   Importing DEFs
+
+
+****   Importing Pad (Power/Ground)
+
+
+****   Setting Up Database for Design Data
+
+WARNING(CLK-821): Since STA file is not available, it is recommended to define GSR CLOCK_ROOTS for the design.
+WARNING(STA-467): (3972) instances in the design could not get slew info from the timing file(s).
+		  Please check <adsRpt/apache.slew0> for more details.
+
+****   Calculating power
+
+
+****   Start Extraction...
+
+
+****   Building Connectivity
+
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VDD>
+	 which has no physical geometry.
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VDD>
+	 which has no physical geometry.
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VSS>
+	 which has no physical geometry.
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VSS>
+	 which has no physical geometry.
+WARNING(NET-405): Pin<tv80s:VDD> is not physically(only logically) connected to net<VDD>.
+WARNING(NET-450): (7) wires in net<tv80s:VDD> are not connected to power sources or pins.
+	 Please check <adsRpt/tv80s.Wire.unconnect> for details.
+WARNING(NET-452): (1) pins in net<tv80s:VDD> are not physically connected.
+	 Please check <adsRpt/tv80s.Pin.unconnect> for details.
+WARNING(NET-453): (28) pinInsts in net<tv80s:VDD> are not physically connected.
+	 Please check <adsRpt/tv80s.PinInst.unconnect> for details.
+WARNING(NET-405): Pin<tv80s:VSS> is not physically(only logically) connected to net<VSS>.
+WARNING(NET-452): (1) pins in net<tv80s:VSS> are not physically connected.
+	 Please check <adsRpt/tv80s.Pin.unconnect> for details.
+
+****   Extracting R
+
+WARNING(PWR-221): Signal pin toggle rate of 3972 non-clock network instances are greater than 1.0, and 0 clock network instances are greater than 2.0.
+
+****   Start Static Analysis
+
+WARNING(CCL-115): There are instances that are not in the power network.  Please refer to file <adsRpt/tv80s.power.unused>!
+WARNING(TEC-129): Layer <VIA6> does not have EM rule in EM_MODE avg.
+WARNING(TEC-129): Layer <VIA5> does not have EM rule in EM_MODE avg.
+WARNING(TEC-129): Layer <VIA4> does not have EM rule in EM_MODE avg.
+WARNING(TEC-129): Layer <VIA3> does not have EM rule in EM_MODE avg.
+WARNING(TEC-129): Layer <VIA2> does not have EM rule in EM_MODE avg.
+WARNING(TEC-129): Layer <VIA1> does not have EM rule in EM_MODE avg.
+
+****   Static Result Summary
+
+
+****   Exporting Apache DB
+

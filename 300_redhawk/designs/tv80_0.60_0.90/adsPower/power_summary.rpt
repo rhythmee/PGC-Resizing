@@ -1,0 +1,50 @@
+# Tool   : RedHawk
+# Design : tv80s
+# Version: 2020 R2.1   RHEL6
+# Date   : Tue Sep 19 21:54:46 2023
+
+Recommended dynamic simulation time, 1200psec ,to include 100.0000%
+of total power for DYNAMIC_SIMULATION_TIME in GSR
+
+Power of different frequency (MHz) domain in Watt:
+
+Frequency    total_pwr   leakage_pwr   internal_pwr   switching_pwr  %_total_pwr    #inst_count
+8.3333e+02   7.2567e-02  5.6488e-05    2.4538e-02     4.7972e-02     1.0000e+02        3976
+
+Power of different clock root in Watt (frequency in MHz):
+
+clock_root         total_pwr     leakage_pwr    internal_pwr    switching_pwr    %_total_pwr    #inst_count
+NA*                7.2567e-02    5.6488e-05     2.4538e-02      4.7972e-02       1.0000e+02        3976
+
+Instances not covered by any clock root in STA are added up to NA* 
+
+Power of different Vdd domain in Watt:
+
+Vdd_domain      total_pwr   leakage_pwr  internal_pwr  switching_pwr   %_total_pwr    #inst_count
+VDD (0.88V)     7.2567e-02  5.6488e-05   2.4538e-02    4.7972e-02      1.0000e+02        3976
+
+For NA domain, the instance is not connected to power nets or instance power pins connected to non-Vdd nets
+
+<Vdd>* : not specified in VDD_NETS
+
+Power of different cell types in Watt:
+
+cell_type       total_pwr     leakage_pwr    internal_pwr    switching_pwr    %_total_pwr     #inst_count
+combinational   5.4700e-02    3.8108e-05     1.6986e-02      3.7676e-02       7.5378e+01        3611
+latch_and_FF    1.7867e-02    1.8380e-05     7.5524e-03      1.0296e-02       2.4622e+01         361
+memory          0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00           0
+I/O             0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00           0
+misc_seq        0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00           0
+decap           0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00           4
+
+Total           7.2567e-02    5.6488e-05     2.4538e-02      4.7972e-02       1.0000e+02        3976
+
+(clock_network power is part of this total power)
+
+clock_network_power 0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00
+
+where misc_seq are instances that can not be classified as latch_and_FF, memory, or I/O but have clock pin(s).
+
+Total chip power, 0.072567 Watt including core power and other domain power.
+Total clock network only power,   0 Watt, Total clock power including clock network and FF/latch clock pin power, 0.00063465 Watt.
+

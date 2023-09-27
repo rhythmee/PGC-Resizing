@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : tv80s
+Version: R-2020.09-SP3
+Date   : Tue Sep 19 15:41:13 2023
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_ss0p72v125c (File: /home/hot_data/DB/snps14/lib/stdcell_rvt/db_nldm/saed14rvt_ss0p72v125c.db)
+
+Number of ports:                          100
+Number of nets:                          4442
+Number of cells:                         4063
+Number of combinational cells:           3698
+Number of sequential cells:               361
+Number of macros/black boxes:               0
+Number of buf/inv:                        625
+Number of references:                     106
+
+Combinational area:               1183.570793
+Buf/Inv area:                      110.999998
+Noncombinational area:             337.084796
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1520.655589
+Total area:                 undefined
+1

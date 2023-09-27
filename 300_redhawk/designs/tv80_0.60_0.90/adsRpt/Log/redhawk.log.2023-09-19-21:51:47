@@ -1,0 +1,938 @@
+
+  Log File:	adsRpt/Log/redhawk.log.2023-09-19-21:51:47
+  Error File:	adsRpt/Error/redhawk.err.2023-09-19-21:51:47
+  Warning File:	adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47
+
+Running on Linux wappinger 3.10.0-957.21.2.el7.x86_64 x86_64 (BATCH)
+Working path: /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90
+RedHawk 2020 R2.1   RHEL6 (May 06 00:08) -- Power and Ground Network Analyzer
+Copyright (c) 2002-2020 ANSYS, Inc.
+License redhawk: 11000 issued; 1 in use; 2 servers; v9999.9999;  exp. 31-jan-2024
+
+***************************************
+Start cmd file /home/ischo/generative-IR/experiments/300_redhawk/scripts/run_redhawk.tcl. 
+***************************************
+
+Warning: Preparsing is turned off from "puts "Running redhawk_run.tcl..."".
+#Tcl (Sep 19 21:53:29): setup analysis_mode static
+#Tcl (Sep 19 21:53:29): import gsr /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/static_tv80.gsr
+
+***********************************************************
+****   Importing GSR
+***********************************************************
+
+File name is /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/static_tv80.gsr 
+FDR CACHE DIR : ./
+
+***********************************************************
+****   Finish Importing GSR
+***********************************************************
+
+MEMORY Caching status: no caching
+Info: caching directory is ./.MM_403588_wappinger_1695127976
+MEMORY USAGE (init mem cache): 2651 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 0 secs
+WALLTIME: 1 mins 42 secs.
+#Tcl (Sep 19 21:53:29): gsr set FREQUENCY 0.8333333333333334G
+#Tcl (Sep 19 21:53:29): gsr set CELL_RC_FILES {{CONDITION worst} {tv80s /home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/ ...
+#Tcl (Sep 19 21:53:29): gsr set TOGGLE_RATE 10.0
+#Tcl (Sep 19 21:53:29): setup design
+
+***********************************************************
+****   Importing Technology File
+***********************************************************
+
+File name is /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech 
+INFO(GSR-142): Set undefined DYNAMIC_SIMULATION_TIME to 1.2e-09 sec (1/freq) in MIXED_MODE.
+WARNING(TEC-242): Unable to convert Foundry_Process process node parameter 'temp' - ignored!
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'MRDL' at line# 22 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'M9' at line# 29 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-015): Attribute 'EM or WIDTH_BASED_EM or POLYNOMIAL_BASED_EM_DC or POLYNOMIAL_BASED_EM_RMS or POLYNOMIAL_BASED_EM_PEAK' is not specified for 'M8' at line# 36 in /home/hot_data/DB/snps14/tech/star_rc/nominal/saed14nm_1p9m_nominal.tech.
+WARNING(TEC-065): Layer <DIFF>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <CTM1>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+WARNING(TEC-065): Layer <CPO>: Nominal temperature "Tnom" is not specified in the technology file.  The temperature effect for resistance will be ignored!
+
+SUMMARY:
+  WARNING(TEC-015): total 38
+  WARNING(TEC-242): total 1
+    DIAGNOSIS: In tech file '# Foundry_Process <foundryName> <processNode>' line, please use valid foundry name, integer process node.
+  INFO(GSR-142): total 1
+  WARNING(TEC-065): total 40
+ There are a total of 79 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+***********************************************************
+****   Finish Importing Technology File
+***********************************************************
+
+MEMORY USAGE (import technology): 2656 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 0 secs
+WALLTIME: 1 mins 42 secs.
+
+***********************************************************
+****   Importing LEFs
+***********************************************************
+
+File names are specified in GSR.
+INFO: LEF/DEF default VERSION is the latest parse version 5.8 for no VERSION LEF/DEF file. 
+---------------------------------------------------------
+Parsing /home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/results/tv80_0.60_0.90/tv80.lef ...
+---------------------------------------------------------
+INFO(LEF-041): Layer<NWELL> defined in LEF is not specified in technology file. Ignoring it.
+INFO(LEF-041): Layer<LVTIMP> defined in LEF is not specified in technology file. Ignoring it.
+INFO(LEF-041): Layer<PO> defined in LEF is not specified in technology file. Ignoring it.
+INFO(FAO-289): Site unit is selected to create cell rows for FAO.
+WARNING(LEF-026): DIVIDERCHAR is undefined. "/" is used as default.
+
+SUMMARY:
+  INFO(LEF-041): total 41
+  WARNING(LEF-026): total 1
+  INFO(FAO-289): total 1
+ There are a total of 1 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+FAO-INFO: gsr set fao_place_grid 0.074
+
+MEMORY USAGE (import LEF): 2706 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 0 secs
+WALLTIME: 1 mins 43 secs.
+
+***********************************************************
+****   Finish Importing LEFs
+***********************************************************
+
+
+***********************************************************
+****   Importing Library
+***********************************************************
+
+File names are specified in GSR.
+Running on Linux wappinger 3.10.0-957.21.2.el7.x86_64 x86_64
+Working path: /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90
+
+INFO: Library files are processed by PowerStream.
+
+Reading "/home/hot_data/DB/snps14/stdcell_rvt/db_ccs/saed14rvt_ff0p88v125c.lib" ...
+CPU TIME (powerstream): 0 hrs 0 mins 6 secs
+WALL TIME (powerstream): 0 hrs 0 mins 6 secs
+MEMORY USAGE (powerstream): 257 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 6 secs.
+MEMORY USAGE (import library): 2706 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+
+***********************************************************
+****   Finish Importing Library
+***********************************************************
+
+
+***********************************************************
+****   Importing DEFs
+***********************************************************
+
+File names are specified in GSR.
+---------------------------------------------------------
+Parsing /home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/results/tv80_0.60_0.90/tv80.def ...
+---------------------------------------------------------
+VIAS 112
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+ *** Num. of Mask Shift Layers = 2
+  M1(ID 8)
+  M2(ID 12)
+COMPONENTS 3976
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+PINS 48
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+SPECIALNETS 11
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+NETS 4291
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+
+MEMORY USAGE (import DEF): 2709 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+
+* For layers and viaModels used in the design, please refer to file "adsRpt/tech_summary.rpt".
+
+---------------------------------------------------------
+Performing integrity checks on DB ...
+
+(123 / 124) cells are referenced in the design.
+
+Checking gdsmem data version ...
+
+Checking gdsmem LIB and LEF definitions ...
+
+Checking PG-arc definitions for cells with multiple power pins and multiple ground pins ...
+
+Checking the existence of cell power/ground pins ...
+
+Integrity checks done ...
+---------------------------------------------------------
+
+
+MEMORY USAGE (import DEF and ITG done): 2709 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+
+***********************************************************
+****   Finish Importing DEFs
+***********************************************************
+
+
+***********************************************************
+****   Importing Pad (Power/Ground)
+***********************************************************
+
+File name is /home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/results/tv80_0.60_0.90/tv80.ploc 
+
+***********************************************************
+****   Finish Importing Pad
+***********************************************************
+
+Removing unused cells from DB...
+
+MEMORY USAGE: 2709 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+
+***********************************************************
+****   Finish Importing Pad
+***********************************************************
+
+
+***********************************************************
+****   Setting Up Database for Design Data
+***********************************************************
+
+Setting Up Database for Design Data
+
+-----------------------------------------
+Checking the statistics of design reuse...
+    this design has about total 4293 nets, 3976 instances, 22750 pin instances, 258 wires, 10644 vias
+Start setup min_width for FAO
+VIARDL viamodel number: 1
+Skip thin via area < 2um for <MRDL, M9>
+VIA8 viamodel number: 2
+Skip thin via area < 0.12um for <M9, M8>
+VIA7_LRG viamodel number: 8
+Skip thin via area < 0.06um for <M8, M7>
+VIA7_BAR viamodel number: 8
+Skip thin via area < 0.06um for <M8, M7>
+VIA7 viamodel number: 8
+Skip thin via area < 0.06um for <M8, M7>
+VIA6_LRG viamodel number: 6
+Skip thin via area < 0.06um for <M7, M6>
+VIA6_BAR viamodel number: 6
+Skip thin via area < 0.06um for <M7, M6>
+VIA6 viamodel number: 6
+Skip thin via area < 0.06um for <M7, M6>
+VIA5_LRG viamodel number: 8
+Skip thin via area < 0.06um for <M6, M5>
+VIA5_BAR viamodel number: 8
+Skip thin via area < 0.06um for <M6, M5>
+VIA5 viamodel number: 8
+Skip thin via area < 0.06um for <M6, M5>
+VIA4_LRG viamodel number: 7
+Skip thin via area < 0.06um for <M5, M4>
+VIA4_BAR viamodel number: 7
+Skip thin via area < 0.06um for <M5, M4>
+VIA4 viamodel number: 7
+Skip thin via area < 0.06um for <M5, M4>
+VIA3_LRG viamodel number: 16
+Skip thin via area < 0.06um for <M4, M3>
+VIA3_BAR viamodel number: 16
+Skip thin via area < 0.06um for <M4, M3>
+VIA3 viamodel number: 16
+Skip thin via area < 0.06um for <M4, M3>
+VIA2_LRG viamodel number: 32
+Skip thin via area < 0.03um for <M3, M2>
+VIA2_BAR viamodel number: 32
+Skip thin via area < 0.03um for <M3, M2>
+VIA2 viamodel number: 32
+Skip thin via area < 0.03um for <M3, M2>
+VIA1_LRG viamodel number: 33
+Skip thin via area < 0.03um for <M2, M1>
+VIA1_BAR viamodel number: 33
+Skip thin via area < 0.03um for <M2, M1>
+VIA1 viamodel number: 33
+Skip thin via area < 0.03um for <M2, M1>
+POLYVIA0 viamodel number: 0
+Skip thin via area < 0.03um for <M1, CPO> (default) 
+DIFFVIA0 viamodel number: 0
+Skip thin via area < 0.03um for <M1, CTM1> (default) 
+Finish setup min_width for FAO
+
+MPR is off
+
+
+-----------------------------------------
+**** Preprocessing pin instance geometries ****
+**** Preprocessing pin instance done ****
+CPU TIME (preprocess pin instance): 0 hrs 0 mins 0 secs
+WALL TIME (preprocess pin instance): 0 hrs 0 mins 0 secs
+
+Initializing SPF Disposal Process ...
+CPU TIME (Reading SPEF/DSPF files): 0 hrs 0 mins 0 secs
+WALL TIME (Reading SPEF/DSPF files): 0 hrs 0 mins 0 secs
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+
+-----------------------------------------
+***** Cleaning wire geometries: pass 1 *****
+***** Cleaning done *****
+CPU TIME (clean wire geometries: pass 1): 0 hrs 0 mins 0 secs
+WALL TIME (clean wire geometries: pass 1): 0 hrs 0 mins 0 secs
+
+-----------------------------------------
+***** Cleaning via geometries: pass 1 *****
+***** Cleaning done *****
+CPU TIME (clean via geometries: pass 1): 0 hrs 0 mins 0 secs
+WALL TIME (clean via geometries: pass 1): 0 hrs 0 mins 0 secs
+
+-----------------------------------------
+***** Flattening the design *****
+***** Flattening done *****
+CPU TIME (Flatten): 0 hrs 0 mins 0 secs
+WALL TIME (Flatten): 0 hrs 0 mins 0 secs
+MEMORY USAGE (After Flattening Done): 2711 MBytes
+*** Calculate metal density ***
+
+-----------------------------------------
+***** Report DEF block pins *****
+***** Report done *****
+
+INFO(CCL-079): Pin<VDD> of cell<tv80s> doesn't have physical dimension and location, so it will not be extracted!
+INFO(CCL-079): Pin<VSS> of cell<tv80s> doesn't have physical dimension and location, so it will not be extracted!
+
+-----------------------------------------
+**** Processing pin instance geometries ****
+ 10(%) 20(%) 30(%) 40(%) 50(%) 60(%) 70(%) 80(%) 90(%). 100(%) --- 1/1
+**** Processing pin instance done ****
+CPU TIME (process pin instance): 0 hrs 0 mins 0 secs
+WALL TIME (process pin instance): 0 hrs 0 mins 0 secs
+**** Construct 2D Map ****
+INFO(CCL-079): Pin<VDD> of cell<tv80s> doesn't have physical dimension and location, so it will not be extracted!
+
+SUMMARY:
+  INFO(CCL-079): total 4
+
+
+-----------------------------------------
+***** Cleaning wire geometries: pass 2 *****
+***** Cleaning done *****
+CPU TIME (clean wire geometries: pass 2): 0 hrs 0 mins 0 secs
+WALL TIME (clean wire geometries: pass 2): 0 hrs 0 mins 0 secs
+
+-----------------------------------------
+***** Cleaning via geometries: pass 2 *****
+***** Cleaning done *****
+CPU TIME (clean via geometries: pass 2): 0 hrs 0 mins 0 secs
+WALL TIME (clean via geometries: pass 2): 0 hrs 0 mins 0 secs
+INFO(CCL-079): Pin<VDD> of cell<tv80s> doesn't have physical dimension and location, so it will not be extracted!
+INFO(CCL-079): Pin<VSS> of cell<tv80s> doesn't have physical dimension and location, so it will not be extracted!
+
+SUMMARY:
+  INFO(CCL-079): total 2
+
+
+-----------------------------------------
+Importing flatten SPF...
+
+Reading the SPEF file </home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/results/tv80_0.60_0.90/tv80.tlup_max_125.spef>...
+10%..20%..30%..40%..50%..60%..70%..80%..90%..100%..
+ Finish importing flatten SPF.
+CPU TIME (Annotating SPEF/DSPF data): 0 hrs 0 mins 0 secs
+WALL TIME (Annotating SPEF/DSPF data): 0 hrs 0 mins 0 secs
+CPU TIME (Calculating C1/R/C2): 0 hrs 0 mins 0 secs
+WALL TIME (Calculating C1/R/C2): 0 hrs 0 mins 0 secs
+CPU TIME (Process SPEF/DSPF (Total CPU)): 0 hrs 0 mins 0 secs
+WALL TIME (Process SPEF/DSPF (Total CPU)): 0 hrs 0 mins 0 secs
+CPU TIME (SPEF Annotation Done): 0 hrs 0 mins 0 secs
+WALL TIME (SPEF Annotation Done): 0 hrs 0 mins 0 secs
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+MEMORY USAGE (After Geometry Processings Done): 2732 MBytes
+CPU TIME (Later Geo Processing Done): 0 hrs 0 mins 0 secs
+WALL TIME (Later Geo Processing Done): 0 hrs 0 mins 0 secs
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+
+---------------------------------------
+WARNING(CLK-821): Since STA file is not available, it is recommended to define GSR CLOCK_ROOTS for the design.
+    Total number of instances traced = 0/0
+    Total number of nets traced = 0/0
+    Total number of CLK pins (PG/unconnected/connected) = 0 (0/0/0)
+    Total number of leaf clock nets = 9
+    Maximum clock network logic depth = 0
+
+    Total number of CLK pins traced as clock = 0 / 361
+    => 361 / 361 clock pins are connected to non-clock nets.
+       (361 are not traced/0 are traced as non-clock)
+           Please check the completeness of clock roots.
+           You also may review adsRpt/apache.clkPin0 for more details.
+Finished tracing - identified 0 clock insts and 0 clock nets.
+WARNING(STA-467): (3972) instances in the design could not get slew info from the timing file(s).
+		  Please check <adsRpt/apache.slew0> for more details.
+
+    Active/Quiet Summary:
+      Instance Summary:
+                   Total =      3976
+                   clock =         0 (active         0)(quiet         0)
+               non-clock =      3976 (active      3976)(quiet         0)
+      Net Summary:
+                   Total =      4293
+                   clock =         0 (active         0)(quiet         0)
+               non-clock =      4293 (active      4293)(quiet         0)
+
+  No slack information available for this design.
+CPU TIME (Setup Timing Done): 0 hrs 0 mins 0 secs
+WALL TIME (Setup Timing Done): 0 hrs 0 mins 0 secs
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+CPU TIME (Setup Timing): 0 hrs 0 mins 0 secs
+WALL TIME (Setup Timing): 0 hrs 0 mins 0 secs
+MEMORY USAGE (Setup Timing Done): 2732 MBytes
+
+SUMMARY:
+  WARNING(CLK-821): total 1
+  WARNING(STA-467): total 1
+    DIAGNOSIS: These instances are either missing or have no valid slew info in timing file(s).
+ There are a total of 2 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+
+-----------------------------------------
+
+
+INFO: There are 123 standarded cells out of 124 cells
+INFO: There are 3976 standarded cell instances out of 3976 instances
+CPU TIME (Setup Database - Total): 0 hrs 0 mins 0 secs
+WALL TIME (Setup Database - Total): 0 hrs 0 mins 0 secs
+MEMORY USAGE (setup DB): 2732 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+
+
+***********************************************************
+****   Finish Setting Up Database for Design Data
+***********************************************************
+
+INFO(ACK-117): The 'Local Gound(LG)' mode is used.
+MEMORY USAGE (import APL_FILES): 2732 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+
+SUMMARY:
+  INFO(ACK-117): total 1
+
+***********************************************************
+****   Finish importing APL_FILES
+***********************************************************
+
+INFO(LIC-011): Time spent for checking out licenses: 3.028 seconds.
+#Tcl (Sep 19 21:53:36): perform pwrcalc
+
+***********************************************************
+****   Calculating power
+***********************************************************
+
+Preparing data for PowerStream ...
+INFO : Buffered dump PDB disabled
+  ** FAST MODE DATA PREPARATION for POWER_DB **
+
+    Step 0 done
+
+    Dump PNets MAIN done
+
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 49 secs.
+MEMORY USAGE (Power DB creation Done.): 2849 MBytes
+  done.
+
+INFO(Para_power): Starting powerstream in background ... 
+
+                           PowerStream (TM)
+
+              Version 2020 R2.1   RHEL6 -- Apr 20, 2020
+                 Copyright (c) 2002-2020 ANSYS, Inc.
+                         ALL RIGHTS RESERVED
+
+
+
+**** Checking GSR setting.. OK.
+
+Calculating power for block 'tv80s'
+
+INFO : load library info successfully.
+
+INFO : load 3976 instances successfully.
+
+INFO : load 4293 nets successfully.
+INFO : Writing instance index file adsPower/apache.hier.gz ...
+
+
+**** Importing GSR APL
+
+Generating .apache/apache.apl
+
+TOTAL CPU TIME: 0 hrs 0 mins 0 secs
+WALLTIME: 1 mins 6 secs.
+INFO(ACK-117): The 'Local Gound(LG)' mode is used.
+Importing APL current directory /home/ischo/generative-IR/experiments/000_SETUP/apl_results_merge.
+
+INFO(ACK-113): 33 out of 211 cell(s) in DI-directory '/home/ischo/generative-IR/experiments/000_SETUP/apl_results_merge' are referenced in the design.
+MEMORY USAGE: 120 MBytes
+CPU TIME (APLINT): 0 hrs 0 mins 0 secs
+WALL TIME (APLINT): 0 hrs 0 mins 4 secs
+
+
+APLCHK CURRENT FILE(S) SUMMARY:
+    APLCHK INFO: Total # of APL CURRENT files imported: 33.
+    APLCHK INFO: Imported files check without error : 33 (100.00%)
+
+Importing APL cap directory /home/ischo/generative-IR/experiments/000_SETUP/apl_CAP.
+
+TOTAL CPU TIME: 0 hrs 0 mins 0 secs
+WALLTIME: 1 mins 10 secs.
+INFO: multi-threading for power report generation is turned off.
+
+Recommended dynamic simulation time, 1200psec ,to include 100.0000%
+of total power for DYNAMIC_SIMULATION_TIME in GSR
+
+----------------------------------------------------------------
+
+Power summary:
+
+Power of different frequency (MHz) domain in Watt:
+
+Frequency    total_pwr   leakage_pwr   internal_pwr   switching_pwr  %_total_pwr    #inst_count
+8.3333e+02   7.2567e-02  5.6488e-05    2.4538e-02     4.7972e-02     1.0000e+02        3976
+
+Power of different clock root in Watt (frequency in MHz):
+
+clock_root         total_pwr     leakage_pwr    internal_pwr    switching_pwr    %_total_pwr    #inst_count
+NA*                7.2567e-02    5.6488e-05     2.4538e-02      4.7972e-02       1.0000e+02        3976
+
+Instances not covered by any clock root in STA are added up to NA* 
+
+Power of different Vdd domain in Watt:
+
+Vdd_domain      total_pwr   leakage_pwr  internal_pwr  switching_pwr   %_total_pwr    #inst_count
+VDD (0.88V)     7.2567e-02  5.6488e-05   2.4538e-02    4.7972e-02      1.0000e+02        3976
+
+For NA domain, the instance is not connected to power nets or instance power pins connected to non-Vdd nets
+
+<Vdd>* : not specified in VDD_NETS
+
+Power of different cell types in Watt:
+
+cell_type       total_pwr     leakage_pwr    internal_pwr    switching_pwr    %_total_pwr     #inst_count
+combinational   5.4700e-02    3.8108e-05     1.6986e-02      3.7676e-02       7.5378e+01        3611
+latch_and_FF    1.7867e-02    1.8380e-05     7.5524e-03      1.0296e-02       2.4622e+01         361
+memory          0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00           0
+I/O             0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00           0
+misc_seq        0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00           0
+decap           0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00           4
+
+Total           7.2567e-02    5.6488e-05     2.4538e-02      4.7972e-02       1.0000e+02        3976
+
+(clock_network power is part of this total power)
+
+clock_network_power 0.0000e+00    0.0000e+00     0.0000e+00      0.0000e+00       0.0000e+00
+
+where misc_seq are instances that can not be classified as latch_and_FF, memory, or I/O but have clock pin(s).
+
+Total chip power, 0.072567 Watt including core power and other domain power.
+Total clock network only power,   0 Watt, Total clock power including clock network and FF/latch clock pin power, 0.00063465 Watt.
+
+WARNING(PWR-221): Signal pin toggle rate of 3972 non-clock network instances are greater than 1.0, and 0 clock network instances are greater than 2.0.
+**** Running VLSG ... (You can see its output at adsRpt/apache.vlsg.log )...INFO(VLSG-110): The average power (for vectorless block only) of domain VDD is 0.0722397 W.
+Done.
+CPU TIME (powerstream): 0 hrs 0 mins 0 secs
+WALL TIME (powerstream): 0 hrs 1 mins 11 secs
+MEMORY USAGE (powerstream): 375 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 0 secs
+WALLTIME: 1 mins 11 secs.
+
+SUMMARY:
+  INFO(VLSG-110): total 1
+  INFO(ACK-117): total 1
+  WARNING(PWR-221): total 1
+ There are a total of 1 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+MEMORY USAGE (calculate power): 2850 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 7 secs
+WALLTIME: 3 mins 0 secs.
+
+***********************************************************
+****   Finish Calculating Power
+***********************************************************
+
+#Tcl (Sep 19 21:53:46): perform extraction -power -ground
+
+***********************************************************
+****   Start Extraction...
+***********************************************************
+
+
+***********************************************************
+****   Building Connectivity
+***********************************************************
+
+
+---------------------------------------------------------
+Building net<VDD>: 
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VDD>
+	 which has no physical geometry.
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VDD>
+	 which has no physical geometry.
+  
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+
+SUMMARY:
+  WARNING(NET-404): total 2
+ There are a total of 2 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+
+---------------------------------------------------------
+Building net<VSS>: 
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VSS>
+	 which has no physical geometry.
+WARNING(NET-404): Ignoring the connectivity to Pin<tv80s:VSS>
+	 which has no physical geometry.
+  
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+
+SUMMARY:
+  WARNING(NET-404): total 2
+ There are a total of 2 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+
+Check Connectivity:
+-----------------------------------------------
+Checking net<VDD>:
+WARNING(NET-405): Pin<tv80s:VDD> is not physically(only logically) connected to net<VDD>.
+WARNING(NET-450): (7) wires in net<tv80s:VDD> are not connected to power sources or pins.
+	 Please check <adsRpt/tv80s.Wire.unconnect> for details.
+WARNING(NET-452): (1) pins in net<tv80s:VDD> are not physically connected.
+	 Please check <adsRpt/tv80s.Pin.unconnect> for details.
+WARNING(NET-453): (28) pinInsts in net<tv80s:VDD> are not physically connected.
+	 Please check <adsRpt/tv80s.PinInst.unconnect> for details.
+
+SUMMARY:
+  WARNING(NET-453): total 1
+  WARNING(NET-452): total 1
+  WARNING(NET-450): total 1
+  WARNING(NET-405): total 1
+    DIAGNOSIS: Please check DEFs and assure this is okay.
+ There are a total of 4 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+Net<VDD> is not fully connected
+-----------------------------------------------
+Checking net<VSS>:
+WARNING(NET-405): Pin<tv80s:VSS> is not physically(only logically) connected to net<VSS>.
+WARNING(NET-452): (1) pins in net<tv80s:VSS> are not physically connected.
+	 Please check <adsRpt/tv80s.Pin.unconnect> for details.
+
+SUMMARY:
+  WARNING(NET-452): total 1
+  WARNING(NET-405): total 1
+    DIAGNOSIS: Please check DEFs and assure this is okay.
+ There are a total of 2 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+Net<VSS> is not fully connected
+MEMORY USAGE (build connectivity): 2849 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 59 secs.
+
+***********************************************************
+****   Finish Building Connectivity
+***********************************************************
+
+
+***********************************************************
+****   Extracting R
+***********************************************************
+
+Build R network: 
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+INFO(PAD-050): POWER and GROUND sources are listed in file `adsRpt/PG.ploc' (in .ploc format).
+MEMORY USAGE (Extracting R): 2849 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 6 secs
+WALLTIME: 1 mins 59 secs.
+
+SUMMARY:
+  INFO(PAD-050): total 1
+    DIAGNOSIS: Please consult <report>/PG.ploc to know the P/G source locations RedHawk specified.
+
+***********************************************************
+****   Finish Extracting R.
+***********************************************************
+
+INFO(ACK-109): Total # of Cells: 1 .
+INFO(ACK-109): Total # of Cells: 1 .
+INFO(ACK-109): Total # of Cells: 1 .
+
+***********************************************************
+****   Finish Extraction
+***********************************************************
+
+#Tcl (Sep 19 21:54:47): setup pad -power -r 0.001000 -c 0.000000
+  setup pad :
+   Pad Vdd Resistance = 0.001 ohm
+   Pad Vdd Cap = 0 pF
+   Pad Gnd Resistance = 0 ohm
+   Pad Gnd Cap = 0 pF
+
+
+***********************************************************
+****   Finish Setting Up Pad.
+
+***********************************************************
+
+#Tcl (Sep 19 21:54:47): setup pad -ground -r 0.001000 -c 0.000000
+  setup pad :
+   Pad Vdd Resistance = 0.001 ohm
+   Pad Vdd Cap = 0 pF
+   Pad Gnd Resistance = 0.001 ohm
+   Pad Gnd Cap = 0 pF
+
+
+***********************************************************
+****   Finish Setting Up Pad.
+
+***********************************************************
+
+#Tcl (Sep 19 21:54:47): perform analysis -static
+
+***********************************************************
+****   Start Static Analysis
+***********************************************************
+
+Optimize Resistor Network :
+Setup Resistor Network :
+Setup Current Source :
+WARNING(CCL-115): There are instances that are not in the power network.  Please refer to file <adsRpt/tv80s.power.unused>!
+
+
+ ** Pad/WireBond/Package RLC Setting Summary **
+   Pad Vdd Resistance = 0.001 ohm
+   Pad Gnd Resistance = 0.001 ohm
+   Wirebond Vdd Resistance = 0 ohm
+   Wirebond Gnd Resistance = 0 ohm
+   Package Vdd Resistance = 0 ohm
+   Package Gnd Resistance = 0 ohm
+MEMORY USAGE (Start static simulation): 2851 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 7 secs
+WALLTIME: 3 mins 0 secs.
+
+Program /tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/asimplus_static of Copyright (c) 2002-2020 ANSYS, Inc. with Released Date: 05/06/2020  
+
+INFO(SIM-S03I): Read in resistive network...
+INFO(SIM-S04I): Read in current distribution...
+INFO(SIM-02I): Check circuit topology...
+INFO(SIM-S01I): Start static analysis with 3570 nodes and 7062 resistors...
+MEMORY USAGE (AsimPlus Static BFS): 98 MBytes
+INFO(SIM-S02I): End static analysis.
+
+MEMORY USAGE (AsimPlus Static): 104 MBytes
+CPU TIME (AsimPlus Static): 0 hrs 0 mins 0 secs
+WALL TIME (AsimPlus Static): 0 hrs 1 mins 9 secs
+MEMORY USAGE (Finish static simulation): 2915 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 7 secs
+WALLTIME: 4 mins 9 secs.
+
+***** Collecting post-simulation results *****
+
+Preparation starts ...
+Done.
+Post process result for cell<tv80s> :
+stage 1: 
+..10%..20%..30%..40%..50%stage 2: 
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+***** Collecting post-simulation results done! *****
+
+
+SUMMARY:
+  WARNING(CCL-115): total 1
+ There are a total of 1 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+
+Net<VSS>:   
+
+WARNING(TEC-129): Layer <VIA6> does not have EM rule in EM_MODE avg.
+
+WARNING(TEC-129): Layer <VIA5> does not have EM rule in EM_MODE avg.
+
+WARNING(TEC-129): Layer <VIA4> does not have EM rule in EM_MODE avg.
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+
+Net<VDD>:   
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+
+Total number of metal EM violations: 739
+Total number of via   EM violations: 0
+
+Worst Static EM: 
+---------------------------------------------------
+Type   value  net   EM_limit    location       name
+---------------------------------------------------
+WIRE  3628.61% VDD    0.01mA (15.000,27.000) M3
+
+The worst IR-drop for the top cover of the chip:
+
+NET<VDD> :
+	voltage = 0.876848 at node (11.963000,27.300000)
+	voltage = 0.876851 at node (11.852000,27.300000)
+	voltage = 0.876869 at node (12.407000,27.300000)
+	voltage = 0.876887 at node (11.482000,27.300000)
+	voltage = 0.876931 at node (12.925000,27.300000)
+
+NET<VSS> :
+	voltage = 0.002867 at node (17.809000,30.300000)
+	voltage = 0.002828 at node (18.475000,30.300000)
+	voltage = 0.002827 at node (17.143000,30.300000)
+	voltage = 0.002814 at node (17.032000,30.300000)
+	voltage = 0.002798 at node (18.771000,30.300000)
+
+***********************************************************
+****   Static Result Summary
+***********************************************************
+
+Current hooked up to VDD: 0.082091 (0.880000V)
+Total power calculated: 0.072567 Watt
+
+Worst Static IR Drop:
+---------------------------------------------------
+Type   value    net  ideal_volt   location     name
+---------------------------------------------------
+WIRE    3.20mV  VDD  0.8800  (11.963,27.300) M1
+WIRE    2.90mV  VSS  0.0000  (17.809,30.300) M1
+INST    5.90mV  VDD  0.8800  (11.963,27.600) ctmTdsLR_1_8079
+
+SUMMARY:
+  WARNING(TEC-129): total 6
+ There are a total of 6 WARNINGs. Please check <adsRpt/Warn/redhawk.warn.2023-09-19-21:51:47> for details.
+
+***********************************************************
+****   Finish Static Analysis
+***********************************************************
+
+MEMORY USAGE (static analysis): 2980 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 7 secs
+WALLTIME: 4 mins 10 secs.
+
+***********************************************************
+****   Finish RedHawk Static Flow
+***********************************************************
+
+#Tcl (Sep 19 21:55:57): export db ./static.results
+
+***********************************************************
+****   Exporting Apache DB
+***********************************************************
+
+Apache DB files are under directory "./static.results".
+Overwriting exisiting DB directory "./static.results"!
+ Build list to copy files into DB ./static.results ...
+  Done.
+
+ -- Executing "/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/sr_copy -db_dir_name ./static.results -is_export 1 -list .SR_COPY_LIST.403588 -compress 1 -num_threads 1 -pid 403588&"
+
+ Saving General Information ...
+  GSR done.
+  TECH done.
+
+ Saving Library ...
+  124 library cells done.
+MEMORY USAGE: 2980 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 7 secs
+WALLTIME: 4 mins 10 secs.
+
+ Saving Design ...
+
+ *** Saving pinInsts (NEW) ***
+
+  Saving Top-Cell tv80s ...
+  Top-Cell done.
+  Saving DB-setup information ...  Done.
+  Saving timing information ...  Done.
+ Total 1 blocks (Top-Cell incl.) saved.
+
+
+ Saving Layout ...
+  Top-Cell tv80s ...
+  Done.
+MEMORY USAGE: 3004 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 7 secs
+WALLTIME: 4 mins 10 secs.
+
+ Saving Extractions ...
+  Top-Cell tv80s ... 
+   *** Saving Wire Nodes (NEW) starts ...
+
+
+   *** Saving Via Nodes (NEW) starts ...
+
+
+   *** Saving Pin Nodes (NEW) starts ...
+
+
+   *** Saving PinInst Nodes (NEW) starts ...
+
+done.
+  Done.
+
+MEMORY USAGE: 3004 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 7 secs
+WALLTIME: 4 mins 10 secs.
+
+--- Excutable sr_copy done ---
+
+MEMORY USAGE (export ApacheDB): 3004 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 7 secs
+WALLTIME: 4 mins 10 secs.
+
+***********************************************************
+****   Finish Exporting Apache DB
+***********************************************************
+
+#Tcl (Sep 19 21:55:57): perform emcheck -mode all -net VDD
+
+***********************************************************
+****   Start EM check
+***********************************************************
+
+INFO: EM mode other than DC/AVG doesn't work after Static-IR.
+Please run Dynamic-IR.
+INFO: EM mode other than DC/AVG doesn't work after Static-IR.
+Please run Dynamic-IR.
+
+Net<VDD>:   
+..10%..20%..30%..40%..50%..60%..70%..80%..90%..100%
+
+Total number of metal EM violations: 382
+Total number of via   EM violations: 0
+
+Worst Static EM: 
+---------------------------------------------------
+Type   value  net   EM_limit    location       name
+---------------------------------------------------
+WIRE  3628.61% VDD    0.01mA (15.000,27.000) M3
+
+***********************************************************
+****   Finish EM check
+***********************************************************
+
+MEMORY USAGE (EM check): 3004 MBytes
+TOTAL CPU TIME: 0 hrs 0 mins 7 secs
+WALLTIME: 4 mins 10 secs.
+
+***********************************************************
+****   Finish RedHawk EM check
+***********************************************************
+
+
+Tcl command evaluation failed.
+Batch command execution failed.
+INFO(LIC-011): Time spent for checking out licenses: 3.028 seconds.
+RedHawk application is ended.

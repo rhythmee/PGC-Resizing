@@ -1,0 +1,2 @@
+#This file reports cells PIN missing USE attribute in LEF and DEF files
+#CellName             PinName             LEF/DEF File name

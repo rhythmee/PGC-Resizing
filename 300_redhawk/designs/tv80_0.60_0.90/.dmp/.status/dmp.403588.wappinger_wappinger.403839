@@ -1,0 +1,8 @@
+2023-09-19 21:53:30: # CWD: /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90
+2023-09-19 21:53:30: # CMD: /tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.403588.wappinger -lib .apache/apache.import.libs -apacheDir .apache -rptDir adsRpt 
+2023-09-19 21:53:30: # Timeout: 5
+# Date Time VIRT(MB) RSS PEAK CPU-Time(s)
+2023-09-19 21:53:30: 250 13 314 0.01
+2023-09-19 21:53:35: 595 313 595 5.00
+2023-09-19 21:53:36: 257 21 738 6.14
+2023-09-19 21:53:36: # Exit with reason (normal, status code 0).

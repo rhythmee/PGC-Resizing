@@ -1,0 +1,4 @@
+#Net VDD:
+Pin<VDD>
+#Net VSS:
+Pin<VSS>

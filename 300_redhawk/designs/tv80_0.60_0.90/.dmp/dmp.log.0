@@ -1,0 +1,40 @@
+Linux wappinger 3.10.0-957.21.2.el7.x86_64 #1 SMP Wed Jun 5 14:26:44 UTC 2019 => CentOS Linux release 7.6.1810 (Core) 
+Total Memory 385G Available Memory 31G Cores 16 Processors 32 PID 403588
+CPU model name	: Intel(R) Xeon(R) Gold 6234 CPU @ 3.30GHz
+Global Dir: g_dotapache .apache g_adsRpt adsRpt 2023-09-19-21:52:56
+00:00:00  00:00:00	00:01:43  00:01:43   2706 MB   2706 MB => Import Lef
+# Load average:  0.13, 0.22, 0.24 1840  ru_nivcsw: 177 ru_nvcsw: 191 2023-09-19-21:53:30
+00:00:06  00:00:06	00:01:49  00:00:06   2706 MB   2706 MB => Import Lib
+# Load average:  0.19, 0.23, 0.25 1840  ru_nivcsw: 202 ru_nvcsw: 260 2023-09-19-21:53:36
+00:00:06  00:00:00	00:01:49  00:00:00   2709 MB   2709 MB => Import RHDB
+# Load average:  0.19, 0.23, 0.25 1840  ru_nivcsw: 340 ru_nvcsw: 260 2023-09-19-21:53:36
+00:00:06  00:00:00	00:01:49  00:00:00   2709 MB   2709 MB => Import PAD
+# Load average:  0.19, 0.23, 0.25 1840  ru_nivcsw: 376 ru_nvcsw: 260 2023-09-19-21:53:36
+00:00:06  00:00:00	00:01:49  00:00:00   2732 MB   3949 MB => End of Setup DataBase: Start Handshake M-S
+# Load average:  0.19, 0.23, 0.25 1840  ru_nivcsw: 802 ru_nvcsw: 262 2023-09-19-21:53:36
+00:00:06  00:00:00	00:01:49  00:00:00   2732 MB   3949 MB => End of Setup DataBase: End Handshake M-S ===
+# Load average:  0.19, 0.23, 0.25 1840  ru_nivcsw: 802 ru_nvcsw: 262 2023-09-19-21:53:36
+00:00:06  00:00:00	00:01:49  00:00:00   2732 MB   3949 MB => Setup Design: inst 3976 net 4293 wire 627 via 4932 ===
+# Load average:  0.19, 0.23, 0.25 1840  ru_nivcsw: 806 ru_nvcsw: 262 2023-09-19-21:53:36
+00:00:06  00:00:00	00:01:59  00:00:10   2849 MB   3949 MB => Power Calculation ===
+# Load average:  0.16, 0.22, 0.24 1843  ru_nivcsw: 882 ru_nvcsw: 275 2023-09-19-21:53:46
+00:00:06  00:00:00	00:01:59  00:00:00   2849 MB   3949 MB => Build Connectivity
+# Load average:  0.16, 0.22, 0.24 1843  ru_nivcsw: 1050 ru_nvcsw: 275 2023-09-19-21:53:46
+00:00:06  00:00:00	00:01:59  00:00:00   2849 MB   3949 MB => Extraction : Node 12106 Resistor 14724 ===
+# Load average:  0.16, 0.22, 0.24 1843  ru_nivcsw: 1088 ru_nvcsw: 276 2023-09-19-21:53:46
+00:00:07  00:00:01	00:03:00  00:01:01   2851 MB   3949 MB => Setup Simulation ===
+# Load average:  0.33, 0.25, 0.25 1841  ru_nivcsw: 1206 ru_nvcsw: 352 2023-09-19-21:54:47
+00:00:07  00:00:00	00:04:09  00:01:09   2915 MB   3949 MB => Simulation(0) ===
+# Load average:  2.19, 0.78, 0.43 1886  ru_nivcsw: 1218 ru_nvcsw: 1120 2023-09-19-21:55:56
+00:00:07  00:00:00	00:04:09  00:00:00   2939 MB   3949 MB => EM Check: Start EM check
+# Load average:  2.19, 0.78, 0.43 1886  ru_nivcsw: 1261 ru_nvcsw: 1120 2023-09-19-21:55:56
+00:00:07  00:00:00	00:04:09  00:00:00   2940 MB   3949 MB => EM Check: End EM check
+# Load average:  2.19, 0.78, 0.43 1886  ru_nivcsw: 1316 ru_nvcsw: 1120 2023-09-19-21:55:56
+00:00:07  00:00:00	00:04:09  00:00:00   2940 MB   3949 MB => Analyze ===
+# Load average:  2.19, 0.78, 0.43 1886  ru_nivcsw: 1382 ru_nvcsw: 1122 2023-09-19-21:55:56
+00:00:07  00:00:00	00:04:10  00:00:01   3004 MB   3949 MB => Export DB
+# Load average:  2.19, 0.78, 0.43 1887  ru_nivcsw: 1530 ru_nvcsw: 1124 2023-09-19-21:55:57
+00:00:07  00:00:00	00:04:10  00:00:00   3004 MB   3949 MB => EM Check: Start EM check
+# Load average:  2.19, 0.78, 0.43 1887  ru_nivcsw: 1552 ru_nvcsw: 1124 2023-09-19-21:55:57
+00:00:07  00:00:00	00:04:10  00:00:00   3004 MB   3949 MB => EM Check: End EM check
+# Load average:  2.19, 0.78, 0.43 1887  ru_nivcsw: 1591 ru_nvcsw: 1124 2023-09-19-21:55:57

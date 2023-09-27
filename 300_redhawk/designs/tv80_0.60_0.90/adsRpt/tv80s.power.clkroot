@@ -1,0 +1,7 @@
+
+Power of different clock root in Watt (frequency in MHz):
+
+clock_root         total_pwr     leakage_pwr    internal_pwr    switching_pwr    %_total_pwr    #inst_count
+NA*                7.2567e-02    5.6488e-05     2.4538e-02      4.7972e-02       1.0000e+02        3976
+
+Instances not covered by any clock root in STA are added up to NA* 

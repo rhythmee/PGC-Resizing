@@ -1,0 +1,194 @@
+flexlm init mthb=1 (pid=402523 ppid=402522)
+chkout redhawk (pid=402523 ppid=402522)
+total_in_use 1 user_cnt 1 num_lic 1000
+flexlm penv: ALIC_PARENT_LCF=0x80020130 (pid=402523 ppid=402522)
+RedHawk optimized version 2020 R2.1   RHEL6, built time: May 06 00:08:23 2020 (BATCH)
+CVS checked out time: Wed May  6 00:05:46 2020
+GCC version: 4.9.2
+glibc-2.17-307.el7.1.x86_64
+glibc-2.17-307.el7.1.i686
+Linux wappinger 3.10.0-957.21.2.el7.x86_64 #1 SMP Wed Jun 5 14:26:44 UTC 2019 x86_64 cores 16 processors 32
+APACHEROOT=/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1/ (started: 2023-09-19-21:42:52)
+LD_LIBRARY_PATH=/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//lib:/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//lib/openmpi/lib:/lib64:/lib/:/usr/lib:/usr/lib64::/tools/cadence/IC618/tools/dfII/lib:/home/sam28/gurobi951/linux64/lib:/tools/MATLAB/extern/bin/glnxa64:/tools/MATLAB/sys/os/glnxa64:/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1/lib:/usr/local/cuda/lib64:/home/sam28/daniel/tmp/tensor_rt/TensorRT-5.1.5.0/lib:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/python2.7:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/sqlite/default:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/ipp:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/mkl:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/icc:/tools/synopsys/proteus/M-2017.03-7/linux64/lib::/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//lib/openmpi/lib/lsf
+Total physical memory: 394680 MB
+Avail physical memory:  39456 MB (in page tables)
+Free  physical memory: 290506 MB (inc buf/cached)
+Current cputime (soft) unlimited
+Maximum cputime (hard) unlimited
+Current filesize (soft) unlimited
+Maximum filesize (hard) unlimited
+Current datasize (soft) unlimited
+Maximum datasize (hard) unlimited
+Current stacksize (soft) unlimited
+Maximum stacksize (hard) unlimited
+Current memoryuse (soft) unlimited
+Maximum memoryuse (hard) unlimited
+Current file descriptors (soft) 4096
+Maximum file descriptors (hard) 4096
+Virtual memory address space unlimited
+Current nproc (soft) 8196
+Maximum nproc (hard) 1540512
+License redhawk: 11000 issued; 1 in use; 2 servers; v9999.9999;  exp. 31-jan-2024
+
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/redhawk_main -b /home/ischo/generative-IR/experiments/300_redhawk/scripts/run_redhawk.tcl 
+#Tcl (Sep 19 21:43:25): setup analysis_mode static
+#Tcl (Sep 19 21:43:25): import gsr /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/static_tv80.gsr
+VDD_NET {
+  VDD 0.88
+}
+GND_NET {
+  VSS 0
+}
+#Tcl (Sep 19 21:43:25): gsr set FREQUENCY 0.8333333333333334G
+#Tcl (Sep 19 21:43:25): gsr set CELL_RC_FILES {{CONDITION worst} {tv80s /home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/ ...
+#Tcl (Sep 19 21:43:25): gsr set TOGGLE_RATE 3.0
+#Tcl (Sep 19 21:43:25): setup design
+flexlm penv: ALIC_PARENT_STS=9981p402523 (pid=402523 ppid=402522)
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.402523.wappinger -lib .apache/apache.import.libs -apacheDir .apache -rptDir adsRpt 
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.402523.wappinger -lib .apache/apache.import.libs -apacheDir .apache -rptDir adsRpt  ==> PSCMD (pid=402636 ppid=402523)
+=> retcode: 0 cmd_ctrl: 1/1
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/densityMap ./.MM_402523_wappinger_1695127372/density_map/tv80s.cfg 
+=> retcode: 0 cmd_ctrl: 1/1
+
+MAX Layers: 41 42
+#Nets=2 #Bytes=8 #VDD=1 #VSS=1 #CLK=0 #SIG=0 #GSRVDD=1 #GSRVSS=1
+VDD(47 0.88) VSS(48 0) 
+GSR VDD Net idx: 0 
+GSR GND Net idx: 1 #Tcl (Sep 19 21:43:32): perform pwrcalc
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.402523.wappinger -g .apache/user.gsr -apacheDir .apache -rptDir adsRpt -logFileName adsPower/.dmp_para_calc_power.log -para > /dev/null 2>&1 &
+=> retcode: 0 cmd_ctrl: 0/0
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.402523.wappinger -g .apache/user.gsr -apacheDir .apache -rptDir adsRpt -logFileName adsPower/.dmp_para_calc_power.log -para  ==> PSCMD (pid=402646 ppid=402645)
+flexlm genv: 9981p402523 (pid=402646 ppid=402645)
+flexlm init mthb=1 (pid=402646 ppid=402645)
+#Tcl (Sep 19 21:43:42): perform extraction -power -ground
+echo extraction finished. > .apache/.extraction.status
+=> retcode: 0 cmd_ctrl: 0/1
+flexlm genv: 0x80020130 (pid=402646 ppid=402645)
+chkout redhawk (share) (pid=402646 ppid=402645)
+flexlm penv: ALIC_PARENT_STS=9981p402646 (pid=402646 ppid=402645)
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/aplint -logFileName adsPower/.dmp_para_calc_power.log -apacheDir .apache -apacheRptDir adsRpt -ilimit -12v2 -cmode 3 -isc -slew  0 1  /home/ischo/generative-IR/experiments/000_SETUP/apl_results_merge .apache/out_0.aplint >& .apache/.stdout.redirect.log
+=> retcode: 0 cmd_ctrl: 1/1
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1/bin//aplmerge -verbose -c -logFileName adsPower/.dmp_para_calc_power.log -apacheDir .apache -apacheRptDir adsRpt -o .apache/cell.cdev /home/ischo/generative-IR/experiments/000_SETUP/apl_CAP >& .apache/.stdout.redirect.log
+=> retcode: 0 cmd_ctrl: 1/1
+cp adsPower/.dmp_para_calc_power.log .logFileNames
+=> retcode: 0 cmd_ctrl: 0/1
+/bin/cat adsPower/.dmp_para_calc_power.log2 >> adsRpt/Log/redhawk.log.2023-09-19-21:41:43
+=> retcode: 0 cmd_ctrl: 0/1
+/bin/cat adsPower/.dmp_para_calc_power.log1 >> adsRpt/Log/redhawk.log.2023-09-19-21:41:43
+=> retcode: 0 cmd_ctrl: 0/1
+#Tcl (Sep 19 21:44:43): setup pad -power -r 0.001000 -c 0.000000
+#Tcl (Sep 19 21:44:43): setup pad -ground -r 0.001000 -c 0.000000
+#Tcl (Sep 19 21:44:43): perform analysis -static
+timer event1 7s (1 9)
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/asimplus_static 14738 -rm_inputfiles  -cis  -crt 1.0000e+06  -logFileName .logFileNames  -internal_dir .apache  -pm_eval 1 
+flexlm genv: 9981p402523 (pid=402840 ppid=402523)
+flexlm init mthb=1 (pid=402840 ppid=402523)
+flexlm genv: 0x80020130 (pid=402840 ppid=402523)
+chkout redhawk (share) (pid=402840 ppid=402523)
+=> retcode: 0 cmd_ctrl: 1/1
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/irsout .apache/ir.out 523
+=> retcode: 0 cmd_ctrl: 1/1
+#Tcl (Sep 19 21:45:52): export db ./static.results
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/sr_copy -db_dir_name ./static.results -is_export 1 -list .SR_COPY_LIST.402523 -compress 1 -num_threads 1 -pid 402523&
+=> retcode: 0 cmd_ctrl: 1/0
+#Tcl (Sep 19 21:45:52): perform emcheck -mode all -net VDD
+chkin redhawk (pid=402523 ppid=402522)
+RedHawk ended: 2023-09-19-21:45:52
+
+flexlm init mthb=1 (pid=403588 ppid=403587)
+chkout redhawk (pid=403588 ppid=403587)
+total_in_use 1 user_cnt 1 num_lic 1000
+flexlm penv: ALIC_PARENT_LCF=0x80020130 (pid=403588 ppid=403587)
+RedHawk optimized version 2020 R2.1   RHEL6, built time: May 06 00:08:23 2020 (BATCH)
+CVS checked out time: Wed May  6 00:05:46 2020
+GCC version: 4.9.2
+glibc-2.17-307.el7.1.x86_64
+glibc-2.17-307.el7.1.i686
+Linux wappinger 3.10.0-957.21.2.el7.x86_64 #1 SMP Wed Jun 5 14:26:44 UTC 2019 x86_64 cores 16 processors 32
+APACHEROOT=/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1/ (started: 2023-09-19-21:52:56)
+LD_LIBRARY_PATH=/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//lib:/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//lib/openmpi/lib:/lib64:/lib/:/usr/lib:/usr/lib64::/tools/cadence/IC618/tools/dfII/lib:/home/sam28/gurobi951/linux64/lib:/tools/MATLAB/extern/bin/glnxa64:/tools/MATLAB/sys/os/glnxa64:/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1/lib:/usr/local/cuda/lib64:/home/sam28/daniel/tmp/tensor_rt/TensorRT-5.1.5.0/lib:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/python2.7:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/sqlite/default:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/ipp:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/mkl:/tools/synopsys/proteus/M-2017.03-7/linux64/lib/icc:/tools/synopsys/proteus/M-2017.03-7/linux64/lib::/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//lib/openmpi/lib/lsf
+Total physical memory: 394680 MB
+Avail physical memory:  32208 MB (in page tables)
+Free  physical memory: 286470 MB (inc buf/cached)
+Current cputime (soft) unlimited
+Maximum cputime (hard) unlimited
+Current filesize (soft) unlimited
+Maximum filesize (hard) unlimited
+Current datasize (soft) unlimited
+Maximum datasize (hard) unlimited
+Current stacksize (soft) unlimited
+Maximum stacksize (hard) unlimited
+Current memoryuse (soft) unlimited
+Maximum memoryuse (hard) unlimited
+Current file descriptors (soft) 4096
+Maximum file descriptors (hard) 4096
+Virtual memory address space unlimited
+Current nproc (soft) 8196
+Maximum nproc (hard) 1540512
+License redhawk: 11000 issued; 1 in use; 2 servers; v9999.9999;  exp. 31-jan-2024
+
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/redhawk_main -b /home/ischo/generative-IR/experiments/300_redhawk/scripts/run_redhawk.tcl 
+#Tcl (Sep 19 21:53:29): setup analysis_mode static
+#Tcl (Sep 19 21:53:29): import gsr /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/static_tv80.gsr
+VDD_NET {
+  VDD 0.88
+}
+GND_NET {
+  VSS 0
+}
+#Tcl (Sep 19 21:53:29): gsr set FREQUENCY 0.8333333333333334G
+#Tcl (Sep 19 21:53:29): gsr set CELL_RC_FILES {{CONDITION worst} {tv80s /home/ischo/generative-IR/experiments/201_ICC2/designs/tv80_0.60_0.90_pitch_6.0/ ...
+#Tcl (Sep 19 21:53:29): gsr set TOGGLE_RATE 10.0
+#Tcl (Sep 19 21:53:29): setup design
+flexlm penv: ALIC_PARENT_STS=9981p403588 (pid=403588 ppid=403587)
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.403588.wappinger -lib .apache/apache.import.libs -apacheDir .apache -rptDir adsRpt 
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.403588.wappinger -lib .apache/apache.import.libs -apacheDir .apache -rptDir adsRpt  ==> PSCMD (pid=403839 ppid=403588)
+=> retcode: 0 cmd_ctrl: 1/1
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/densityMap ./.MM_403588_wappinger_1695127976/density_map/tv80s.cfg 
+=> retcode: 0 cmd_ctrl: 1/1
+
+MAX Layers: 41 42
+#Nets=2 #Bytes=8 #VDD=1 #VSS=1 #CLK=0 #SIG=0 #GSRVDD=1 #GSRVSS=1
+VDD(47 0.88) VSS(48 0) 
+GSR VDD Net idx: 0 
+GSR GND Net idx: 1 #Tcl (Sep 19 21:53:36): perform pwrcalc
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.403588.wappinger -g .apache/user.gsr -apacheDir .apache -rptDir adsRpt -logFileName adsPower/.dmp_para_calc_power.log -para > /dev/null 2>&1 &
+=> retcode: 0 cmd_ctrl: 0/0
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/powerstream -hbs_args /home/ischo/generative-IR/experiments/300_redhawk/designs/tv80_0.60_0.90/.dmp/.status/dmp.403588.wappinger -g .apache/user.gsr -apacheDir .apache -rptDir adsRpt -logFileName adsPower/.dmp_para_calc_power.log -para  ==> PSCMD (pid=403849 ppid=403848)
+flexlm genv: 9981p403588 (pid=403849 ppid=403848)
+flexlm init mthb=1 (pid=403849 ppid=403848)
+#Tcl (Sep 19 21:53:46): perform extraction -power -ground
+echo extraction finished. > .apache/.extraction.status
+=> retcode: 0 cmd_ctrl: 0/1
+flexlm genv: 0x80020130 (pid=403849 ppid=403848)
+chkout redhawk (share) (pid=403849 ppid=403848)
+flexlm penv: ALIC_PARENT_STS=9981p403849 (pid=403849 ppid=403848)
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/aplint -logFileName adsPower/.dmp_para_calc_power.log -apacheDir .apache -apacheRptDir adsRpt -ilimit -12v2 -cmode 3 -isc -slew  0 1  /home/ischo/generative-IR/experiments/000_SETUP/apl_results_merge .apache/out_0.aplint >& .apache/.stdout.redirect.log
+=> retcode: 0 cmd_ctrl: 1/1
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1/bin//aplmerge -verbose -c -logFileName adsPower/.dmp_para_calc_power.log -apacheDir .apache -apacheRptDir adsRpt -o .apache/cell.cdev /home/ischo/generative-IR/experiments/000_SETUP/apl_CAP >& .apache/.stdout.redirect.log
+=> retcode: 0 cmd_ctrl: 1/1
+cp adsPower/.dmp_para_calc_power.log .logFileNames
+=> retcode: 0 cmd_ctrl: 0/1
+/bin/cat adsPower/.dmp_para_calc_power.log2 >> adsRpt/Log/redhawk.log.2023-09-19-21:51:47
+=> retcode: 0 cmd_ctrl: 0/1
+/bin/cat adsPower/.dmp_para_calc_power.log1 >> adsRpt/Log/redhawk.log.2023-09-19-21:51:47
+=> retcode: 0 cmd_ctrl: 0/1
+#Tcl (Sep 19 21:54:47): setup pad -power -r 0.001000 -c 0.000000
+#Tcl (Sep 19 21:54:47): setup pad -ground -r 0.001000 -c 0.000000
+#Tcl (Sep 19 21:54:47): perform analysis -static
+timer event1 6s (1 9)
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/asimplus_static 14738 -rm_inputfiles  -cis  -crt 1.0000e+06  -logFileName .logFileNames  -internal_dir .apache  -pm_eval 1 
+flexlm genv: 9981p403588 (pid=404037 ppid=403588)
+flexlm init mthb=1 (pid=404037 ppid=403588)
+flexlm genv: 0x80020130 (pid=404037 ppid=403588)
+chkout redhawk (share) (pid=404037 ppid=403588)
+=> retcode: 0 cmd_ctrl: 1/1
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/irsout .apache/ir.out 523
+=> retcode: 0 cmd_ctrl: 1/1
+#Tcl (Sep 19 21:55:57): export db ./static.results
+/tools/ANSYS/RedHawk/RedHawk_Linux64e6_V2020R2.1//bin/sr_copy -db_dir_name ./static.results -is_export 1 -list .SR_COPY_LIST.403588 -compress 1 -num_threads 1 -pid 403588&
+=> retcode: 0 cmd_ctrl: 1/0
+#Tcl (Sep 19 21:55:57): perform emcheck -mode all -net VDD
+chkin redhawk (pid=403588 ppid=403587)
+RedHawk ended: 2023-09-19-21:55:57
+
