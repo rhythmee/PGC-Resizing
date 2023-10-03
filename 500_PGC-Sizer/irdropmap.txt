@@ -1,0 +1,49 @@
+from matplotlib.patches import Rectangle
+
+def create_voltage_map(data, Vx, removed_coordinate):
+    x = []
+    y = []
+    voltages = []
+    colors = []
+
+    for (x_coord, y_coord), voltage in data:
+        if (x_coord, y_coord) in removed_coordinate:
+            continue
+        x.append(x_coord)
+        y.append(y_coord)
+        voltages.append(voltage)
+        if voltage < Vx:
+            colors.append('red')
+        else:
+            colors.append('green')
+
+    fig, ax = plt.subplots()
+
+    for (x_coord, y_coord), voltage in data:
+        if (x_coord, y_coord) in removed_coordinate:
+            ax.text(x_coord, y_coord, '0', ha='center', va='center', fontsize=8, color='black')
+        elif voltage >= Vx:
+            ax.text(x_coord, y_coord, '1', ha='center', va='center', fontsize=8, color='black')
+        else:
+            ax.text(x_coord, y_coord, '0', ha='center', va='center', fontsize=8, color='black')
+
+    for (x_coord, y_coord) in removed_coordinate:
+        ax.text(x_coord, y_coord, '0', ha='center', va='center', fontsize=8, color='black')
+
+    for (x_coord, y_coord) in removed_coordinate:
+        if (x_coord, y_coord) in removed_coordinate:
+            continue
+        square = Rectangle((x_coord - 5, y_coord - 5), 10, 10, edgecolor='black', facecolor='none')
+        ax.add_patch(square)
+
+    ax.scatter(x, y, color=colors)
+    plt.xlabel('X Coordinate')
+    plt.ylabel('Y Coordinate')
+    plt.title('Voltage Map')
+    plt.grid(True)
+    plt.show()
+
+# Example usage
+Vx = 0.9
+removed_coordinate = [(10.0, 10.0), (20.0, 20.0)]  # Example list of removed coordinates
+create_voltage_map(data, Vx, removed_coordinate)
