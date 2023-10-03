@@ -5192,7 +5192,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 5.0
-  resistance: 46.094
+  resistance: 11.523
 - input:
     layer: M3
     x: 5.0
@@ -5201,7 +5201,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 14.99
-  resistance: 92.188
+  resistance: 11.523
 - input:
     layer: M3
     x: 5.0
@@ -5210,7 +5210,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 24.98
-  resistance: 184.375
+  resistance: 23.047
 - input:
     layer: M3
     x: 5.0
@@ -5219,7 +5219,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 34.97
-  resistance: 184.375
+  resistance: 46.094
 - input:
     layer: M3
     x: 5.0
@@ -5237,7 +5237,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 54.95
-  resistance: 11.523
+  resistance: 92.188
 - input:
     layer: M3
     x: 5.0
@@ -5246,7 +5246,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 64.94
-  resistance: 46.094
+  resistance: 11.523
 - input:
     layer: M3
     x: 5.0
@@ -5255,7 +5255,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 74.93
-  resistance: 92.188
+  resistance: 184.375
 - input:
     layer: M3
     x: 5.0
@@ -5264,7 +5264,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 84.92
-  resistance: 92.188
+  resistance: 11.523
 - input:
     layer: M3
     x: 5.0
@@ -5273,7 +5273,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 94.91
-  resistance: 46.094
+  resistance: 23.047
 - input:
     layer: M3
     x: 5.0
@@ -5282,7 +5282,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 104.9
-  resistance: 92.188
+  resistance: 46.094
 - input:
     layer: M3
     x: 5.0
@@ -5291,7 +5291,7 @@ pgc-resistor:
     layer: M2
     x: 5.0
     y: 114.89
-  resistance: 92.188
+  resistance: 23.047
 - input:
     layer: M3
     x: 24.98
@@ -5309,7 +5309,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 14.99
-  resistance: 23.047
+  resistance: 92.188
 - input:
     layer: M3
     x: 24.98
@@ -5318,7 +5318,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 24.98
-  resistance: 92.188
+  resistance: 23.047
 - input:
     layer: M3
     x: 24.98
@@ -5327,7 +5327,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 34.97
-  resistance: 11.523
+  resistance: 92.188
 - input:
     layer: M3
     x: 24.98
@@ -5336,7 +5336,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 44.96
-  resistance: 92.188
+  resistance: 184.375
 - input:
     layer: M3
     x: 24.98
@@ -5345,7 +5345,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 54.95
-  resistance: 23.047
+  resistance: 46.094
 - input:
     layer: M3
     x: 24.98
@@ -5354,7 +5354,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 64.94
-  resistance: 184.375
+  resistance: 46.094
 - input:
     layer: M3
     x: 24.98
@@ -5363,7 +5363,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 74.93
-  resistance: 11.523
+  resistance: 184.375
 - input:
     layer: M3
     x: 24.98
@@ -5372,7 +5372,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 84.92
-  resistance: 11.523
+  resistance: 46.094
 - input:
     layer: M3
     x: 24.98
@@ -5381,7 +5381,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 94.91
-  resistance: 92.188
+  resistance: 11.523
 - input:
     layer: M3
     x: 24.98
@@ -5390,7 +5390,7 @@ pgc-resistor:
     layer: M2
     x: 24.98
     y: 104.9
-  resistance: 92.188
+  resistance: 23.047
 - input:
     layer: M3
     x: 24.98
@@ -5417,7 +5417,7 @@ pgc-resistor:
     layer: M2
     x: 44.96
     y: 14.99
-  resistance: 184.375
+  resistance: 11.523
 - input:
     layer: M3
     x: 44.96
@@ -5426,7 +5426,7 @@ pgc-resistor:
     layer: M2
     x: 44.96
     y: 24.98
-  resistance: 23.047
+  resistance: 11.523
 - input:
     layer: M3
     x: 44.96
@@ -5435,7 +5435,7 @@ pgc-resistor:
     layer: M2
     x: 44.96
     y: 34.97
-  resistance: 184.375
+  resistance: 23.047
 - input:
     layer: M3
     x: 44.96
@@ -5453,7 +5453,7 @@ pgc-resistor:
     layer: M2
     x: 44.96
     y: 54.95
-  resistance: 23.047
+  resistance: 46.094
 - input:
     layer: M3
     x: 44.96
@@ -5480,7 +5480,7 @@ pgc-resistor:
     layer: M2
     x: 44.96
     y: 84.92
-  resistance: 11.523
+  resistance: 23.047
 - input:
     layer: M3
     x: 44.96
@@ -5498,7 +5498,7 @@ pgc-resistor:
     layer: M2
     x: 44.96
     y: 104.9
-  resistance: 23.047
+  resistance: 92.188
 - input:
     layer: M3
     x: 44.96
@@ -5507,7 +5507,7 @@ pgc-resistor:
     layer: M2
     x: 44.96
     y: 114.89
-  resistance: 46.094
+  resistance: 11.523
 - input:
     layer: M3
     x: 64.94
@@ -5525,7 +5525,7 @@ pgc-resistor:
     layer: M2
     x: 64.94
     y: 14.99
-  resistance: 11.523
+  resistance: 184.375
 - input:
     layer: M3
     x: 64.94
@@ -5534,7 +5534,7 @@ pgc-resistor:
     layer: M2
     x: 64.94
     y: 24.98
-  resistance: 92.188
+  resistance: 184.375
 - input:
     layer: M3
     x: 64.94
@@ -5543,7 +5543,7 @@ pgc-resistor:
     layer: M2
     x: 64.94
     y: 34.97
-  resistance: 184.375
+  resistance: 46.094
 - input:
     layer: M3
     x: 64.94
@@ -5552,7 +5552,7 @@ pgc-resistor:
     layer: M2
     x: 64.94
     y: 44.96
-  resistance: 92.188
+  resistance: 46.094
 - input:
     layer: M3
     x: 64.94
@@ -5561,7 +5561,7 @@ pgc-resistor:
     layer: M2
     x: 64.94
     y: 54.95
-  resistance: 46.094
+  resistance: 23.047
 - input:
     layer: M3
     x: 64.94
@@ -5570,7 +5570,7 @@ pgc-resistor:
     layer: M2
     x: 64.94
     y: 64.94
-  resistance: 92.188
+  resistance: 11.523
 - input:
     layer: M3
     x: 64.94
@@ -5579,7 +5579,7 @@ pgc-resistor:
     layer: M2
     x: 64.94
     y: 74.93
-  resistance: 184.375
+  resistance: 23.047
 - input:
     layer: M3
     x: 64.94
@@ -5597,7 +5597,7 @@ pgc-resistor:
     layer: M2
     x: 64.94
     y: 94.91
-  resistance: 92.188
+  resistance: 23.047
 - input:
     layer: M3
     x: 64.94
@@ -5606,7 +5606,7 @@ pgc-resistor:
     layer: M2
     x: 64.94
     y: 104.9
-  resistance: 11.523
+  resistance: 184.375
 - input:
     layer: M3
     x: 64.94
@@ -5624,7 +5624,7 @@ pgc-resistor:
     layer: M2
     x: 84.92
     y: 5.0
-  resistance: 92.188
+  resistance: 23.047
 - input:
     layer: M3
     x: 84.92
@@ -5642,7 +5642,7 @@ pgc-resistor:
     layer: M2
     x: 84.92
     y: 24.98
-  resistance: 23.047
+  resistance: 92.188
 - input:
     layer: M3
     x: 84.92
@@ -5651,7 +5651,7 @@ pgc-resistor:
     layer: M2
     x: 84.92
     y: 34.97
-  resistance: 11.523
+  resistance: 46.094
 - input:
     layer: M3
     x: 84.92
@@ -5660,7 +5660,7 @@ pgc-resistor:
     layer: M2
     x: 84.92
     y: 44.96
-  resistance: 46.094
+  resistance: 23.047
 - input:
     layer: M3
     x: 84.92
@@ -5669,7 +5669,7 @@ pgc-resistor:
     layer: M2
     x: 84.92
     y: 54.95
-  resistance: 184.375
+  resistance: 46.094
 - input:
     layer: M3
     x: 84.92
@@ -5678,7 +5678,7 @@ pgc-resistor:
     layer: M2
     x: 84.92
     y: 64.94
-  resistance: 23.047
+  resistance: 11.523
 - input:
     layer: M3
     x: 84.92
@@ -5687,7 +5687,7 @@ pgc-resistor:
     layer: M2
     x: 84.92
     y: 74.93
-  resistance: 184.375
+  resistance: 11.523
 - input:
     layer: M3
     x: 84.92
@@ -5696,7 +5696,7 @@ pgc-resistor:
     layer: M2
     x: 84.92
     y: 84.92
-  resistance: 11.523
+  resistance: 23.047
 - input:
     layer: M3
     x: 84.92
@@ -5714,7 +5714,7 @@ pgc-resistor:
     layer: M2
     x: 84.92
     y: 104.9
-  resistance: 11.523
+  resistance: 92.188
 - input:
     layer: M3
     x: 84.92
@@ -5732,7 +5732,7 @@ pgc-resistor:
     layer: M2
     x: 104.9
     y: 5.0
-  resistance: 92.188
+  resistance: 23.047
 - input:
     layer: M3
     x: 104.9
@@ -5741,7 +5741,7 @@ pgc-resistor:
     layer: M2
     x: 104.9
     y: 14.99
-  resistance: 92.188
+  resistance: 184.375
 - input:
     layer: M3
     x: 104.9
@@ -5750,7 +5750,7 @@ pgc-resistor:
     layer: M2
     x: 104.9
     y: 24.98
-  resistance: 92.188
+  resistance: 46.094
 - input:
     layer: M3
     x: 104.9
@@ -5768,7 +5768,7 @@ pgc-resistor:
     layer: M2
     x: 104.9
     y: 44.96
-  resistance: 46.094
+  resistance: 184.375
 - input:
     layer: M3
     x: 104.9
@@ -5777,7 +5777,7 @@ pgc-resistor:
     layer: M2
     x: 104.9
     y: 54.95
-  resistance: 23.047
+  resistance: 46.094
 - input:
     layer: M3
     x: 104.9
@@ -5822,7 +5822,7 @@ pgc-resistor:
     layer: M2
     x: 104.9
     y: 104.9
-  resistance: 92.188
+  resistance: 184.375
 - input:
     layer: M3
     x: 104.9
@@ -5831,7 +5831,7 @@ pgc-resistor:
     layer: M2
     x: 104.9
     y: 114.89
-  resistance: 23.047
+  resistance: 92.188
 strap:
 - direction: HORIZONTAL
   end: 118.22

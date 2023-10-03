@@ -1,5 +1,5 @@
 import numpy as np
-from mk_indiv_IR_drop_map import extract_values_from_csv
+from mk_basis_IR_drop_map import extract_values_from_csv
 import subprocess
 import os
 import sys
@@ -12,7 +12,8 @@ env = dict(os.environ)
 env['PYTHONPATH'] = ':'.join(sys.path)
 
 # Your directory
-ROOT_DIR = '/home/ischo/PGC_OPT/500_PGC-sizer'
+#ROOT_DIR = '/home/ischo/PGC_OPT/500_PGC-sizer'
+ROOT_DIR = os.getcwd()
 
 #target yaml file to edit and run
 input_yaml_file = f'{ROOT_DIR}/config/tv80_cur_10x.yaml'
@@ -77,6 +78,6 @@ for k, v in pgc_size_dict.items(): #comb idx, dictionary of size(name, value)
     subprocess.run([python_executable, f'{ROOT_DIR}/src/app.py', f'--config={output_yaml_file}'])
 
     matrix = extract_values_from_csv(node_voltage)
-    output_file = f"{ROOT_DIR}/data/reference/ref_{k}.npy" 
+    output_file = f"{ROOT_DIR}/data/reference_0x/ref_{k}.npy" 
     np.save(output_file, matrix)
 
