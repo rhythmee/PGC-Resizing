@@ -1,0 +1,3 @@
+./results/vga_lcd_0.60_0.90/vga_lcd.tlup_max_125.spef for scenarios: 
+	 scenario: func_slow, corner type: late/early
+

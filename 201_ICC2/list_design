@@ -1,12 +1,12 @@
 __START__
-tv80
+vga_lcd
 __END__
+tv80
 systemcaes
 ac97_ctrl
 sha3_high_perf
 reed_solomon_decoder
 xge_mac
-vga_lcd
 tate_pairing_151
 des3_perf
 fft_128

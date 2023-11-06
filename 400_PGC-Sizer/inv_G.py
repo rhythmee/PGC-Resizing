@@ -36,8 +36,27 @@ G = Matrix([[-(1/rx + 1/2 + 1/2), 1/2, 0, 1/2],
             )
 inverse_G = G.inv()
 
+#print(inverse_G)
+print("---------")
+
+
+" 2x2 matrix with two variables"
+rx1, rx2 = symbols('rx1 rx2')
+G = Matrix([[-(1/rx1 + 1/2 + 1/2), 1/2, 0, 1/2],
+            [1/2, -(1/2 + 1/2), 1/2, 0],
+            [0, 1/2, -(1/2+1/2+1/rx2), 1/2],
+            [1/2, 0, 1/2, -(1/2+1/2)]]
+            )
+inverse_G = G.inv()
+
 print(inverse_G)
 print("---------")
+i1, i2, i3, i4, VDD = symbols('i1 i2 i3 i4 VDD')
+I = Matrix([i1-VDD/rx1, i2, i3-VDD/rx2, i4])
+result = inverse_G * I
+
+print('Result matrix of voltage:')
+print(result)
 
 
 " 3x3 matrix "
@@ -66,4 +85,4 @@ G2 = Matrix([[-(1/1 + 1/1),   1/1,                    0,           1/1,         
             ) 
 inverse_G2 = G2.inv()
 
-print(inverse_G2)
+#print(inverse_G2)

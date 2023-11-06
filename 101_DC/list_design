@@ -1,8 +1,8 @@
 __START__
-tv80
-__END__
-sha3_high_perf
 vga_lcd
+__END__
+tv80
+sha3_high_perf
 fft_64
 ethernet
 gfx

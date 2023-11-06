@@ -1,0 +1,79 @@
+****************************************
+Report : qor
+Design : vga_enh_top
+Version: S-2021.06-SP5
+Date   : Mon Nov  6 13:54:09 2023
+****************************************
+
+
+Scenario           'func_slow'
+Timing Path Group  'MY_CLK'
+----------------------------------------
+Levels of Logic:                      2
+Critical Path Length:              0.16
+Critical Path Slack:               4.12
+Critical Path Clk Period:          9.38
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+Worst Hold Violation:             -0.00
+Total Hold Violation:             -0.00
+No. of Hold Violations:               1
+----------------------------------------
+
+
+Cell Count
+----------------------------------------
+Hierarchical Cell Count:              0
+Hierarchical Port Count:              0
+Leaf Cell Count:                  51142
+Buf/Inv Cell Count:                6978
+Buf Cell Count:                    3550
+Inv Cell Count:                    3428
+CT Buf/Inv Cell Count:                0
+Combinational Cell Count:         32726
+   Single-bit Isolation Cell Count:                        0
+   Multi-bit Isolation Cell Count:                         0
+   Isolation Cell Banking Ratio:                           0.00%
+   Single-bit Level Shifter Cell Count:                    0
+   Multi-bit Level Shifter Cell Count:                     0
+   Level Shifter Cell Banking Ratio:                       0.00%
+   Single-bit ELS Cell Count:                              0
+   Multi-bit ELS Cell Count:                               0
+   ELS Cell Banking Ratio:                                 0.00%
+Sequential Cell Count:            18416
+   Integrated Clock-Gating Cell Count:                     0
+   Sequential Macro Cell Count:                            0
+   Single-bit Sequential Cell Count:                       18416
+   Multi-bit Sequential Cell Count:                        0
+   Sequential Cell Banking Ratio:                          0.00%
+   BitsPerflop:                                            1.00
+Macro Count:                          0
+----------------------------------------
+
+
+Area
+----------------------------------------
+Combinational Area:            93568.70
+Noncombinational Area:        126051.87
+Buf/Inv Area:                  16809.34
+Total Buffer Area:              9471.95
+Total Inverter Area:            7337.39
+Macro/Black Box Area:              0.00
+Net Area:                             0
+Net XLength:                  817596.88
+Net YLength:                  641357.88
+----------------------------------------
+Cell Area (netlist):                         219620.57
+Cell Area (netlist and physical only):       219620.57
+Net Length:                  1458954.76
+
+
+Design Rules
+----------------------------------------
+Total Number of Nets:             50258
+Nets with Violations:                17
+Max Trans Violations:                 2
+Max Cap Violations:                  16
+----------------------------------------
+
+1
