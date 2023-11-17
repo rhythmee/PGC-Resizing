@@ -1,0 +1,76 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : tv80s
+Version: R-2020.09-SP3
+Date   : Fri Nov 17 22:17:02 2023
+****************************************
+
+Operating Conditions: dlvl_ss0p75v125c_i0p75v   Library: saed32rvt_dlvl_ss0p75v125c_i0p75v
+Wire Load Model Mode: enclosed
+
+  Startpoint: i_tv80_core/BusAck_reg
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: clk_gate_i_tv80_core/mcycles_reg/latch
+            (positive level-sensitive latch clocked by MY_CLK')
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tv80s              ForQA                 saed32rvt_dlvl_ss0p75v125c_i0p75v
+  SNPS_CLOCK_GATE_HIGH_tv80s_2 ForQA       saed32rvt_dlvl_ss0p75v125c_i0p75v
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                          0.00       0.00
+  clock network delay (ideal)                                       0.00       0.00
+  i_tv80_core/BusAck_reg/CLK (DFFX1_RVT)                  0.00      0.00       0.00 r
+  i_tv80_core/BusAck_reg/QN (DFFX1_RVT)                   0.10      0.22       0.22 f
+  busak_n (net)                                 3                   0.00       0.22 f
+  U2578/Y (NAND2X1_RVT)                                   0.13      0.24       0.46 r
+  n4330 (net)                                   7                   0.00       0.46 r
+  U4067/Y (NAND2X0_RVT)                                   0.17      0.16       0.62 f
+  n1147 (net)                                   3                   0.00       0.62 f
+  clk_gate_i_tv80_core/mcycles_reg/EN (SNPS_CLOCK_GATE_HIGH_tv80s_2)     0.00     0.62 f
+  clk_gate_i_tv80_core/mcycles_reg/net1594 (net)                    0.00       0.62 f
+  clk_gate_i_tv80_core/mcycles_reg/test_or/Y (OR2X1_RVT)     0.05     0.19     0.81 f    so 
+  clk_gate_i_tv80_core/mcycles_reg/net1599 (net)     1              0.00       0.81 f
+  clk_gate_i_tv80_core/mcycles_reg/latch/D (LATCHX1_RVT)     0.05     0.00     0.81 f
+  data arrival time                                                            0.81
+
+  clock MY_CLK' (rise edge)                                         7.72       7.72
+  clock network delay (ideal)                                       0.00       7.72
+  clk_gate_i_tv80_core/mcycles_reg/latch/CLK (LATCHX1_RVT)          0.00       7.72 r
+  time borrowed from endpoint                                       0.00       7.72
+  data required time                                                           7.72
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           7.72
+  data arrival time                                                           -0.81
+  ---------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                  6.91
+
+  Time Borrowing Information
+  ------------------------------------------------------------------------
+  MY_CLK' nominal pulse width                                       7.72   
+  library setup time                                               -0.14   
+  ------------------------------------------------------------------------
+  max time borrow                                                   7.58   
+  actual time borrow                                                0.00   
+  ------------------------------------------------------------------------
+
+
+1

@@ -1,7 +1,7 @@
 __START__
-vga_lcd
-__END__
 tv80
+__END__
+vga_lcd
 systemcaes
 ac97_ctrl
 sha3_high_perf

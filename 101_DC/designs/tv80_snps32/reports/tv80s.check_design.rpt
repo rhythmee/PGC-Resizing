@@ -1,0 +1,34 @@
+ 
+****************************************
+check_design summary:
+Version:     R-2020.09-SP3
+Date:        Fri Nov 17 22:14:24 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      4
+    Unconnected ports (LINT-28)                                     4
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    10
+    Connected to power or ground (LINT-32)                          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'tv80_core', cell 'C4514' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_core', cell 'C4593' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_core', cell 'C4794' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_core', cell 'C5049' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_core', cell 'C5066' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_core', cell 'C5069' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_alu_Mode1_Flag_C0_Flag_N1_Flag_P2_Flag_X3_Flag_H4_Flag_Y5_Flag_Z6_Flag_S7', cell 'C810' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_alu_Mode1_Flag_C0_Flag_N1_Flag_P2_Flag_X3_Flag_H4_Flag_Y5_Flag_Z6_Flag_S7', cell 'C912' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_alu_Mode1_Flag_C0_Flag_N1_Flag_P2_Flag_X3_Flag_H4_Flag_Y5_Flag_Z6_Flag_S7', cell 'C913' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_alu_Mode1_Flag_C0_Flag_N1_Flag_P2_Flag_X3_Flag_H4_Flag_Y5_Flag_Z6_Flag_S7', cell 'C914' does not drive any nets. (LINT-1)
+Warning: In design 'tv80_mcode_Mode1_Flag_C0_Flag_N1_Flag_P2_Flag_X3_Flag_H4_Flag_Y5_Flag_Z6_Flag_S7', port 'F[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'tv80_mcode_Mode1_Flag_C0_Flag_N1_Flag_P2_Flag_X3_Flag_H4_Flag_Y5_Flag_Z6_Flag_S7', port 'F[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'tv80_mcode_Mode1_Flag_C0_Flag_N1_Flag_P2_Flag_X3_Flag_H4_Flag_Y5_Flag_Z6_Flag_S7', port 'F[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'tv80_mcode_Mode1_Flag_C0_Flag_N1_Flag_P2_Flag_X3_Flag_H4_Flag_Y5_Flag_Z6_Flag_S7', port 'F[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'tv80s', a pin on submodule 'i_tv80_core' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cen' is connected to logic 1. 
+1

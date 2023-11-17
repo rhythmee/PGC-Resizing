@@ -17,7 +17,7 @@ LIST_UF=`cat ${ICC_ROOT}/list_uf`
 for UF in $LIST_UF
 do
     FLAG=0
-    LIST_DESIGN=`cat ${ICC_ROOT}/list_design` ;#sha3_high_perf
+    LIST_DESIGN=`cat ${ICC_ROOT}/list_design` 
         for DESIGN in $LIST_DESIGN 
         do
             if [ $FLAG -eq 0 ]; then
